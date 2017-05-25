@@ -141,6 +141,33 @@ title: Drone Prototype
 </section>
 
 <!-- Issues -->
+{% assign change_log = site.data.change_log.index[0] %}
+{% assign change_log_entries = site.data.change_log_entries.index[0] %}
+<section id="banner">
+	<div class="content">
+		<header>
+			<h2>{{ change_log.title }}</h2>
+		</header>
+		<p>{{ change_log.header }}</p>
+		<center>
+		<table cellpadding="10" cellspacing="10" width="90%" class="table-wrapper">
+			{% for entry in change_log_entries %}
+				<tr>
+					<td align="left" valign="top">
+						({{ entry.date | date: "%D" }}) <strong>{{ entry.title }}</strong> - {{ entry.description }}
+					</td>
+				</tr>
+			{% endfor %}
+		</table>
+		</center>
+		<p>{{ change_log.footer }}</p>
+	</div>
+	<span class="image object">
+		<img src="{{ change_log.image }}" alt="" width="25%" />
+	</span>
+</section>
+
+<!-- Issues -->
 {% assign issues = site.data.issues.index[0] %}
 {% assign issue_entries = site.data.issue_entries.index[0] %}
 <section id="banner">
@@ -150,11 +177,11 @@ title: Drone Prototype
 		</header>
 		<p>{{ issues.header }}</p>
 		<center>
-		<table cellpadding="10" cellspacing="10" width="90%" style="margin-bottom: 10px;" class="table-wrapper">
-			{% for issue in issue_entries %}
+		<table cellpadding="10" cellspacing="10" width="90%" class="table-wrapper">
+			{% for entry in issue_entries %}
 				<tr>
 					<td align="left" valign="top">
-						({{ issue.date | date: "%D" }}) <strong>{{ issue.title }}</strong> - {{ issue.description }}
+						({{ entry.date | date: "%D" }}) <strong>{{ entry.title }}</strong> - {{ entry.description }}
 					</td>
 				</tr>
 			{% endfor %}
@@ -163,20 +190,34 @@ title: Drone Prototype
 		<p>{{ issues.footer }}</p>
 	</div>
 	<span class="image object">
-		<img src="{{ issue.image }}" alt="" style="width: 15%;" />
+		<img src="{{ issue.image }}" alt="" width="25%" />
 	</span>
 </section>
 
-<!-- Banner -->
+<!-- Issues -->
+{% assign road_map = site.data.road_map.index[0] %}
+{% assign road_map_entries = site.data.road_map_entries.index[0] %}
 <section id="banner">
 	<div class="content">
 		<header>
-			<h2>Road Map</h2>
+			<h2>{{ road_map.title }}</h2>
 		</header>
-		<p></p>
+		<p>{{ road_map.header }}</p>
+		<center>
+		<table cellpadding="10" cellspacing="10" width="90%" class="table-wrapper">
+			{% for entry in road_map_entries %}
+				<tr>
+					<td align="left" valign="top">
+						({{ entry.date | date: "%D" }}) <strong>{{ entry.title }}</strong> - {{ entry.description }}
+					</td>
+				</tr>
+			{% endfor %}
+		</table>
+		</center>
+		<p>{{ road_map.footer }}</p>
 	</div>
 	<span class="image object">
-		<img src="/images/kin-lane-api-evangelist-cartoon.png" alt="" width="25%" />
+		<img src="{{ road_map.image }}" alt="" width="25%" />
 	</span>
 </section>
 
