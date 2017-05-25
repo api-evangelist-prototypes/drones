@@ -1,7 +1,7 @@
 swagger: '2.0'
 info:
-  title: Aircraft API
-  description: This is an API for managing aircraft.
+  title: Flight Entries API
+  description: This is an API for working with flight entries.
   termsOfService: https://drone.prototype.apievangelist.com/terms-of-service/
   contact:
     name: API Evangelist
@@ -15,14 +15,14 @@ schemes:
 produces:
 - application/json
 paths:
-  /contacts/:
+  /flight-entries/:
     get:
-      summary: Get Aircraft
-      description: Get Aircraft
-      operationId: getAircraft
+      summary: Get Flight Entry
+      description: Get Flight Entry
+      operationId: getFlightEntry
       responses:
         '200':
-          description: Aircraft Response
+          description: Flight Entry Response
           schema:
             type: array
             items:
@@ -32,7 +32,19 @@ paths:
 definitions:
   aircraft:
     properties:
-      id:
+      flight-entry-id:
+        description:
+        type: string
+      timestamp:
+        description:
+        type: string
+      latitude:
+        description:
+        type: string
+      longitude:
+        description:
+        type: string
+      altitude:
         description:
         type: string
     required:

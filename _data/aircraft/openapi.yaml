@@ -28,12 +28,27 @@ paths:
             items:
               $ref: "#/definitions/aircraft"
       tags:
-      - Contacts
+      - Aircraft
 definitions:
   aircraft:
     properties:
-      id:
-        description:
+      aircraft-id:
+        description: The id of the aircraft.
+        type: string
+      name:
+        description: The name of the aircraft.
+        type: string
+      make:
+        description: The make of the aircraft.
+        type: string
+      model:
+        description: The model of the aircraft.
+        type: string
+      description:
+        description: The description for the aircraft.
+        type: string
+      image:
+        description: The image for the aircraft.
         type: string
     required:
       - id
