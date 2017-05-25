@@ -51,7 +51,7 @@ title: Update Spreadsheet
       $.each( tabletop.sheets($resource).all(), function(i, service) {
 
           $p = {};
-          $.each(service).all(), function($key, $value) {
+          $.each(service, function($key, $value) {
             $p[$key] = $value;
             $products.push($p);
           });
