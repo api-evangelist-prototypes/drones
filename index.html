@@ -140,49 +140,30 @@ title: Drone Prototype
 	</div>
 </section>
 
-
-<!-- Section -->
-	<section>
-		<header>
-			<h2>Updates</h2>
-			<p>These are my partners who invest in API Evangelist each month, helping underwrite my research, and making sure I'm able to keep monitoring the API space as I do.</p>
-		</header>
-		<div class="features">
-			<article>
-				<p><a href="{{ partner.url }}" target="_blank"><img src="{{ site.data.change_log.index[0].image }}" width="100" style="padding: 15px;" align="center" /></a></p>
-				<div class="content">
-					<h3><a href="/change_log/" target="_blank">{{ site.data.change_log.index[0].title }}</a></h3>
-					<p>{{ site.data.change_log.index[0].header }}</p>
-				</div>
-			</article>
-			<article>
-				<p><a href="{{ partner.url }}" target="_blank"><img src="{{ site.data.issues.index[0].image }}" width="100" style="padding: 15px;" align="center" /></a></p>
-				<div class="content">
-					<h3><a href="/issues/" target="_blank">{{ site.data.issues.index[0].title }}</a></h3>
-					<p>{{ site.data.issues.index[0].header }}</p>
-				</div>
-			</article>
-			<article>
-				<p><a href="{{ partner.url }}" target="_blank"><img src="{{ site.data.road_map.index[0].image }}" width="100" style="padding: 15px;" align="center" /></a></p>
-				<div class="content">
-					<h3><a href="/road_map/" target="_blank">{{ site.data.road_map.index[0].title }}</a></h3>
-					<p>{{ site.data.road_map.index[0].header }}</p>
-				</div>
-			</article>
-		</div>
-	</section>
-
-
-<!-- Banner -->
+<!-- Issues -->
+{% assign issues = site.data.issues.index[0] %}
+{% assign issue_entries = site.data.issue_entries.index[0] %}
 <section id="banner">
 	<div class="content">
 		<header>
-			<h2>Issues</h2>
+			<h2>{{ issues.title }}</h2>
 		</header>
-		<p></p>
+		<p>{{ issues.header }}</p>
+		<center>
+		<table cellpadding="10" cellspacing="10" width="90%" style="margin-bottom: 10px;">
+			{% for issue in issue_entries %}
+				<tr>
+					<td align="left" valign="top">
+						({{ issue.date | date: "%D" }}) <strong>{{ issue.title }}</strong> - {{ issue.description }}
+					</td>
+				</tr>
+			{% endfor %}
+		</table>
+		</center>
+		<p>{{ issues.footer }}</p>
 	</div>
 	<span class="image object">
-		<img src="/images/kin-lane-api-evangelist-cartoon.png" alt="" width="25%" />
+		<img src="{{ apiissues.image }}" alt="" style="width: 15%;" />
 	</span>
 </section>
 
