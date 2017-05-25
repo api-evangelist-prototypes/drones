@@ -1,46 +1,864 @@
-- view_sort: B
-  name: Twitter
-  identifier: twitter
-  url: 'https://twitter.com/apievangelist'
-  description: >-
-    Your best bet for quick engagement is via Twitter. If you see me online, hit
-    me up, I'll usually respond when available.
-  image: 'https://s3.amazonaws.com/kinlane-productions/bw-icons/bw-twitter-icon.png'
-  category: Social
-- view_sort: C
-  name: Github
-  identifier: github
-  url: 'https://github.com/api-evangelist'
-  description: >-
-    My entire network runs on Github, use the issue management for any of my
-    sites--here is the repo for API Evangelist.
-  image: 'https://s3.amazonaws.com/kinlane-productions/bw-icons/bw-github.png'
-  category: Code
-- view_sort: D
-  name: Conference Call
-  identifier: conference-call
+- type: Definition
+  title: Have an idea for drone API
+  description: ''
   url: ''
-  description: >-
-    I take calls on Thursdays, email me and Il'l schedule you in for some time
-    via Skype or GHangout.
-  image: 'https://s3.amazonaws.com/kinlane-productions/bw-icons/bw-conference-call.png'
-  category: Phone
-- view_sort: E
-  name: Do Something Interesting
-  identifier: do-something-interesting
-  url: >-
-    http://apievangelist.com/2017/01/27/if-you-are-doing-interesting-things-with-apis-please-tell-the-story/
-  description: >-
-    Do something interesting, and get the word out via your blog, Twitter, or
-    Github, and I'll notice, and probably reach out.
-  image: 'https://s3.amazonaws.com/kinlane-productions/bw-icons/bw-gears-working.png'
-  category: Work
-- view_sort: A
-  name: Email
-  identifier: email
-  url: 'mailto: info@apievangelist.com"'
-  description: >-
-    I try to work through my email, but I get more than I can process. I do my
-    best, but email isn't always the most efficient.
-  image: 'https://s3.amazonaws.com/kinlane-productions/bw-icons/bw-email-at.png'
-  category: Email
+  issue: ''
+  date: ''
+- type: Definition
+  title: Dump data from drone platform
+  description: ''
+  url: ''
+  issue: ''
+  date: ''
+- type: Definition
+  title: Identify the schema for data
+  description: ''
+  url: ''
+  issue: ''
+  date: ''
+- type: Definition
+  title: Create an OpenAPI for API
+  description: ''
+  url: ''
+  issue: ''
+  date: ''
+- type: Management
+  title: Setup Github Organization
+  description: ''
+  url: ''
+  issue: ''
+  date: ''
+- type: Definition
+  title: Setup Definition Repository
+  description: ''
+  url: ''
+  issue: ''
+  date: ''
+- type: Definition
+  title: Guide
+  description: ''
+  url: ''
+  issue: ''
+  date: ''
+- type: Design
+  title: Clean up schema used
+  description: ''
+  url: ''
+  issue: ''
+  date: ''
+- type: Design
+  title: Clean up API design
+  description: ''
+  url: ''
+  issue: ''
+  date: ''
+- type: Design
+  title: Versioning
+  description: ''
+  url: ''
+  issue: ''
+  date: ''
+- type: Design
+  title: Paths
+  description: ''
+  url: ''
+  issue: ''
+  date: ''
+- type: Design
+  title: Verbs
+  description: ''
+  url: ''
+  issue: ''
+  date: ''
+- type: Design
+  title: Actions
+  description: ''
+  url: ''
+  issue: ''
+  date: ''
+- type: Design
+  title: Parameters
+  description: ''
+  url: ''
+  issue: ''
+  date: ''
+- type: Design
+  title: Headers
+  description: ''
+  url: ''
+  issue: ''
+  date: ''
+- type: Design
+  title: Body
+  description: ''
+  url: ''
+  issue: ''
+  date: ''
+- type: Design
+  title: Pagination
+  description: ''
+  url: ''
+  issue: ''
+  date: ''
+- type: Design
+  title: Schema Filtering
+  description: ''
+  url: ''
+  issue: ''
+  date: ''
+- type: Design
+  title: Data Filtering
+  description: ''
+  url: ''
+  issue: ''
+  date: ''
+- type: Design
+  title: Sorting
+  description: ''
+  url: ''
+  issue: ''
+  date: ''
+- type: Design
+  title: Granularity
+  description: ''
+  url: ''
+  issue: ''
+  date: ''
+- type: Design
+  title: Simplicity
+  description: ''
+  url: ''
+  issue: ''
+  date: ''
+- type: Design
+  title: Readablity
+  description: ''
+  url: ''
+  issue: ''
+  date: ''
+- type: Design
+  title: Relationships
+  description: ''
+  url: ''
+  issue: ''
+  date: ''
+- type: Design
+  title: Status
+  description: ''
+  url: ''
+  issue: ''
+  date: ''
+- type: Design
+  title: Errors
+  description: ''
+  url: ''
+  issue: ''
+  date: ''
+- type: Design
+  title: Media Types
+  description: ''
+  url: ''
+  issue: ''
+  date: ''
+- type: Design
+  title: Hypermedia
+  description: ''
+  url: ''
+  issue: ''
+  date: ''
+- type: Design
+  title: Standards
+  description: ''
+  url: ''
+  issue: ''
+  date: ''
+- type: Definitions
+  title: Update OpenAPI
+  description: ''
+  url: ''
+  issue: ''
+  date: ''
+- type: Design
+  title: Guide
+  description: ''
+  url: ''
+  issue: ''
+  date: ''
+- type: Database
+  title: Database
+  description: ''
+  url: ''
+  issue: ''
+  date: ''
+- type: Deployment
+  title: Framework
+  description: ''
+  url: ''
+  issue: ''
+  date: ''
+- type: Deployment
+  title: Platform
+  description: ''
+  url: ''
+  issue: ''
+  date: ''
+- type: Deployment
+  title: Server
+  description: ''
+  url: ''
+  issue: ''
+  date: ''
+- type: DNS
+  title: Identify a host
+  description: ''
+  url: ''
+  issue: ''
+  date: ''
+- type: DNS
+  title: Identify a base URL
+  description: ''
+  url: ''
+  issue: ''
+  date: ''
+- type: DNS
+  title: Guide
+  description: ''
+  url: ''
+  issue: ''
+  date: ''
+- type: Encryption
+  title: Thinking about encryption
+  description: ''
+  url: ''
+  issue: ''
+  date: ''
+- type: Deployment
+  title: Thinking about CORS
+  description: ''
+  url: ''
+  issue: ''
+  date: ''
+- type: Deployment
+  title: Server Skeleton
+  description: ''
+  url: ''
+  issue: ''
+  date: ''
+- type: Deployment
+  title: Artisan Finish
+  description: ''
+  url: ''
+  issue: ''
+  date: ''
+- type: Deployment
+  title: Guide
+  description: ''
+  url: ''
+  issue: ''
+  date: ''
+- type: Management
+  title: API Management
+  description: ''
+  url: ''
+  issue: ''
+  date: ''
+- type: Authentication
+  title: Authentication Strategy
+  description: ''
+  url: ''
+  issue: ''
+  date: ''
+- type: Monetization
+  title: Acquisitions Costs
+  description: ''
+  url: ''
+  issue: ''
+  date: ''
+- type: Monetization
+  title: Developer Cost
+  description: ''
+  url: ''
+  issue: ''
+  date: ''
+- type: Monetization
+  title: Operational Cost
+  description: ''
+  url: ''
+  issue: ''
+  date: ''
+- type: Monetization
+  title: Direct Value
+  description: ''
+  url: ''
+  issue: ''
+  date: ''
+- type: Monetization
+  title: Indirect Value
+  description: ''
+  url: ''
+  issue: ''
+  date: ''
+- type: Plans
+  title: Unit of Value
+  description: ''
+  url: ''
+  issue: ''
+  date: ''
+- type: Plans
+  title: Timeframes
+  description: ''
+  url: ''
+  issue: ''
+  date: ''
+- type: Plans
+  title: Metrics
+  description: ''
+  url: ''
+  issue: ''
+  date: ''
+- type: Plans
+  title: Limits
+  description: ''
+  url: ''
+  issue: ''
+  date: ''
+- type: Plans
+  title: Access Tiers
+  description: ''
+  url: ''
+  issue: ''
+  date: ''
+- type: Plans
+  title: Regions
+  description: ''
+  url: ''
+  issue: ''
+  date: ''
+- type: Plans
+  title: Features
+  description: ''
+  url: ''
+  issue: ''
+  date: ''
+- type: Management
+  title: Configure API management
+  description: ''
+  url: ''
+  issue: ''
+  date: ''
+- type: Logging
+  title: Logging
+  description: ''
+  url: ''
+  issue: ''
+  date: ''
+- type: Management
+  title: Reporting
+  description: ''
+  url: ''
+  issue: ''
+  date: ''
+- type: Management
+  title: Registration
+  description: ''
+  url: ''
+  issue: ''
+  date: ''
+- type: Management
+  title: Acceptance
+  description: ''
+  url: ''
+  issue: ''
+  date: ''
+- type: Management
+  title: Signup Email
+  description: ''
+  url: ''
+  issue: ''
+  date: ''
+- type: Portal
+  title: Github Repo For Portal
+  description: ''
+  url: ''
+  issue: ''
+  date: ''
+- type: Portal
+  title: Github Page for Portal
+  description: ''
+  url: ''
+  issue: ''
+  date: ''
+- type: DNS
+  title: Portal URL
+  description: ''
+  url: ''
+  issue: ''
+  date: ''
+- type: Portal
+  title: Description
+  description: ''
+  url: ''
+  issue: ''
+  date: ''
+- type: Documentation
+  title: Generate documentation from OpenAPI
+  description: ''
+  url: ''
+  issue: ''
+  date: ''
+- type: SDK
+  title: Generate SDKs / Libraries from OpenAPI
+  description: ''
+  url: ''
+  issue: ''
+  date: ''
+- type: Portal
+  title: Code Page
+  description: ''
+  url: ''
+  issue: ''
+  date: ''
+- type: Portal
+  title: Getting Started Page
+  description: ''
+  url: ''
+  issue: ''
+  date: ''
+- type: Portal
+  title: Authentication Page
+  description: ''
+  url: ''
+  issue: ''
+  date: ''
+- type: Portal
+  title: FAQ Page
+  description: ''
+  url: ''
+  issue: ''
+  date: ''
+- type: Support
+  title: Support Channels
+  description: ''
+  url: ''
+  issue: ''
+  date: ''
+- type: Portal
+  title: Support Page
+  description: ''
+  url: ''
+  issue: ''
+  date: ''
+- type: Portal
+  title: Road Map Page
+  description: ''
+  url: ''
+  issue: ''
+  date: ''
+- type: Portal
+  title: Issues Page
+  description: ''
+  url: ''
+  issue: ''
+  date: ''
+- type: Portal
+  title: Change Log Page
+  description: ''
+  url: ''
+  issue: ''
+  date: ''
+- type: Management
+  title: Developer dashboard
+  description: ''
+  url: ''
+  issue: ''
+  date: ''
+- type: Management
+  title: Developer message
+  description: ''
+  url: ''
+  issue: ''
+  date: ''
+- type: Management
+  title: Developer applications
+  description: ''
+  url: ''
+  issue: ''
+  date: ''
+- type: Management
+  title: Developer plans
+  description: ''
+  url: ''
+  issue: ''
+  date: ''
+- type: Management
+  title: Developer usage analytics
+  description: ''
+  url: ''
+  issue: ''
+  date: ''
+- type: Management
+  title: Developing billing
+  description: ''
+  url: ''
+  issue: ''
+  date: ''
+- type: Management
+  title: Password reset
+  description: ''
+  url: ''
+  issue: ''
+  date: ''
+- type: Management
+  title: Delete account
+  description: ''
+  url: ''
+  issue: ''
+  date: ''
+- type: Management
+  title: Guide
+  description: ''
+  url: ''
+  issue: ''
+  date: ''
+- type: Terms of Service
+  title: Terms of Service
+  description: ''
+  url: ''
+  issue: ''
+  date: ''
+- type: Privacy
+  title: Privacy Policy
+  description: ''
+  url: ''
+  issue: ''
+  date: ''
+- type: Deprecation
+  title: Deprecation Policy
+  description: ''
+  url: ''
+  issue: ''
+  date: ''
+- type: Reliability
+  title: Service Accord / SLA
+  description: ''
+  url: ''
+  issue: ''
+  date: ''
+- type: Management
+  title: User management API
+  description: ''
+  url: ''
+  issue: ''
+  date: ''
+- type: Management
+  title: Account management API
+  description: ''
+  url: ''
+  issue: ''
+  date: ''
+- type: Management
+  title: Application management API
+  description: ''
+  url: ''
+  issue: ''
+  date: ''
+- type: Management
+  title: Plan management API
+  description: ''
+  url: ''
+  issue: ''
+  date: ''
+- type: Management
+  title: Usage management API
+  description: ''
+  url: ''
+  issue: ''
+  date: ''
+- type: Management
+  title: Billing management API
+  description: ''
+  url: ''
+  issue: ''
+  date: ''
+- type: Management
+  title: Service management API
+  description: ''
+  url: ''
+  issue: ''
+  date: ''
+- type: Management
+  title: Message management API
+  description: ''
+  url: ''
+  issue: ''
+  date: ''
+- type: Virtualization
+  title: Mocks
+  description: ''
+  url: ''
+  issue: ''
+  date: ''
+- type: Virtualization
+  title: Sandbox
+  description: ''
+  url: ''
+  issue: ''
+  date: ''
+- type: Deployment
+  title: Containers
+  description: ''
+  url: ''
+  issue: ''
+  date: ''
+- type: Deployment
+  title: Image
+  description: ''
+  url: ''
+  issue: ''
+  date: ''
+- type: Communications
+  title: Blog
+  description: ''
+  url: ''
+  issue: ''
+  date: ''
+- type: Communications
+  title: Blog Feed
+  description: ''
+  url: ''
+  issue: ''
+  date: ''
+- type: Communications
+  title: Twitter
+  description: ''
+  url: ''
+  issue: ''
+  date: ''
+- type: Communications
+  title: Strategy
+  description: ''
+  url: ''
+  issue: ''
+  date: ''
+- type: Communications
+  title: Communication strategy
+  description: ''
+  url: ''
+  issue: ''
+  date: ''
+- type: Support
+  title: Support strategy
+  description: ''
+  url: ''
+  issue: ''
+  date: ''
+- type: Evangelism
+  title: Evangelism strategy
+  description: ''
+  url: ''
+  issue: ''
+  date: ''
+- type: Monitoring
+  title: API monitoring
+  description: ''
+  url: ''
+  issue: ''
+  date: ''
+- type: Communications
+  title: Communicate monitoring
+  description: ''
+  url: ''
+  issue: ''
+  date: ''
+- type: Performance
+  title: API performance
+  description: ''
+  url: ''
+  issue: ''
+  date: ''
+- type: Communications
+  title: Communicate performance
+  description: ''
+  url: ''
+  issue: ''
+  date: ''
+- type: Monitoring
+  title: Status dashboard
+  description: ''
+  url: ''
+  issue: ''
+  date: ''
+- type: Communications
+  title: Communicate status
+  description: ''
+  url: ''
+  issue: ''
+  date: ''
+- type: Security
+  title: API security
+  description: ''
+  url: ''
+  issue: ''
+  date: ''
+- type: Portal
+  title: Security page
+  description: ''
+  url: ''
+  issue: ''
+  date: ''
+- type: Communications
+  title: Communicate security
+  description: ''
+  url: ''
+  issue: ''
+  date: ''
+- type: Licensing
+  title: API licensing
+  description: ''
+  url: ''
+  issue: ''
+  date: ''
+- type: Licensing
+  title: Schema licensing
+  description: ''
+  url: ''
+  issue: ''
+  date: ''
+- type: Licensing
+  title: Data licensing
+  description: ''
+  url: ''
+  issue: ''
+  date: ''
+- type: Licensing
+  title: Code licensing
+  description: ''
+  url: ''
+  issue: ''
+  date: ''
+- type: Communications
+  title: Communicate licensing
+  description: ''
+  url: ''
+  issue: ''
+  date: ''
+- type: Branding
+  title: Branding
+  description: ''
+  url: ''
+  issue: ''
+  date: ''
+- type: Discovery
+  title: Discovery
+  description: ''
+  url: ''
+  issue: ''
+  date: ''
+- type: Discovery
+  title: APIs.json
+  description: ''
+  url: ''
+  issue: ''
+  date: ''
+- type: Discovery
+  title: Postman collection
+  description: ''
+  url: ''
+  issue: ''
+  date: ''
+- type: Webhooks
+  title: Webhooks
+  description: ''
+  url: ''
+  issue: ''
+  date: ''
+- type: Portal
+  title: Webhook page
+  description: ''
+  url: ''
+  issue: ''
+  date: ''
+- type: Management
+  title: Webhook API
+  description: ''
+  url: ''
+  issue: ''
+  date: ''
+- type: Communications
+  title: Announce Webhook API
+  description: ''
+  url: ''
+  issue: ''
+  date: ''
+- type: Logging
+  title: Logging
+  description: ''
+  url: ''
+  issue: ''
+  date: ''
+- type: Management
+  title: Logging API
+  description: ''
+  url: ''
+  issue: ''
+  date: ''
+- type: Communications
+  title: Announce Logging API
+  description: ''
+  url: ''
+  issue: ''
+  date: ''
+- type: Integration
+  title: Integrations
+  description: ''
+  url: ''
+  issue: ''
+  date: ''
+- type: Portal
+  title: Integration Page
+  description: ''
+  url: ''
+  issue: ''
+  date: ''
+- type: Integration
+  title: Integration API
+  description: ''
+  url: ''
+  issue: ''
+  date: ''
+- type: Communications
+  title: Announce Integration API
+  description: ''
+  url: ''
+  issue: ''
+  date: ''
+- type: Evangelism
+  title: Developer Page
+  description: ''
+  url: ''
+  issue: ''
+  date: ''
+- type: Evangelism
+  title: Developer API
+  description: ''
+  url: ''
+  issue: ''
+  date: ''
+- type: Evangelism
+  title: Communicate Developer
+  description: ''
+  url: ''
+  issue: ''
+  date: ''
+- type: Evangelism
+  title: Applications Page
+  description: ''
+  url: ''
+  issue: ''
+  date: ''
+- type: Evangelism
+  title: Communicate Applications
+  description: ''
+  url: ''
+  issue: ''
+  date: ''
