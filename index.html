@@ -3,8 +3,6 @@ layout: default
 title: Drone Prototype
 ---
 
-111
-
 <!-- Banner -->
 <section id="banner">
 	<div class="content">
@@ -171,10 +169,10 @@ title: Drone Prototype
 
 		{% endfor %}
 
-		  <tr>
+		  <tr style="border: 1px solid #FFF;">
 		    <td style="border: 0px solid #FFF; background-color:#FFF;">
 		      <table width="100%" border="0" style="padding-top: 10px; border: 0px solid #FFF; background-color:#FFF;">
-		        <tr>
+		        <tr style="border: 1px solid #FFF;">
 		        <td align="center" style="margin-left: 90px; margin-right: 90px; border: 0px solid #FFF; background-color:#FFF;">
 
 		            {% assign api_action_url = '' %}
@@ -227,14 +225,14 @@ title: Drone Prototype
 		                    {% endfor %}
 
 		                    {% if filter_name != null and filter_name != empty %}
-		                      <tr>
+		                      <tr style="border: 1px solid #FFF;" style="border: 1px solid #FFF;">
 		                        <td align="center" colspan="2" style="font-size: 18px; font-weight: bold; padding: 10px;">
 		                          {{ filter_name }}
 		                        </td>
 		                      </tr>
 		                    {% endif %}
 
-		                    <tr>
+		                    <tr style="border: 1px solid #FFF;">
 		                      <td align="left" style="font-size: 18px; font-weight: bold; padding: 10px; border-color: #FFF; background-color:#FFF;">
 		                        {{ api.name }}
 		                      </td>
@@ -244,10 +242,10 @@ title: Drone Prototype
 		                          (<a href="{{ site.url }}data/openapi.json" target="_blank" title="View OpenAPI Spec" style="font-size: 16px; font-weight: normal;">JSON</a>)
 		                      </td>
 		                    </tr>
-		                    <tr>
+		                    <tr style="border: 1px solid #FFF;">
 		                      <td align="center" colspan="2" style="padding: 10px;"><strong>base url:</strong> {{ api.baseURL }}</td>
 		                    </tr>
-		                    <tr id="methods-for-{{ pathname }}">
+		                    <tr id="methods-for-{{ pathname }}" style="border: 1px solid #FFF;">
 		                      <td colspan="2">
 
 		                        <table width="95%" border="0" style="margin-left: 15px; border-color: #FFF; background-color:#FFF;">
@@ -290,7 +288,7 @@ title: Drone Prototype
 		                          {% assign tagArray = taglist | split: "," %}
 		                          {% for grouptag in tagArray %}
 
-		                            <tr>
+		                            <tr style="border: 1px solid #FFF;">
 		                              <td colspan="5" style="padding-top: 10px;"><strong>{{ grouptag }}</strong></td>
 		                            </tr>
 
@@ -353,7 +351,7 @@ title: Drone Prototype
 
 		                                      {% assign slug = path[0] | replace: '/','' %}
 
-		                                      <tr>
+		                                      <tr style="border: 1px solid #FFF;">
 		                                        <td style="padding-left: 20px; font-size: 12px;">{{ summary }}</td>
 		                                        <td style="font-size: 12px;">{{ path[0] }}</td>
 		                                        <td align="center" style="padding: 1px; width: 75px; background-color:#{{ back_color }}; font-weight: bold; font-size: 11px; color: #FFF;">
@@ -362,7 +360,7 @@ title: Drone Prototype
 		                                        <td style="width: 25px;"></td>
 		                                        <td><button type="button" class="btn btn-default" onclick="showme('{{ slug }}-row'); return false;">Try</button></tr>
 		                                      </tr>
-		                                      <tr id="{{ slug }}-row" style="display: none;">
+		                                      <tr id="{{ slug }}-row" style="display: none; border: 1px solid #FFF;">
 		                                        <td colspan="4" style="padding: 15px;">
 
 		                                          <table width="90%" border="0" align="center" style="border-color:#FFF; background-color:#FFF;">
