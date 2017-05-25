@@ -8,6 +8,7 @@ title: Update Spreadsheet
     // Reset the cookie manually
     //Cookies.expire('token');
 
+    var $key = getUrlVar('key');
     var $resource = getUrlVar('worksheet');
     var $oAuthToken = getUrlVar('token');
 
@@ -25,10 +26,9 @@ title: Update Spreadsheet
 
     // Grab the token from cookie
     $oAuthToken = Cookies.get('token');
-    key = "{{ site.spreadsheet_key }}";
 
     $(document).ready( function() {
-      Tabletop.init( { key: key,
+      Tabletop.init( { key: $key,
                        callback: showInfo,
                        wanted: [ $resource ],
                        debug: true } )
