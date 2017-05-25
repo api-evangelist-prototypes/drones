@@ -129,7 +129,7 @@ title: Drone Prototype
 		<div class="row">
 			{% for entry in code_entries %}
 			<div class="6u$ 12u$(small)">
-				{{ entry.entry }}
+				{{ entry.icon }}
 			</div>
 			{% endfor %}
 		</div>
@@ -149,7 +149,7 @@ title: Drone Prototype
 		<div class="row">
 			{% for entry in integration_entries %}
 			<div class="6u$ 12u$(small)">
-				<img src="{{ entry.image }}" width="{ entry.imagewidth }}" />
+				<img src="{{ entry.image }}" width{="{{ entry.imagewidth }}" />
 			</div>
 			{% endfor %}
 		</div>
