@@ -44,9 +44,7 @@ title: Drone Prototype
 		<p>{{ getting_started.header }}</p>
 		  <ol style="list-style-type: decimal; padding-left: 35px;">
 		    {% for steps in getting_started_steps %}
-					{% if steps.title == getting_started.title %}
-						<li><a href="{{ steps.url }}"><strong>{{ steps.title }}</strong></a></li>
-					{% endif %}
+					<li><a href="{{ steps.url }}"><strong>{{ steps.title }}</strong></a></li>
 		    {% endfor %}
 		  </ol>
 		<p>{{ getting_started.footer }}</p>
