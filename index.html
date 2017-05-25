@@ -126,8 +126,10 @@ title: Drone Prototype
 		</header>
 		<p>{{ code.header }}</p>
 		<center>
-			{% for entry in code_entries %}
-				{{ entry.icon }}
+				{% for entry in code_entries %}
+				<div style="width: 50px;">
+					{{ entry.icon }}
+				</div>
 			{% endfor %}
 		</center>
 		<p>{{ code.footer }}</p>
