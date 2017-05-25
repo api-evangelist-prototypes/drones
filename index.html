@@ -34,10 +34,8 @@ title: Drone Prototype
 <!-- Getting Started -->
 <section id="banner">
 	<div class="content">
-		{% assign index = site.data.api-commons.api-getting_started %}
-		{% assign getting_started = index[0] %}
-		{% assign index = site.data.api-commons.api-getting_started_steps %}
-		{% assign getting_started_steps = index[0] %}
+		{% assign index = site.data.api-getting_started.index[0] %}
+		{% assign index = site.data.api-getting_started_steps.index[0] %}
 		<header>
 			<h2>{{ getting_started.title }}</h2>
 		</header>
@@ -59,8 +57,7 @@ title: Drone Prototype
 <!-- Authentication -->
 <section id="banner">
 	<div class="content">
-		{% assign index = site.data.api-commons.api-authentication %}
-		{% assign authentication = index[0] %}
+		{% assign authentication = site.data.api-authentication.index[0] %}
 		<header>
 			<h2>{{ authentication.title }}</h2>
 		</header>
