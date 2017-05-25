@@ -110,14 +110,14 @@ title: Drone Prototype
 	</span>
 </section>
 
-<!-- Banner -->
+<!-- Code -->
+{% assign code = site.data.code.index[0] %}
+{% assign code_entries = site.data.code.index[0] %}
 <section id="banner">
 	<div class="content">
 		<header>
-			<h2>{{ apicode.title }}</h2>
+			<h2>{{ code.title }}</h2>
 		</header>
-		{% assign code = site.data.code.index[0] %}
-		{% assign code_entries = site.data.code.index[0] %}
 		<p>{{ code.header }}</p>
 		<center>
 			{% for entry in code_entries %}
@@ -128,17 +128,22 @@ title: Drone Prototype
 	</div>
 </section>
 
-<!-- Banner -->
+<!-- Integrations -->
+{% assign code = site.data.code.index[0] %}
+{% assign code_entries = site.data.code.index[0] %}
 <section id="banner">
 	<div class="content">
 		<header>
-			<h2>Integrations</h2>
+			<h2>{{ code.title }}</h2>
 		</header>
-		<p></p>
+		<p>{{ code.header }}</p>
+		<center>
+			{% for entry in code_entries %}
+				{{ entry.icon }}
+			{% endfor %}
+		</center>
+		<p>{{ code.footer }}</p>
 	</div>
-	<span class="image object">
-		<img src="/images/kin-lane-api-evangelist-cartoon.png" alt="" width="25%" />
-	</span>
 </section>
 
 
