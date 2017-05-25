@@ -570,7 +570,6 @@ title: Drone Prototype
 		</header>
 		<p>{{ code.header }}</p>
 		<center>
-		<div class="table-wrapper" style="height: 300px; overflow:auto;" align="center">
 		<table style="width: 80%; padding-left: 25px; border: 0px; background-color: #FFF; border: 0px solid #FFF;">
 		  <tr>
 			{% for entry in code_entries %}
@@ -580,7 +579,6 @@ title: Drone Prototype
 			{% endfor %}
 		  </tr>
 		</table>
-		</div>
 		</center>
 		<p>{{ code.footer }}</p>
 	</div>
@@ -595,7 +593,8 @@ title: Drone Prototype
 			<h2>{{ integration.title }}</h2>
 		</header>
 		<p>{{ integration.header }}</p>
-		<table cellpadding="3" cellspacing="2" style="margin-top: 10px;" width="100%">
+		<center>
+		<table cellpadding="3" cellspacing="2" style="margin-top: 10px;" width="90%">
 		{% assign toggle = 0 %}
 		{% for tool in integration_entries %}
 		    {% if toggle == 0 %}
@@ -613,6 +612,7 @@ title: Drone Prototype
 		    {% endif %}
 		{% endfor %}
 		</table>
+	</center>
 		<p>{{ integration.footer }}</p>
 	</div>
 </section>
