@@ -75,7 +75,7 @@ title: Update Spreadsheet
                 $writepath = '_data/' + resource + '.yaml';
                 $path = treeValue['path'];
                 $sha = treeValue['sha'];
-                console.log($path + ' == ' + $writepath);
+                //console.log($path + ' == ' + $writepath);
                 if($path==$writepath)
                   {
                   repo.writemanual('master',$writepath, $yaml_dump, 'Save', $sha, function(err) { });
