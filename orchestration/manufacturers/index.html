@@ -34,7 +34,7 @@ title: Update Spreadsheet
                        debug: true } )
     })
 
-    consolelog($resource);
+    console.log($resource);
 
     function showInfo(data, tabletop) {
 
@@ -76,7 +76,7 @@ title: Update Spreadsheet
 
               $.each(tree, function(treeKey, treeValue) {
 
-                $writepath = '_data/' + resource + '.yaml';
+                $writepath = '_data/' + $resource + '.yaml';
                 $path = treeValue['path'];
                 $sha = treeValue['sha'];
                 console.log($path + ' == ' + $writepath);
