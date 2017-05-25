@@ -1,6 +1,6 @@
 - title: Getting Started
   image: >-
-    http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/building-blocks/bw-running.png
+    http://drone.prototype.apievangelist.com/images/getting-started-rectangular.png
   header: >-
     All you need to get started with the Open Referral API is to learn about the
     paths, parameters, and data model for the API, and begin making calls.
