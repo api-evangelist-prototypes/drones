@@ -246,7 +246,7 @@ title: Drone Prototype
 		                      <td align="center" colspan="2" style="padding: 10px;"><strong>base url:</strong> {{ api.baseURL }}</td>
 		                    </tr>
 		                    <tr id="methods-for-{{ pathname }}" style="border: 1px solid #FFF;">
-		                      <td colspan="2">
+		                      <td colspan="2" style="border: 1px solid #FFF; background-color:#FFF;">
 
 		                        <table width="95%" border="0" style="margin-left: 15px; border-color: #FFF; background-color:#FFF;">
 		                          {% assign taglist = '' %}
@@ -596,9 +596,9 @@ title: Drone Prototype
 		{% assign toggle = 0 %}
 		{% for tool in integration_entries %}
 		    {% if toggle == 0 %}
-		    <tr>
+		    <tr style="border: 1px solid #FFF;">
 		    {% endif %}
-		      <td width="50%" valign="top" align="center" style="width: 250px; height: 250px; background-color:#FFF; border: 0px solid #FFF;">
+		      <td width="50%" valign="top" align="center" style="width: 250px; background-color:#FFF; border: 0px solid #FFF;">
 		        <img src="{{ tool.image }}" align="center" width="{{ tool.imagewidth }}" />
 		        <p align="center"><a href="{{ tool.url }}"><strong>{{ tool.name }}</strong></a></p>
 		      </td>
