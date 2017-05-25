@@ -1,11 +1,12 @@
-- title: Support
-  image: 'https://s3.amazonaws.com/kinlane-productions/bw-icons/bw-support.png'
-  header: >-
-    There are three ways that you can get support when using the Open Referral
-    API--consider one of the following channels when you have a question,
-    comment, or some feedback regarding the API and integration.
-  footer: >-
-    It is recommended that you start with submitting a Github issue, then maybe
-    tweet at us. If your questions or comments require some privacy you should
-    use email. Make sure you look through the existing issues before submitting
-    a new one.
+- title: Github
+  description: Contact us using Github issues.
+  image: 'https://s3.amazonaws.com/kinlane-productions/bw-icons/bw-github.png'
+  url: 'https://github.com/api-evangelist-prototypes/drones/issues'
+- title: Twitter
+  description: Find us on Twitter and we can help you.
+  image: 'https://s3.amazonaws.com/kinlane-productions/bw-icons/bw-twitter-icon.png'
+  url: 'https://twitter.com/apievangelist/'
+- title: Email
+  description: Feel free to email us.
+  image: 'https://s3.amazonaws.com/kinlane-productions/bw-icons/bw-email-at.png'
+  url: 'mailto:info@apievangelist.com'
