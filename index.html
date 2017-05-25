@@ -192,6 +192,7 @@ title: Drone Prototype
 			<h2>{{ issues.title }}</h2>
 		</header>
 		<p>{{ issues.header }}</p>
+		<div style="height: 600px; overflow:auto;">
 		<table class="table-wrapper">
 			{% for entry in issue_entries %}
 				<tr>
@@ -201,6 +202,7 @@ title: Drone Prototype
 				</tr>
 			{% endfor %}
 		</table>
+		</div>
 		<p>{{ issues.footer }}</p>
 	</div>
 	<span class="image object">
@@ -218,15 +220,17 @@ title: Drone Prototype
 		</header>
 		<p>{{ road_map.header }}</p>
 		<center>
-		<table cellpadding="10" cellspacing="10" width="90%" class="table-wrapper">
-			{% for entry in road_map_entries %}
-				<tr>
-					<td align="left" valign="top">
-						({{ entry.date | date: "%D" }}) <strong>{{ entry.title }}</strong> - {{ entry.description }}
-					</td>
-				</tr>
-			{% endfor %}
-		</table>
+		<div style="height: 600px; overflow:auto;">
+			<table cellpadding="10" cellspacing="10" width="90%" class="table-wrapper">
+				{% for entry in road_map_entries %}
+					<tr>
+						<td align="left" valign="top">
+							({{ entry.date | date: "%D" }}) <strong>{{ entry.title }}</strong> - {{ entry.description }}
+						</td>
+					</tr>
+				{% endfor %}
+			</table>
+		</div>
 		</center>
 		<p>{{ road_map.footer }}</p>
 	</div>
