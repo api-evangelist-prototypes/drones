@@ -55,9 +55,9 @@ title: Drone Prototype
 </section>
 
 <!-- Authentication -->
+{% assign authentication = site.data.authentication.index[0] %}
 <section id="banner">
 	<div class="content">
-		{% assign authentication = site.data.authentication.index[0] %}
 		<header>
 			<h2>{{ authentication.title }}</h2>
 		</header>
@@ -71,8 +71,8 @@ title: Drone Prototype
 
 <!-- FAQ -->
 {% assign faq = site.data.faq.index[0] %}
-{% assign faq_categories = site.data.faq_categories.index[0] %}
-{% assign faq_questions = site.data.faq_questions.index[0] %}
+{% assign faq_categories = site.data.faq_categories.index %}
+{% assign faq_questions = site.data.faq_questions.index %}
 <section id="banner">
 	<div class="content">
 		<header>
@@ -118,7 +118,7 @@ title: Drone Prototype
 
 <!-- Code -->
 {% assign code = site.data.code.index[0] %}
-{% assign code_entries = site.data.code_entries.index[0] %}
+{% assign code_entries = site.data.code_entries.index %}
 <section id="banner">
 	<div class="content">
 		<header>
@@ -136,7 +136,7 @@ title: Drone Prototype
 
 <!-- Integrations -->
 {% assign integration = site.data.integrations.index[0] %}
-{% assign integration_entries = site.data.integration_entries.index[0] %}
+{% assign integration_entries = site.data.integration_entries.index %}
 <section id="banner">
 	<div class="content">
 		<header>
@@ -154,7 +154,7 @@ title: Drone Prototype
 
 <!-- Issues -->
 {% assign change_log = site.data.change_log.index[0] %}
-{% assign change_log_entries = site.data.change_log_entries.index[0] %}
+{% assign change_log_entries = site.data.change_log_entries.index %}
 <section id="banner">
 	<div class="content">
 		<header>
@@ -181,7 +181,7 @@ title: Drone Prototype
 
 <!-- Issues -->
 {% assign issues = site.data.issues.index[0] %}
-{% assign issue_entries = site.data.issue_entries.index[0] %}
+{% assign issue_entries = site.data.issue_entries.index %}
 <section id="banner">
 	<div class="content">
 		<header>
@@ -207,7 +207,7 @@ title: Drone Prototype
 
 <!-- Issues -->
 {% assign road_map = site.data.road_map.index[0] %}
-{% assign road_map_entries = site.data.road_map_entries.index[0] %}
+{% assign road_map_entries = site.data.road_map_entries.index %}
 <section id="banner">
 	<div class="content">
 		<header>
@@ -234,7 +234,7 @@ title: Drone Prototype
 
 <!-- Support -->
 {% assign support = site.data.support.index[0] %}
-{% assign support_resources = site.data.support_resources.index[0] %}
+{% assign support_resources = site.data.support_resources.index %}
 <section id="banner">
 	<div class="content">
 		<header>
