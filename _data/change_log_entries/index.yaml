@@ -26,37 +26,36 @@
   date: 01/03/2017
 - type: Definition
   title: Create an OpenAPI for API
-  description: ''
+  description: >-
+    I created an OpenAPI definition with details of all of the APIs I wanted to
+    create to access and manage the data I have outlined in my schema.
   url: ''
   issue: ''
   date: 01/01/2017
 - type: Management
   title: Setup Github Organization
-  description: ''
+  description: >-
+    All APIs start with Github in my world, so I setup an organization for this
+    operation, giving me an area to publish all the projects underneath this
+    umbrella.
   url: ''
   issue: ''
   date: 01/01/2017
 - type: Definition
   title: Setup Definition Repository
-  description: ''
+  description: >-
+    I setup a Github repository for storing all the definitions associated with
+    the drone API, setting it up for both human and programmatic consumption
+    through the lifecycle of this API.
   url: ''
   issue: ''
   date: 01/01/2017
 - type: Definition
   title: Guide
-  description: ''
-  url: ''
-  issue: ''
-  date: 01/01/2017
-- type: Design
-  title: Clean up schema used
-  description: ''
-  url: ''
-  issue: ''
-  date: 01/01/2017
-- type: Design
-  title: Clean up API design
-  description: ''
+  description: >-
+    I created a guide outlining all the definitions used as part of the drone
+    API, providing a single place to find all definitions for the project, and
+    hang any new definitions generated in future work.
   url: ''
   issue: ''
   date: 01/01/2017
