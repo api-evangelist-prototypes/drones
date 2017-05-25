@@ -118,25 +118,6 @@ title: Drone Prototype
 	</div>
 </section>
 
-<!-- Code -->
-<span class="image fit"><img src="/images/pic11.jpg" alt="" /></span>
-<div class="box alt">
-	<div class="row 50% uniform">
-		<div class="4u"><span class="image fit"><img src="/images/pic01.jpg" alt="" /></span></div>
-		<div class="4u"><span class="image fit"><img src="/images/pic02.jpg" alt="" /></span></div>
-		<div class="4u$"><span class="image fit"><img src="/images/pic03.jpg" alt="" /></span></div>
-		<!-- Break -->
-		<div class="4u"><span class="image fit"><img src="/images/pic03.jpg" alt="" /></span></div>
-		<div class="4u"><span class="image fit"><img src="/images/pic01.jpg" alt="" /></span></div>
-		<div class="4u$"><span class="image fit"><img src="/images/pic02.jpg" alt="" /></span></div>
-		<!-- Break -->
-		<div class="4u"><span class="image fit"><img src="/images/pic02.jpg" alt="" /></span></div>
-		<div class="4u"><span class="image fit"><img src="/images/pic03.jpg" alt="" /></span></div>
-		<div class="4u$"><span class="image fit"><img src="/images/pic01.jpg" alt="" /></span></div>
-	</div>
-</div>
-
-
 {% assign code = site.data.code.index[0] %}
 {% assign code_entries = site.data.code_entries.index %}
 <section id="banner">
@@ -145,13 +126,13 @@ title: Drone Prototype
 			<h2>{{ code.title }}</h2>
 		</header>
 		<p>{{ code.header }}</p>
-		<center>
-				{% for entry in code_entries %}
-				<div style="width: 100px;">
-					{{ entry.icon }}
-				</div>
+		<div class="row">
+			{% for entry in code_entries %}
+			<div class="6u$ 12u$(small)">
+				{{ entry.entry }}
+			</div>
 			{% endfor %}
-		</center>
+		</div>
 		<p>{{ code.footer }}</p>
 	</div>
 </section>
@@ -165,11 +146,13 @@ title: Drone Prototype
 			<h2>{{ integration.title }}</h2>
 		</header>
 		<p>{{ integration.header }}</p>
-		<center>
+		<div class="row">
 			{% for entry in integration_entries %}
-				<img src="{{ entry.image }}" width="{ entry.imagewidth }}" style="display: inline; padding: 50px;" />
+			<div class="6u$ 12u$(small)">
+				<img src="{{ entry.image }}" width="{ entry.imagewidth }}" />
+			</div>
 			{% endfor %}
-		</center>
+		</div>
 		<p>{{ integration.footer }}</p>
 	</div>
 </section>
