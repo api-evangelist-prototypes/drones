@@ -146,13 +146,24 @@ title: Drone Prototype
 			<h2>{{ integration.title }}</h2>
 		</header>
 		<p>{{ integration.header }}</p>
-		<div class="row">
-			{% for entry in integration_entries %}
-			<div class="6u$ 12u$(small)">
-				<img src="{{ entry.image }}" width{="{{ entry.imagewidth }}" />
-			</div>
-			{% endfor %}
-		</div>
+		<table cellpadding="3" cellspacing="2" style="margin-top: 10px;" width="100%">
+		{% assign toggle = 0 %}
+		{% for tool in integration_entries %}
+		    {% if toggle == 0 %}
+		    <tr>
+		    {% endif %}
+		      <td width="50%" valign="top" align="center" style="width: 250px; height: 250px;">
+		        <img src="{{ tool.image }}" align="center" width="{{ tool.imagewidth }}" />
+		        <p align="center"><a href="{{ tool.url }}"><strong>{{ tool.name }}</strong></a></p>
+		      </td>
+		    {% if toggle == 1 %}
+		      </tr>
+		      {% assign toggle = 0 %}
+		    {% else %}
+		      {% assign toggle = 1 %}
+		    {% endif %}
+		{% endfor %}
+		</table>
 		<p>{{ integration.footer }}</p>
 	</div>
 </section>
