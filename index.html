@@ -568,8 +568,9 @@ title: Drone Prototype
 			<h2>{{ code.title }}</h2>
 		</header>
 		<p>{{ code.header }}</p>
+		<center>
 		<div class="table-wrapper" style="height: 300px; overflow:auto;" align="center">
-		<table cellpadding="10" cellspacing="10" width="90%" style="padding: 10px;">
+		<table cellpadding="10" cellspacing="10" width="90%" style="padding: 10px; border: 0px; background-color:#FFF;">
 		  <tr>
 			{% for entry in code_entries %}
 		  		<td align="center" valign="top" width="35" style="padding: 20px;">
@@ -579,6 +580,7 @@ title: Drone Prototype
 		  </tr>
 		</table>
 		</div>
+		</center>
 		<p>{{ code.footer }}</p>
 	</div>
 </section>
