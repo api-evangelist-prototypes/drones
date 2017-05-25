@@ -622,7 +622,7 @@ title: Drone Prototype
 		</header>
 		<p>{{ change_log.header }}</p>
 		<center>
-		<div style="height: 600px; overflow:auto;">
+		<div class="table-wrapper" style="height: 300px; overflow:auto;">
 		<table cellpadding="10" cellspacing="10" width="90%" class="table-wrapper">
 			{% for entry in change_log_entries %}
 				<tr>
@@ -650,7 +650,7 @@ title: Drone Prototype
 			<h2>{{ issues.title }}</h2>
 		</header>
 		<p>{{ issues.header }}</p>
-		<div style="height: 600px; overflow:auto;">
+		<div class="table-wrapper" style="height: 300px; overflow:auto;">
 		<table class="table-wrapper">
 			{% for entry in issue_entries %}
 				<tr>
@@ -678,7 +678,7 @@ title: Drone Prototype
 		</header>
 		<p>{{ road_map.header }}</p>
 		<center>
-		<div style="height: 600px; overflow:auto;">
+		<div class="table-wrapper" style="height: 300px; overflow:auto;">
 			<table cellpadding="10" cellspacing="10" width="90%" class="table-wrapper">
 				{% for entry in road_map_entries %}
 					<tr>
