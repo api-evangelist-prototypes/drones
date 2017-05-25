@@ -1,54 +1,74 @@
-name: API Evangelist
-description: These are my APIs for my API industry research, studying over 70 areas along an API life cycle.
+name: Drone API Prototype
+description: This is a drone API prototype to explore what is possible.
 image: http://s3.amazonaws.com/kinlane-productions/api-evangelist/t-shirts/KL_InApiWeTrust-1000.png
 tags:
   - API
-  - Integrations
-created: "2017-05-09"
-modified: "2017-05-09"
-url: https://apievangelist.com/apis.json
+  - Drones
+created: "2017-05-24"
+modified: "2017-05-24"
+url: https://drone.prototype.apievangelist.com/apis.json
 specificationVersion: "0.14"
 apis:
-  - name: Products API
-    description: This is my simple API for managing my products.
-    image: http://apievangelist.com/images/product-square.png
-    humanURL: http://apievangelist.com/
-    baseURL: http://apievangelist.com/
+  - name: Aircraft API
+    description: This is an API for managing aircraft.
+    image: http://drone.prototype.apievangelist.com/images/aircraft.png
+    humanURL: https://drone.prototype.apievangelist.com
+    baseURL: https://drone.prototype.apievangelist.com
     tags:
-      - API Evangelist
-      - Products
+      - Drones
+      - Aircraft
     properties:
       - type: x-openapi
-        url: http://apievangelist.com/apis/products/openapi.json
-  - name: Services API
-    description: This is my simple API for managing my services.
-    image: http://apievangelist.com/images/services-square.png
-    humanURL: http://apievangelist.com/
-    baseURL: http://apievangelist.com/
+        url: http://drone.prototype.apievangelist.com/apis/aircraft/openapi.json
+  - name: Flight Status API
+    description: This is an API for working with flight status for aircrafts.
+    image: http://drone.prototype.apievangelist.com/images/flights.png
+    humanURL: https://drone.prototype.apievangelist.com
+    baseURL: https://drone.prototype.apievangelist.com
     tags:
-      - API Evangelist
-      - Services
+      - Drones
+      - Flights
     properties:
       - type: x-openapi
-        url: http://apievangelist.com/apis/services/openapi.json
-  - name: Partners API
-    description: This is my simple API for managing my partners across the sites.
-    image: https://s3.amazonaws.com/kinlane-productions/bw-icons/bw-partner.png
-    humanURL: http://apievangelist.com/
-    baseURL: http://apievangelist.com/
+        url: http://drone.prototype.apievangelist.com/apis/flight-status/openapi.json
+  - name: Flight Entries API
+    description: This is an API for working with flight entries.
+    image: http://drone.prototype.apievangelist.com/images/flights.png
+    humanURL: https://drone.prototype.apievangelist.com
+    baseURL: https://drone.prototype.apievangelist.com
     tags:
-      - API Evangelist
-      - Partners
+      - Drones
+      - Flights
     properties:
       - type: x-openapi
-        url: http://apievangelist.com/apis/partners/openapi.json
+        url: http://drone.prototype.apievangelist.com/apis/flight-entries/openapi.json
+  - name: Manufacturers API
+    description: This is an API for working with drone manufacturers.
+    image: http://drone.prototype.apievangelist.com/images/manufacturers.png
+    humanURL: https://drone.prototype.apievangelist.com
+    baseURL: https://drone.prototype.apievangelist.com
+    tags:
+      - Drones
+      - Manufacturers
+    properties:
+      - type: x-openapi
+        url: http://drone.prototype.apievangelist.com/apis/manufacturers/openapi.json
+  - name: Pilots API
+    description: This is an API for working with drone pilots.
+    image: http://drone.prototype.apievangelist.com/images/pilots.png
+    humanURL: https://drone.prototype.apievangelist.com
+    baseURL: https://drone.prototype.apievangelist.com
+    tags:
+      - Drones
+      - Pilots
+    properties:
+      - type: x-openapi
+        url: http://drone.prototype.apievangelist.com/apis/pilots/openapi.json
 x-common:
   - type: x-support
-    url: https://github.com/kinlane/api-evangelist/issues
+    url: https://drone.prototype.apievangelist.com#Support
   - type: x-documentation
-    url: http://apievangelist.com/documentation/
-  - type: x-github-repo
-    url: https://github.com/kinlane/api-evangelist
+    url: https://drone.prototype.apievangelist.com#Documentation
 include: []
 maintainers:
   - FN: Kin Lane
