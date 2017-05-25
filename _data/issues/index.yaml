@@ -1,5 +1,5 @@
 - title: Issues
-  image: 'https://s3.amazonaws.com/kinlane-productions/bw-icons/bw-issue.png'
+  image: 'http://drone.prototype.apievangelist.com/images/issues-rectangular.png'
   header: >-
     This is a list of all current known issues for the Open Referral API. Once
     an issue is resolved it will be moved to the change log. Here is what is
