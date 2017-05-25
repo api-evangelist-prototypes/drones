@@ -147,7 +147,7 @@ title: Drone Prototype
 		<p>{{ integration.header }}</p>
 		<center>
 			{% for entry in integration_entries %}
-				{{ entry.icon }}
+				<img src="{{ entry.image }}" width="{ entry.imagewidth }}" style="display: inline; padding: 50px;" />
 			{% endfor %}
 		</center>
 		<p>{{ integration.footer }}</p>
