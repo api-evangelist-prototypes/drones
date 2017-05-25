@@ -106,7 +106,7 @@ title: Drone Prototype
 
 <!-- Code -->
 {% assign code = site.data.code.index[0] %}
-{% assign code_entries = site.data.code.index[0] %}
+{% assign code_entries = site.data.code_entries.index[0] %}
 <section id="banner">
 	<div class="content">
 		<header>
@@ -123,20 +123,20 @@ title: Drone Prototype
 </section>
 
 <!-- Integrations -->
-{% assign code = site.data.code.index[0] %}
-{% assign code_entries = site.data.code.index[0] %}
+{% assign integration = site.data.integrations.index[0] %}
+{% assign integration_entries = site.data.integration_entries.index[0] %}
 <section id="banner">
 	<div class="content">
 		<header>
-			<h2>{{ code.title }}</h2>
+			<h2>{{ integration.title }}</h2>
 		</header>
-		<p>{{ code.header }}</p>
+		<p>{{ integration.header }}</p>
 		<center>
-			{% for entry in code_entries %}
+			{% for entry in integration_entries %}
 				{{ entry.icon }}
 			{% endfor %}
 		</center>
-		<p>{{ code.footer }}</p>
+		<p>{{ integration.footer }}</p>
 	</div>
 </section>
 
@@ -150,7 +150,7 @@ title: Drone Prototype
 		</header>
 		<p>{{ issues.header }}</p>
 		<center>
-		<table cellpadding="10" cellspacing="10" width="90%" style="margin-bottom: 10px;">
+		<table cellpadding="10" cellspacing="10" width="90%" style="margin-bottom: 10px;" class="table-wrapper">
 			{% for issue in issue_entries %}
 				<tr>
 					<td align="left" valign="top">
