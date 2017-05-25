@@ -31,7 +31,7 @@
     create to access and manage the data I have outlined in my schema.
   url: ''
   issue: ''
-  date: 01/01/2017
+  date: 01/04/2017
 - type: Management
   title: Setup Github Organization
   description: >-
@@ -40,7 +40,7 @@
     umbrella.
   url: ''
   issue: ''
-  date: 01/01/2017
+  date: 01/05/2017
 - type: Definition
   title: Setup Definition Repository
   description: >-
@@ -49,7 +49,7 @@
     through the lifecycle of this API.
   url: ''
   issue: ''
-  date: 01/01/2017
+  date: 01/06/2017
 - type: Definition
   title: Guide
   description: >-
@@ -58,838 +58,885 @@
     hang any new definitions generated in future work.
   url: ''
   issue: ''
-  date: 01/01/2017
+  date: 01/07/2017
 - type: Design
   title: Versioning
-  description: ''
+  description: >-
+    We needed to make a decision around how we handle the version of the API.
+    Are we going to do in the header, in url, or are we going to rely on the
+    design of our API to handle versioning for us, making it something we aren't
+    going to do? 
   url: ''
   issue: ''
-  date: 01/01/2017
+  date: 01/08/2017
 - type: Design
   title: Paths
-  description: ''
+  description: >-
+    Establish structure and guidance for how all paths are crafted for APIs
+    deployed across the platform. Specifically using plain english words that
+    describe what each resource does, following common elements of a RESTful
+    approach.
   url: ''
   issue: ''
-  date: 01/01/2017
+  date: 01/09/2017
 - type: Design
   title: Verbs
-  description: ''
+  description: >-
+    What is the verb strategy? How are we using POST, PUT, and DELETE as well as
+    GET. What is the POST v PUT strategy? How are we handling OPTIONS, and HEAD?
+    We need a standard approach.
   url: ''
   issue: ''
-  date: 01/01/2017
+  date: 01/10/2017
 - type: Design
   title: Actions
-  description: ''
+  description: >-
+    Beyond the basic verbs provided us how will we be handling more advanced
+    actions? What are the path and verb strategies for tackling more complex
+    transformations involving the API resources we are making available.
   url: ''
   issue: ''
-  date: 01/01/2017
+  date: 01/11/2017
 - type: Design
   title: Parameters
-  description: ''
+  description: >-
+    What are the common parameters we are using across all available API paths?
+    Let's think through the parameters as part of our overall schema definition
+    strategy, and reference them using JSON schema references in the OpenAPI for
+    the project.
   url: ''
   issue: ''
-  date: 01/01/2017
+  date: 01/12/2017
 - type: Design
   title: Headers
-  description: ''
+  description: >-
+    Similar to parameters, what is our header strategy? Let's educate ourselves
+    about the common headers out there, as well as some of the lesser known
+    headers that might contribute to other areas of our API design. Let's
+    organize them as part of our larger schema definition in the OpenAPI.
   url: ''
   issue: ''
-  date: 01/01/2017
+  date: 01/13/2017
 - type: Design
   title: Body
-  description: ''
+  description: >-
+    We are setting the standard for how we are using the body across all our API
+    calls. Are all POST and PUTs using the body. How are we handling file
+    uploads and the upload and downloading of heavy objects used across our API
+    design.
   url: ''
   issue: ''
-  date: 01/01/2017
+  date: 01/14/2017
 - type: Design
   title: Pagination
-  description: ''
+  description: >-
+    What is the standard approach to doing pagination across API responses? Are
+    we considering hypermedia in this process? Are we going a simpler route and
+    following an existing standard from an API that is well known? Establish the
+    standard for pagination of large datasets.
   url: ''
   issue: ''
-  date: 01/01/2017
+  date: 01/15/2017
 - type: Design
   title: Schema Filtering
-  description: ''
+  description: >-
+    What is the standard for allowing the actual schema returend in API
+    responses to be filtered, minimized, or expanded? Allowing for API consumers
+    to specify how little, or how much data they received. Are we considering a
+    more holistic approach using GraphQL. Do we want our consumers to have this
+    control, or will we be handling in our API design.
   url: ''
   issue: ''
-  date: 01/01/2017
+  date: 01/16/2017
 - type: Design
   title: Data Filtering
-  description: ''
+  description: >-
+    Beyond the schema, what approaches to allowing API consumers to filter data
+    that is returned. Searching, filtering, and other approaches to allowing
+    consumers to get exactlyt he data they need.
   url: ''
   issue: ''
-  date: 01/01/2017
+  date: 01/17/2017
 - type: Design
   title: Sorting
-  description: ''
+  description: >-
+    How will data be sorted? Is this an area we are looking at GraphQL or more
+    holistic approach, or do we have a simpler approach, following the lead of
+    popular APIs, using sorting patterns that developer are already used to.
   url: ''
   issue: ''
-  date: 01/01/2017
+  date: 01/18/2017
 - type: Design
   title: Granularity
-  description: ''
+  description: >-
+    Have we stepped back and look at the granularitiy of API paths and
+    definitions? Are things small, modular, well thought out, and provide
+    valuable units of compute?
   url: ''
   issue: ''
-  date: 01/01/2017
+  date: 01/19/2017
 - type: Design
   title: Simplicity
-  description: ''
+  description: >-
+    Are things simple? Has complexity been reduced? Are all aspects of the
+    design intuitive and quick to understand what is possible? Let's focus on
+    simplicity across every aspect of the design.
   url: ''
   issue: ''
-  date: 01/01/2017
+  date: 01/20/2017
 - type: Design
   title: Readablity
   description: ''
   url: ''
   issue: ''
-  date: 01/01/2017
+  date: 01/21/2017
 - type: Design
   title: Relationships
   description: ''
   url: ''
   issue: ''
-  date: 01/01/2017
+  date: 01/22/2017
 - type: Design
   title: Status
   description: ''
   url: ''
   issue: ''
-  date: 01/01/2017
+  date: 01/23/2017
 - type: Design
   title: Errors
   description: ''
   url: ''
   issue: ''
-  date: 01/01/2017
+  date: 01/24/2017
 - type: Design
   title: Media Types
   description: ''
   url: ''
   issue: ''
-  date: 01/01/2017
+  date: 01/25/2017
 - type: Design
   title: Hypermedia
   description: ''
   url: ''
   issue: ''
-  date: 01/01/2017
+  date: 01/26/2017
 - type: Design
   title: Standards
   description: ''
   url: ''
   issue: ''
-  date: 01/01/2017
+  date: 01/27/2017
 - type: Definitions
   title: Update OpenAPI
   description: ''
   url: ''
   issue: ''
-  date: 01/01/2017
+  date: 01/28/2017
 - type: Design
   title: Guide
   description: ''
   url: ''
   issue: ''
-  date: 01/01/2017
+  date: 01/29/2017
 - type: Database
   title: Database
   description: ''
   url: ''
   issue: ''
-  date: 01/01/2017
+  date: 01/30/2017
 - type: Deployment
   title: Framework
   description: ''
   url: ''
   issue: ''
-  date: 01/01/2017
+  date: 01/31/2017
 - type: Deployment
   title: Platform
   description: ''
   url: ''
   issue: ''
-  date: 01/01/2017
+  date: 02/01/2017
 - type: Deployment
   title: Server
   description: ''
   url: ''
   issue: ''
-  date: 01/01/2017
+  date: 02/02/2017
 - type: DNS
   title: Identify a host
   description: ''
   url: ''
   issue: ''
-  date: 01/01/2017
+  date: 02/03/2017
 - type: DNS
   title: Identify a base URL
   description: ''
   url: ''
   issue: ''
-  date: 01/01/2017
+  date: 02/04/2017
 - type: DNS
   title: Guide
   description: ''
   url: ''
   issue: ''
-  date: 01/01/2017
+  date: 02/05/2017
 - type: Encryption
   title: Thinking about encryption
   description: ''
   url: ''
   issue: ''
-  date: 01/01/2017
+  date: 02/06/2017
 - type: Deployment
   title: Thinking about CORS
   description: ''
   url: ''
   issue: ''
-  date: 01/01/2017
+  date: 02/07/2017
 - type: Deployment
   title: Server Skeleton
   description: ''
   url: ''
   issue: ''
-  date: 01/01/2017
+  date: 02/08/2017
 - type: Deployment
   title: Artisan Finish
   description: ''
   url: ''
   issue: ''
-  date: 01/01/2017
+  date: 02/09/2017
 - type: Deployment
   title: Guide
   description: ''
   url: ''
   issue: ''
-  date: 01/01/2017
+  date: 02/10/2017
 - type: Management
   title: API Management
   description: ''
   url: ''
   issue: ''
-  date: 01/01/2017
+  date: 02/11/2017
 - type: Authentication
   title: Authentication Strategy
   description: ''
   url: ''
   issue: ''
-  date: 01/01/2017
+  date: 02/12/2017
 - type: Monetization
   title: Acquisitions Costs
   description: ''
   url: ''
   issue: ''
-  date: 01/01/2017
+  date: 02/13/2017
 - type: Monetization
   title: Developer Cost
   description: ''
   url: ''
   issue: ''
-  date: 01/01/2017
+  date: 02/14/2017
 - type: Monetization
   title: Operational Cost
   description: ''
   url: ''
   issue: ''
-  date: 01/01/2017
+  date: 02/15/2017
 - type: Monetization
   title: Direct Value
   description: ''
   url: ''
   issue: ''
-  date: 01/01/2017
+  date: 02/16/2017
 - type: Monetization
   title: Indirect Value
   description: ''
   url: ''
   issue: ''
-  date: 01/01/2017
+  date: 02/17/2017
 - type: Plans
   title: Unit of Value
   description: ''
   url: ''
   issue: ''
-  date: 01/01/2017
+  date: 02/18/2017
 - type: Plans
   title: Timeframes
   description: ''
   url: ''
   issue: ''
-  date: 01/01/2017
+  date: 02/19/2017
 - type: Plans
   title: Metrics
   description: ''
   url: ''
   issue: ''
-  date: 01/01/2017
+  date: 02/20/2017
 - type: Plans
   title: Limits
   description: ''
   url: ''
   issue: ''
-  date: 01/01/2017
+  date: 02/21/2017
 - type: Plans
   title: Access Tiers
   description: ''
   url: ''
   issue: ''
-  date: 01/01/2017
+  date: 02/22/2017
 - type: Plans
   title: Regions
   description: ''
   url: ''
   issue: ''
-  date: 01/01/2017
+  date: 02/23/2017
 - type: Plans
   title: Features
   description: ''
   url: ''
   issue: ''
-  date: 01/01/2017
+  date: 02/24/2017
 - type: Management
   title: Configure API management
   description: ''
   url: ''
   issue: ''
-  date: 01/01/2017
+  date: 02/25/2017
 - type: Logging
   title: Logging
   description: ''
   url: ''
   issue: ''
-  date: 01/01/2017
+  date: 02/26/2017
 - type: Management
   title: Reporting
   description: ''
   url: ''
   issue: ''
-  date: 01/01/2017
+  date: 02/27/2017
 - type: Authentication
   title: Github Auth
   description: ''
   url: ''
   issue: ''
-  date: 01/01/2017
+  date: 02/28/2017
 - type: Authentication
   title: Twitter Auth
   description: ''
   url: ''
   issue: ''
-  date: 01/01/2017
+  date: 03/01/2017
 - type: Authentication
   title: Facebook Auth
   description: ''
   url: ''
   issue: ''
-  date: 01/01/2017
+  date: 03/02/2017
 - type: Authentication
   title: Google Auth
   description: ''
   url: ''
   issue: ''
-  date: 01/01/2017
+  date: 03/03/2017
 - type: Management
   title: Registration
   description: ''
   url: ''
   issue: ''
-  date: 01/01/2017
+  date: 03/04/2017
 - type: Management
   title: Acceptance
   description: ''
   url: ''
   issue: ''
-  date: 01/01/2017
+  date: 03/05/2017
 - type: Management
   title: Signup Email
   description: ''
   url: ''
   issue: ''
-  date: 01/01/2017
+  date: 03/06/2017
 - type: Portal
   title: Github Repo For Portal
   description: ''
   url: ''
   issue: ''
-  date: 01/01/2017
+  date: 03/07/2017
 - type: Portal
   title: Github Page for Portal
   description: ''
   url: ''
   issue: ''
-  date: 01/01/2017
+  date: 03/08/2017
 - type: DNS
   title: Portal URL
   description: ''
   url: ''
   issue: ''
-  date: 01/01/2017
+  date: 03/09/2017
 - type: Portal
   title: Description
   description: ''
   url: ''
   issue: ''
-  date: 01/01/2017
+  date: 03/10/2017
 - type: Documentation
   title: Generate documentation from OpenAPI
   description: ''
   url: ''
   issue: ''
-  date: 01/01/2017
+  date: 03/11/2017
 - type: SDK
   title: Generate SDKs / Libraries from OpenAPI
   description: ''
   url: ''
   issue: ''
-  date: 01/01/2017
+  date: 03/12/2017
 - type: Portal
   title: Code Page
   description: ''
   url: ''
   issue: ''
-  date: 01/01/2017
+  date: 03/13/2017
 - type: Portal
   title: Getting Started Page
   description: ''
   url: ''
   issue: ''
-  date: 01/01/2017
+  date: 03/14/2017
 - type: Portal
   title: Authentication Page
   description: ''
   url: ''
   issue: ''
-  date: 01/01/2017
+  date: 03/15/2017
 - type: Portal
   title: FAQ Page
   description: ''
   url: ''
   issue: ''
-  date: 01/01/2017
+  date: 03/16/2017
 - type: Support
   title: Support Channels
   description: ''
   url: ''
   issue: ''
-  date: 01/01/2017
+  date: 03/17/2017
 - type: Portal
   title: Support Page
   description: ''
   url: ''
   issue: ''
-  date: 01/01/2017
+  date: 03/18/2017
 - type: Portal
   title: Road Map Page
   description: ''
   url: ''
   issue: ''
-  date: 01/01/2017
+  date: 03/19/2017
 - type: Portal
   title: Issues Page
   description: ''
   url: ''
   issue: ''
-  date: 01/01/2017
+  date: 03/20/2017
 - type: Portal
   title: Change Log Page
   description: ''
   url: ''
   issue: ''
-  date: 01/01/2017
+  date: 03/21/2017
 - type: Management
   title: Developer dashboard
   description: ''
   url: ''
   issue: ''
-  date: 01/01/2017
+  date: 03/22/2017
 - type: Management
   title: Developer message
   description: ''
   url: ''
   issue: ''
-  date: 01/01/2017
+  date: 03/23/2017
 - type: Management
   title: Developer applications
   description: ''
   url: ''
   issue: ''
-  date: 01/01/2017
+  date: 03/24/2017
 - type: Management
   title: Developer plans
   description: ''
   url: ''
   issue: ''
-  date: 01/01/2017
+  date: 03/25/2017
 - type: Management
   title: Developer usage analytics
   description: ''
   url: ''
   issue: ''
-  date: 01/01/2017
+  date: 03/26/2017
 - type: Management
   title: Developing billing
   description: ''
   url: ''
   issue: ''
-  date: 01/01/2017
+  date: 03/27/2017
 - type: Management
   title: Password reset
   description: ''
   url: ''
   issue: ''
-  date: 01/01/2017
+  date: 03/28/2017
 - type: Management
   title: Delete account
   description: ''
   url: ''
   issue: ''
-  date: 01/01/2017
+  date: 03/29/2017
 - type: Management
   title: Guide
   description: ''
   url: ''
   issue: ''
-  date: 01/01/2017
+  date: 03/30/2017
 - type: Terms of Service
   title: Terms of Service
   description: ''
   url: ''
   issue: ''
-  date: 01/01/2017
+  date: 03/31/2017
 - type: Privacy
   title: Privacy Policy
   description: ''
   url: ''
   issue: ''
-  date: 01/01/2017
+  date: 04/01/2017
 - type: Deprecation
   title: Deprecation Policy
   description: ''
   url: ''
   issue: ''
-  date: 01/01/2017
+  date: 04/02/2017
 - type: Reliability
   title: Service Accord / SLA
   description: ''
   url: ''
   issue: ''
-  date: 01/01/2017
+  date: 04/03/2017
 - type: Management
   title: User management API
   description: ''
   url: ''
   issue: ''
-  date: 01/01/2017
+  date: 04/04/2017
 - type: Management
   title: Account management API
   description: ''
   url: ''
   issue: ''
-  date: 01/01/2017
+  date: 04/05/2017
 - type: Management
   title: Application management API
   description: ''
   url: ''
   issue: ''
-  date: 01/01/2017
+  date: 04/06/2017
 - type: Management
   title: Plan management API
   description: ''
   url: ''
   issue: ''
-  date: 01/01/2017
+  date: 04/07/2017
 - type: Management
   title: Usage management API
   description: ''
   url: ''
   issue: ''
-  date: 01/01/2017
+  date: 04/08/2017
 - type: Management
   title: Billing management API
   description: ''
   url: ''
   issue: ''
-  date: 01/01/2017
+  date: 04/09/2017
 - type: Management
   title: Service management API
   description: ''
   url: ''
   issue: ''
-  date: 01/01/2017
+  date: 04/10/2017
 - type: Management
   title: Message management API
   description: ''
   url: ''
   issue: ''
-  date: 01/01/2017
+  date: 04/11/2017
 - type: Virtualization
   title: Mocks
   description: ''
   url: ''
   issue: ''
-  date: 01/01/2017
+  date: 04/12/2017
 - type: Virtualization
   title: Sandbox
   description: ''
   url: ''
   issue: ''
-  date: 01/01/2017
+  date: 04/13/2017
 - type: Deployment
   title: Containers
   description: ''
   url: ''
   issue: ''
-  date: 01/01/2017
+  date: 04/14/2017
 - type: Deployment
   title: Image
   description: ''
   url: ''
   issue: ''
-  date: 01/01/2017
+  date: 04/15/2017
 - type: Communications
   title: Blog
   description: ''
   url: ''
   issue: ''
-  date: 01/01/2017
+  date: 04/16/2017
 - type: Communications
   title: Blog Feed
   description: ''
   url: ''
   issue: ''
-  date: 01/01/2017
+  date: 04/17/2017
 - type: Communications
   title: Twitter
   description: ''
   url: ''
   issue: ''
-  date: 01/01/2017
+  date: 04/18/2017
 - type: Communications
   title: Strategy
   description: ''
   url: ''
   issue: ''
-  date: 01/01/2017
+  date: 04/19/2017
 - type: Communications
   title: Communication strategy
   description: ''
   url: ''
   issue: ''
-  date: 01/01/2017
+  date: 04/20/2017
 - type: Support
   title: Support strategy
   description: ''
   url: ''
   issue: ''
-  date: 01/01/2017
+  date: 04/21/2017
 - type: Evangelism
   title: Evangelism strategy
   description: ''
   url: ''
   issue: ''
-  date: 01/01/2017
+  date: 04/22/2017
 - type: Monitoring
   title: API monitoring
   description: ''
   url: ''
   issue: ''
-  date: 01/01/2017
+  date: 04/23/2017
 - type: Communications
   title: Communicate monitoring
   description: ''
   url: ''
   issue: ''
-  date: 01/01/2017
+  date: 04/24/2017
 - type: Performance
   title: API performance
   description: ''
   url: ''
   issue: ''
-  date: 01/01/2017
+  date: 04/25/2017
 - type: Communications
   title: Communicate performance
   description: ''
   url: ''
   issue: ''
-  date: 01/01/2017
+  date: 04/26/2017
 - type: Monitoring
   title: Status dashboard
   description: ''
   url: ''
   issue: ''
-  date: 01/01/2017
+  date: 04/27/2017
 - type: Communications
   title: Communicate status
   description: ''
   url: ''
   issue: ''
-  date: 01/01/2017
+  date: 04/28/2017
 - type: Security
   title: API security
   description: ''
   url: ''
   issue: ''
-  date: 01/01/2017
+  date: 04/29/2017
 - type: Portal
   title: Security page
   description: ''
   url: ''
   issue: ''
-  date: 01/01/2017
+  date: 04/30/2017
 - type: Communications
   title: Communicate security
   description: ''
   url: ''
   issue: ''
-  date: 01/01/2017
+  date: 05/01/2017
 - type: Licensing
   title: API licensing
   description: ''
   url: ''
   issue: ''
-  date: 01/01/2017
+  date: 05/02/2017
 - type: Licensing
   title: Schema licensing
   description: ''
   url: ''
   issue: ''
-  date: 01/01/2017
+  date: 05/03/2017
 - type: Licensing
   title: Data licensing
   description: ''
   url: ''
   issue: ''
-  date: 01/01/2017
+  date: 05/04/2017
 - type: Licensing
   title: Code licensing
   description: ''
   url: ''
   issue: ''
-  date: 01/01/2017
+  date: 05/05/2017
 - type: Communications
   title: Communicate licensing
   description: ''
   url: ''
   issue: ''
-  date: 01/01/2017
+  date: 05/06/2017
 - type: Branding
   title: Branding
   description: ''
   url: ''
   issue: ''
-  date: 01/01/2017
+  date: 05/07/2017
 - type: Discovery
   title: Discovery
   description: ''
   url: ''
   issue: ''
-  date: 01/01/2017
+  date: 05/08/2017
 - type: Discovery
   title: APIs.json
   description: ''
   url: ''
   issue: ''
-  date: 01/01/2017
+  date: 05/09/2017
 - type: Discovery
   title: Postman collection
   description: ''
   url: ''
   issue: ''
-  date: 01/01/2017
+  date: 05/10/2017
 - type: Webhooks
   title: Webhooks
   description: ''
   url: ''
   issue: ''
-  date: 01/01/2017
+  date: 05/11/2017
 - type: Portal
   title: Webhook page
   description: ''
   url: ''
   issue: ''
-  date: 01/01/2017
+  date: 05/12/2017
 - type: Management
   title: Webhook API
   description: ''
   url: ''
   issue: ''
-  date: 01/01/2017
+  date: 05/13/2017
 - type: Communications
   title: Announce Webhook API
   description: ''
   url: ''
   issue: ''
-  date: 01/01/2017
+  date: 05/14/2017
 - type: Logging
   title: Logging
   description: ''
   url: ''
   issue: ''
-  date: 01/01/2017
+  date: 05/15/2017
 - type: Management
   title: Logging API
   description: ''
   url: ''
   issue: ''
-  date: 01/01/2017
+  date: 05/16/2017
 - type: Communications
   title: Announce Logging API
   description: ''
   url: ''
   issue: ''
-  date: 01/01/2017
+  date: 05/17/2017
 - type: Integration
   title: Integrations
   description: ''
   url: ''
   issue: ''
-  date: 01/01/2017
+  date: 05/18/2017
 - type: Portal
   title: Integration Page
   description: ''
   url: ''
   issue: ''
-  date: 01/01/2017
+  date: 05/19/2017
 - type: Integration
   title: Integration API
   description: ''
   url: ''
   issue: ''
-  date: 01/01/2017
+  date: 05/20/2017
 - type: Communications
   title: Announce Integration API
   description: ''
   url: ''
   issue: ''
-  date: 01/01/2017
+  date: 05/21/2017
 - type: Evangelism
   title: Developer Page
   description: ''
   url: ''
   issue: ''
-  date: 01/01/2017
+  date: 05/22/2017
 - type: Evangelism
   title: Developer API
   description: ''
   url: ''
   issue: ''
-  date: 01/01/2017
+  date: 05/23/2017
 - type: Evangelism
   title: Communicate Developer
   description: ''
   url: ''
   issue: ''
-  date: 01/01/2017
+  date: 05/24/2017
 - type: Evangelism
   title: Applications Page
   description: ''
   url: ''
   issue: ''
-  date: 01/01/2017
+  date: 05/25/2017
 - type: Evangelism
   title: Communicate Applications
   description: ''
   url: ''
   issue: ''
-  date: 01/01/2017
+  date: 05/26/2017
