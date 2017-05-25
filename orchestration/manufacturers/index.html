@@ -51,7 +51,7 @@ title: Update Spreadsheet
       $.each( tabletop.sheets($resource).all(), function(i, service) {
 
           $p = {};
-          $.each(service).all(), function($key, $value) {
+          $.each(service, function($key, $value) {
             $p[$key] = $value;
             $products.push($p);
           });
@@ -59,9 +59,6 @@ title: Update Spreadsheet
           $count++;
           if($count==$total_count)
             {
-            //$products_json = JSON.stringify($products);
-            //$products_json = JSON.stringify(JSON.parse($products_json),null,2);
-
             $yaml_dump = jsyaml.dump($products);
 
             document.getElementById('source').value = $yaml_dump;
