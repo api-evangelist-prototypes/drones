@@ -69,14 +69,26 @@ title: Drone Prototype
 	</span>
 </section>
 
-<!-- Banner -->
+<!-- FAQ -->
+{% assign faq = site.data.faq.index[0] %}
+{% assign faq_categories = site.data.faq_categories.index[0] %}
+{% assign faq_questions = site.data.faq_questions.index[0] %}
 <section id="banner">
 	<div class="content">
-		{% assign faq = site.data.faq.index[0] %}
 		<header>
 			<h2>{{ faq.title }}</h2>
 		</header>
 		<p>{{ faq.header }}</p>
+			{% for categories in faq_categories %}
+				<p><strong>{{ categories.category }}</strong></p>
+				<ul>
+				{% for questions in faq_questions %}
+					{% if categories.category == questions.category %}
+						<li><a name="{{ slug }}"></a><strong>{{ questions.question }}</strong> - {{ questions.answer }}</li>
+					{% endif %}
+				{% endfor %}
+				</ul>
+			{% endfor %}
 		<p>{{ faq.footer }}</p>
 	</div>
 	<span class="image object">
