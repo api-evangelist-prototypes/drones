@@ -221,15 +221,28 @@ title: Drone Prototype
 	</span>
 </section>
 
-<!-- Banner -->
+<!-- Support -->
+{% assign support = site.data.support.index[0] %}
+{% assign support_resources = site.data.support_resources.index[0] %}
 <section id="banner">
 	<div class="content">
 		<header>
-			<h2>Support</h2>
+			<h2>{{ support.title }}</h2>
 		</header>
-		<p></p>
+		<p>{{ support.header }}</p>
+		<table cellpadding="10" cellspacing="10" width="100%">
+			<tr>
+			{% for resource in support_resources %}
+				<td align="center" valign="top">
+					<a href="{{ resource.url }}"><img src="{{ resource.image }}" width="75" align="center"></a>
+					<a href="{{ resource.url }}">{{ resource.title }}</a>
+				</td>
+			{% endfor %}
+			</tr>
+		</table>
+		<p>{{ support.footer }}</p>
 	</div>
 	<span class="image object">
-		<img src="/images/kin-lane-api-evangelist-cartoon.png" alt="" width="25%" />
+		<img src="{{ support.image }}" alt="" width="25%" />
 	</span>
 </section>
