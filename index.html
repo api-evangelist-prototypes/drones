@@ -164,6 +164,7 @@ title: Drone Prototype
 		</header>
 		<p>{{ change_log.header }}</p>
 		<center>
+		<div style="height: 600px; overflow:auto;">
 		<table cellpadding="10" cellspacing="10" width="90%" class="table-wrapper">
 			{% for entry in change_log_entries %}
 				<tr>
@@ -173,6 +174,7 @@ title: Drone Prototype
 				</tr>
 			{% endfor %}
 		</table>
+		</div>
 		</center>
 		<p>{{ change_log.footer }}</p>
 	</div>
