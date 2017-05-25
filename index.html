@@ -103,7 +103,7 @@ title: Drone Prototype
 			<h2>Drone APIs</h2>
 		</header>
 
-		<table cellpadding="3" cellspacing="2" width="100%" border="0" style="border: 0px; background-color:#FFF;">
+		<table cellpadding="3" cellspacing="2" width="100%" border="0" style="border-color: #FFF; background-color:#FFF;">
 
 		{% assign apijson = site.data.apis %}
 		{% assign apicommons = site.data.api-commons %}
@@ -235,10 +235,10 @@ title: Drone Prototype
 		                    {% endif %}
 
 		                    <tr>
-		                      <td align="left" style="font-size: 18px; font-weight: bold; padding: 10px;">
+		                      <td align="left" style="font-size: 18px; font-weight: bold; padding: 10px; border-color: #FFF; background-color:#FFF;">
 		                        {{ api.name }}
 		                      </td>
-		                      <td align="right" style="padding: 10px;">
+		                      <td align="right" style="padding: 10px; border-color: #FFF; background-color:#FFF;">
 		                          <strong>OpenAPI:</strong>
 		                          (<a href="https://raw.githubusercontent.com/{{ site.github_user }}/{{ site.github_repo }}/master/_data/api-commons/openapi.yaml" target="_blank" title="YAML OpenAPI" style="font-size: 16px; font-weight: normal;">YAML</a>)
 		                          (<a href="{{ site.url }}data/openapi.json" target="_blank" title="View OpenAPI Spec" style="font-size: 16px; font-weight: normal;">JSON</a>)
@@ -250,7 +250,7 @@ title: Drone Prototype
 		                    <tr id="methods-for-{{ pathname }}">
 		                      <td colspan="2">
 
-		                        <table width="95%" border="0" style="margin-left: 15px; border: 0px; background-color:#FFF;">
+		                        <table width="95%" border="0" style="margin-left: 15px; border-color: #FFF; background-color:#FFF;">
 		                          {% assign taglist = '' %}
 	                            {% for path in openapi_spec.paths %}
 
