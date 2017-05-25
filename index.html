@@ -232,8 +232,8 @@ title: Drone Prototype
 		                      </tr>
 		                    {% endif %}
 
-		                    <tr style="border: 1px solid #FFF;">
-		                      <td align="left" style="font-size: 18px; font-weight: bold; padding: 10px; border-color: #FFF; background-color:#FFF;">
+		                    <tr>
+		                      <td align="left" style="font-size: 18px; font-weight: bold; padding: 10px;">
 		                        {{ api.name }}
 		                      </td>
 		                      <td align="right" style="padding: 10px; border-color: #FFF; background-color:#FFF;">
@@ -512,7 +512,7 @@ title: Drone Prototype
 													<td colspan="5"><a name="definitions"></a><br /><br /></td>
 												</tr>
 												<tr>
-													<td align="left" style="font-size: 18px; font-weight: bold; padding: 10px;">Definitions</td>
+													<td align="left" style="font-size: 18px; font-weight: bold; padding: 10px;">{{ api.name }} Definitions</td>
 													<td colspan="5" align="right" style="padding: 10px;">
 														{% if json_schema_url != null and json_schema_url != empty %}
 															<a href="{{ site.url }}{{ json_schema_url }}" target="_blank" title="View JSON Schema" style="font-size: 16px; font-weight: normal;">JSON Schema</a>
