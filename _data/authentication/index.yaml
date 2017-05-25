@@ -1,5 +1,6 @@
 - title: Authentication For The Open Referral API
-  image: 'https://s3.amazonaws.com/kinlane-productions/bw-icons/bw-key-circle.png'
+  image: >-
+    http://drone.prototype.apievangelist.com/images/authentication-rectangular.png
   header: >-
     The Open Referral API is a publicly available API. There is no
     authentication required to just GET, or read information. It is publicly
