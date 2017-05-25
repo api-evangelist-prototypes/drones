@@ -1,16 +1,66 @@
-- title: Test Roadmap Item
-  description: This is the description for this road map item.
+- type: Discovery
+  title: Marketplace
+  description: >-
+    Deployment of an application, API, ML, Bot, and Voice marketplace where API
+    consumers can publish their tooling, and the platform takes a piece of the
+    action.
   url: 'https://github.com/api-evangelist-prototypes/drones/issues'
   date: '2017-03-01T01:30:33Z'
-- title: Test Roadmap Item
-  description: This is the description for this road map item.
+- type: Management
+  title: Marketplace API
+  description: >-
+    Publish an API for the marketplace allowing programmatic access to all
+    aspects of the marketplace for developers.
   url: 'https://github.com/api-evangelist-prototypes/drones/issues'
   date: '2017-03-01T01:30:33Z'
-- title: Test Roadmap Item
-  description: This is the description for this road map item.
+- type: Portal
+  title: Marketplace Page
+  description: >-
+    Publish a portion of the developer portal as the marketplace, and make
+    visible from the landing page and the global navigation.
+  url: ''
+  date: ''
+- type: Communication
+  title: Communicate Marketplace
+  description: 'Communicate to the community about the marketplace, and what it offers.'
   url: 'https://github.com/api-evangelist-prototypes/drones/issues'
   date: '2017-03-01T01:30:33Z'
-- title: Test Roadmap Item
-  description: This is the description for this road map item.
+- type: Partners
+  title: Partner Program
+  description: >-
+    Establish a formal partner program to allow some trusted API consumers to be
+    brought closer in on the process, and have access to additional resources.
   url: 'https://github.com/api-evangelist-prototypes/drones/issues'
   date: '2017-03-01T01:30:33Z'
+- type: Management
+  title: Partner API
+  description: >-
+    Publish an API for the partner program allowing programmatic access to all
+    aspects of the partner program.
+  url: ''
+  date: ''
+- type: Portal
+  title: Partner Page
+  description: ''
+  url: ''
+  date: ''
+- type: Partners
+  title: Affiliate Program
+  description: ''
+  url: ''
+  date: ''
+- type: Management
+  title: Affiliate API
+  description: ''
+  url: ''
+  date: ''
+- type: Portal
+  title: Affiliate Page
+  description: ''
+  url: ''
+  date: ''
+- type: Communication
+  title: Communicate Affiliate
+  description: ''
+  url: ''
+  date: ''
