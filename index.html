@@ -103,7 +103,7 @@ title: Drone Prototype
 			<h2>Drone APIs</h2>
 		</header>
 
-		<table cellpadding="3" cellspacing="2" width="100%" border="0" style="margin-top: 0px;">
+		<table cellpadding="3" cellspacing="2" width="100%" border="0" style="border: 0px; background-color:#FFF;">
 
 		{% assign apijson = site.data.apis %}
 		{% assign apicommons = site.data.api-commons %}
@@ -173,7 +173,7 @@ title: Drone Prototype
 
 		  <tr>
 		    <td>
-		      <table width="100%" border="0" style="padding-top: 10px;">
+		      <table width="100%" border="0" style="padding-top: 10px; border: 0px; background-color:#FFF;">
 		        <tr>
 		        <td align="center" style="margin-left: 90px; margin-right: 90px;">
 
@@ -183,7 +183,7 @@ title: Drone Prototype
 		                {% assign api_action_url = '' %}
 		                {% for api in apijson.apis %}
 
-		                <table cellpadding="3" cellspacing="2" width="100%" border="0">
+		                <table cellpadding="3" cellspacing="2" width="100%" border="0" style="border: 0px; background-color:#FFF;">
 
 		                    {% assign api_action_spec = '' %}
 		                    {% assign api_action_url = '' %}
@@ -250,7 +250,7 @@ title: Drone Prototype
 		                    <tr id="methods-for-{{ pathname }}">
 		                      <td colspan="2">
 
-		                        <table width="95%" border="0" style="margin-left: 15px;">
+		                        <table width="95%" border="0" style="margin-left: 15px; border: 0px; background-color:#FFF;">
 		                          {% assign taglist = '' %}
 	                            {% for path in openapi_spec.paths %}
 
@@ -365,7 +365,7 @@ title: Drone Prototype
 		                                      <tr id="{{ slug }}-row" style="display: none;">
 		                                        <td colspan="4" style="padding: 15px;">
 
-		                                          <table width="90%" border="0" align="center">
+		                                          <table width="90%" border="0" align="center" style="border: 0px; background-color:#FFF;">
 
 		                                            <form id="{{ slug }}-headers">
 		                                            <!-- Begin Headers -->
