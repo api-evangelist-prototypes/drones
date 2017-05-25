@@ -31,29 +31,44 @@ title: Drone Prototype
 	</span>
 </section>
 
-<!-- Banner -->
+<!-- Getting Started -->
 <section id="banner">
 	<div class="content">
+		{% assign index = site.data.api-commons.api-getting_started %}
+		{% assign getting_started = index[0] %}
+		{% assign index = site.data.api-commons.api-getting_started_steps %}
+		{% assign getting_started_steps = index[0] %}
 		<header>
-			<h2>Getting Started</h2>
+			<h2>{{ getting_started.title }}</h2>
 		</header>
-		<p></p>
+		<p>{{ getting_started.header }}</p>
+		  <ol style="list-style-type: decimal; padding-left: 35px;">
+		    {% for steps in getting_started_steps %}
+					{% if steps.title == getting_started.title %}
+						<li><a href="{{ steps.url }}"><strong>{{ steps.title }}</strong></a></li>
+					{% endif %}
+		    {% endfor %}
+		  </ol>
+		<p>{{ getting_started.footer }}</p>
 	</div>
 	<span class="image object">
-		<img src="/images/kin-lane-api-evangelist-cartoon.png" alt="" width="25%" />
+		<img src="{{ apigettingstarted.image }}" alt="" width="25%" />
 	</span>
 </section>
 
-<!-- Banner -->
+<!-- Authentication -->
 <section id="banner">
 	<div class="content">
+		{% assign index = site.data.api-commons.api-authentication %}
+		{% assign authentication = index[0] %}
 		<header>
-			<h2>Authentication</h2>
+			<h2>{{ authentication.title }}</h2>
 		</header>
-		<p></p>
+		<p>{{ authentication.header }}</p>
+		<p>{{ apigettingstarted.footer }}</p>
 	</div>
 	<span class="image object">
-		<img src="/images/kin-lane-api-evangelist-cartoon.png" alt="" width="25%" />
+		<img src="{{ authentication.image }}" alt="" width="25%" />
 	</span>
 </section>
 
