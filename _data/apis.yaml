@@ -65,7 +65,7 @@ apis:
       - type: x-openapi
         url: http://drone.prototype.apievangelist.com/apis/pilots/openapi.json
   - name: Accounts API
-    description: This is an API for managing API consumer accounts..
+    description: This is an API for managing API consumer accounts.
     image: http://drone.prototype.apievangelist.com/images/accounts.png
     humanURL: https://drone.prototype.apievangelist.com
     baseURL: https://drone.prototype.apievangelist.com
@@ -75,6 +75,17 @@ apis:
     properties:
       - type: x-openapi
         url: http://drone.prototype.apievangelist.com/apis/accounts/openapi.json
+  - name: Applications API
+    description: This is an API for managing applications consuming the API.
+    image: http://drone.prototype.apievangelist.com/images/applications.png
+    humanURL: https://drone.prototype.apievangelist.com
+    baseURL: https://drone.prototype.apievangelist.com
+    tags:
+      - Management
+      - Applications
+    properties:
+      - type: x-openapi
+        url: http://drone.prototype.apievangelist.com/apis/applications/openapi.json
 x-common:
   - type: x-support
     url: https://drone.prototype.apievangelist.com#Support

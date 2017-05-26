@@ -1,7 +1,7 @@
 swagger: '2.0'
 info:
-  title: Aircraft API
-  description: This is an API for managing aircraft.
+  title: Application API
+  description: This is an API for managing applications consuming the API.
   termsOfService: https://drone.prototype.apievangelist.com/terms-of-service/
   contact:
     name: API Evangelist
@@ -15,40 +15,47 @@ schemes:
 produces:
 - application/json
 paths:
-  /aircraft/:
+  /application/:
     get:
-      summary: Get Aircraft
-      description: Get Aircraft
-      operationId: getAircraft
+      summary: Get Application
+      description: Get Application
+      operationId: getApplication
       responses:
         '200':
-          description: Aircraft Response
+          description: Application Response
           schema:
             type: array
             items:
-              $ref: "#/definitions/aircraft"
+              $ref: "#/definitions/application"
       tags:
-      - Aircraft
+      - Management
+      - Application
 definitions:
-  aircraft:
+  application:
     properties:
-      aircraft-id:
-        description: The id of the aircraft.
+      application_id:
+        description: The id of the application.
+        type: string
+      account_id:
+        description: The name of the application.
+        type: string
+      plan_id:
+        description: The make of the application.
         type: string
       name:
-        description: The name of the aircraft.
-        type: string
-      make:
-        description: The make of the aircraft.
-        type: string
-      model:
-        description: The model of the aircraft.
+        description: The model of the application.
         type: string
       description:
-        description: The description for the aircraft.
+        description: The description for the application.
         type: string
-      image:
-        description: The image for the aircraft.
+      application_key:
+        description: The image for the application.
+        type: string
+      user_key:
+        description: The image for the application.
+        type: string
+      redirect_url:
+        description: The image for the application.
         type: string
     required:
-      - id
+      - application_id
