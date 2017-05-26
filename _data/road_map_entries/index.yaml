@@ -5,40 +5,40 @@
     consumers can publish their tooling, and the platform takes a piece of the
     action.
   url: 'https://github.com/api-evangelist-prototypes/drones/issues'
-  date: '2017-03-01T01:30:33Z'
+  date: 05/01/2017
 - type: Management
   title: Marketplace API
   description: >-
     Publish an API for the marketplace allowing programmatic access to all
     aspects of the marketplace for developers.
   url: 'https://github.com/api-evangelist-prototypes/drones/issues'
-  date: '2017-03-01T01:30:33Z'
+  date: 05/02/2017
 - type: Portal
   title: Marketplace Page
   description: >-
     Publish a portion of the developer portal as the marketplace, and make
     visible from the landing page and the global navigation.
   url: ''
-  date: ''
+  date: 05/03/2017
 - type: Communication
   title: Communicate Marketplace
   description: 'Communicate to the community about the marketplace, and what it offers.'
   url: 'https://github.com/api-evangelist-prototypes/drones/issues'
-  date: '2017-03-01T01:30:33Z'
+  date: 05/04/2017
 - type: Partners
   title: Partner Program
   description: >-
     Establish a formal partner program to allow some trusted API consumers to be
     brought closer in on the process, and have access to additional resources.
   url: 'https://github.com/api-evangelist-prototypes/drones/issues'
-  date: '2017-03-01T01:30:33Z'
+  date: 05/05/2017
 - type: Management
   title: Partner API
   description: >-
     Publish an API for the partner program allowing programmatic access to all
     aspects of the partner program.
   url: ''
-  date: ''
+  date: 05/06/2017
 - type: Portal
   title: Partner Page
   description: >-
@@ -47,7 +47,7 @@
     partner status. Allow for showcasing of partner as part of the regular
     publishing workflow.
   url: ''
-  date: ''
+  date: 05/07/2017
 - type: Partners
   title: Affiliate Program
   description: >-
@@ -56,28 +56,28 @@
     publish the links anywhere on across their sites and applications, and get
     paid revenue based upon a percentage of sales.
   url: ''
-  date: ''
+  date: 05/08/2017
 - type: Management
   title: Affiliate API
   description: >-
     Publish an API for programmatically accessing all parts of the affiliate
     program, and integrating into external systems by platform users.
   url: ''
-  date: ''
+  date: 05/09/2017
 - type: Portal
   title: Affiliate Page
   description: >-
     Publish a dedicated page to the affiliate program and add any tooling to the
     private areas of platform users. 
   url: ''
-  date: ''
+  date: 05/10/2017
 - type: Communication
   title: Communicate Affiliate
   description: >-
     Communicate the affiliate program with partners, and the public, sharing
     stories about the opportunity to generate revenue through links.
   url: ''
-  date: ''
+  date: 05/11/2017
 - type: Evangelism
   title: Developer Certification
   description: >-
@@ -85,18 +85,18 @@
     developers to get certified, and other consumers to be able to engage with
     certified developers.
   url: ''
-  date: ''
+  date: 05/12/2017
 - type: Deployment
   title: Image API
   description: >-
     We need an image API to manage still photos taken as part of drone
     operation, as well as part of post production.
   url: ''
-  date: ''
+  date: 05/13/2017
 - type: Deployment
   title: Video API
   description: >-
     We also need a video API to manage the video portion of drone operation as
     well as the post production video stuff.
   url: ''
-  date: ''
+  date: 05/14/2017
