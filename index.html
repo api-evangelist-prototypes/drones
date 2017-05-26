@@ -252,6 +252,7 @@ title: Drone Prototype
 
 		                        <table width="95%" border="0" style="margin-left: 15px; border-color: #FFF; background-color:#FFF;">
 		                          {% assign taglist = '' %}
+															{% assign basePath = openapi_spec.basePath %}
 	                            {% for path in openapi_spec.paths %}
 
 	                              {% assign this_path = path[0] %}
@@ -481,7 +482,7 @@ title: Drone Prototype
 		                                            </tr>
 		                                            <tr>
 		                                              <td align="center"s tyle="font-size: 12px; padding: 25px;">
-		                                                <button type="button" class="btn btn-success" onclick="getRequest('{{ slug }}','{{ path[0] }}','{{ api_url }}');">Make API Request</button>
+		                                                <button type="button" class="btn btn-success" onclick="getRequest('{{ slug }}','{{ basePath }}','{{ path[0] }}','{{ api_url }}');">Make API Request</button>
 		                                              </td>
 		                                            </tr>
 		                                          </table>
@@ -728,10 +729,10 @@ title: Drone Prototype
       }
     }
 
-   function getRequest($slug,$path,$url)
+   function getRequest($slug,$basePath,$path,$url)
     {
 
-    $api_url = $url + $path;
+    $api_url = $url + $basePath + $path;
 
     document.getElementById($slug+'-loading').style.display = '';
 
