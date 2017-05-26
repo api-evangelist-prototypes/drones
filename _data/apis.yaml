@@ -96,7 +96,18 @@ apis:
       - Billing
     properties:
       - type: x-openapi
-        url: http://drone.prototype.apievangelist.com/apis/billing/openapi.json        
+        url: http://drone.prototype.apievangelist.com/apis/billing/openapi.json
+  - name: Developer API
+    description: This is an API for managing developers part of the showcase.
+    image: http://drone.prototype.apievangelist.com/images/developers.png
+    humanURL: https://drone.prototype.apievangelist.com
+    baseURL: https://drone.prototype.apievangelist.com
+    tags:
+      - Management
+      - Developers
+    properties:
+      - type: x-openapi
+        url: http://drone.prototype.apievangelist.com/apis/developers/openapi.json
 x-common:
   - type: x-support
     url: https://drone.prototype.apievangelist.com#Support

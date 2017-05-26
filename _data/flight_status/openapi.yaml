@@ -32,20 +32,20 @@ paths:
 definitions:
   flight_status:
     properties:
-      flight-status-id:
+      flight_status_id:
         description: The unique id for the flight status.
         type: string
       timestamp:
         description: The timestamp for the flight status.
         type: string
-      pilot-id:
+      pilot_id:
         description: The pilots uniqud id for flight status.
         type: string
-      aircraft-id:
+      aircraft_id:
         description: The unique aircraft id for this flight status.
         type: string
       status:
         description: The actual status for the flight.
         type: string
     required:
-      - id
+      - flight_status_id

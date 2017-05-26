@@ -26,26 +26,26 @@ paths:
           schema:
             type: array
             items:
-              $ref: "#/definitions/flights"
+              $ref: "#/definitions/flight"
       tags:
       - Flights
 definitions:
-  flights:
+  flight:
     properties:
-      flight-id:
+      flight_id:
         description: The unique id for this flight.
         type: string
-      pilot-id:
+      pilot_id:
         description: The pilots unique id for this flight.
         type: string
-      aircraft-id:
+      aircraft_id:
         description:  The aircraft unique id for this flight.
         type: string
-      start-time:
+      start_time:
         description: The start timestamp for the flight.
         type: string
-      end-time:
+      end_time:
         description: The end timestamp for the flight.
         type: string
     required:
-      - id
+      - flight_id

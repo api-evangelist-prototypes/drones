@@ -1,7 +1,7 @@
 swagger: '2.0'
 info:
-  title: Aircraft API
-  description: This is an API for managing aircraft.
+  title: Developers API
+  description: This is an API for managing developers part of the showcase.
   termsOfService: https://drone.prototype.apievangelist.com/terms-of-service/
   contact:
     name: API Evangelist
@@ -15,40 +15,43 @@ schemes:
 produces:
 - application/json
 paths:
-  /aircraft/:
+  /developers/:
     get:
-      summary: Get Aircraft
-      description: Get Aircraft
-      operationId: getAircraft
+      summary: Get developers
+      description: Get Developers
+      operationId: getDeveloper
       responses:
         '200':
-          description: Aircraft Response
+          description: Developer Response
           schema:
             type: array
             items:
-              $ref: "#/definitions/aircraft"
+              $ref: "#/definitions/developer"
       tags:
-      - Aircraft
+      - Developer
 definitions:
-  aircraft:
+  developer:
     properties:
-      aircraft-id:
-        description: The id of the aircraft.
+      developer_id:
+        description: The unique developer id of the developer.
         type: string
       name:
-        description: The name of the aircraft.
-        type: string
-      make:
-        description: The make of the aircraft.
-        type: string
-      model:
-        description: The model of the aircraft.
+        description: The name of the developer.
         type: string
       description:
-        description: The description for the aircraft.
+        description: The make of the developer.
         type: string
       image:
-        description: The image for the aircraft.
+        description: The model of the developer.
+        type: string
+      url:
+        description: The description for the developer.
+        type: string
+      twitter:
+        description: The image for the developer.
+        type: string
+      github:
+        description: The image for the developer.
         type: string
     required:
-      - id
+      - developer_id

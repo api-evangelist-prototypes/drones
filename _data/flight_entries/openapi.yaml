@@ -32,7 +32,7 @@ paths:
 definitions:
   flight_entry:
     properties:
-      flight-entry-id:
+      flight_entry_id:
         description: The unique id for the flight entry.
         type: string
       timestamp:
