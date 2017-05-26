@@ -238,7 +238,7 @@ title: Drone Prototype
 		                      <td align="left" style="font-size: 18px; font-weight: bold; padding: 10px;">
 		                        {{ api.name }}
 		                      </td>
-		                      <td align="right" style="padding: 10px; border-color: #FFF; background-color:#FFF;">
+		                      <td align="right" style="padding: 10px; background-color:#FFF;">
 		                          <strong>OpenAPI:</strong>
 		                          (<a href="https://raw.githubusercontent.com/{{ site.github_user }}/{{ site.github_repo }}/master/_data/api-commons/openapi.yaml" target="_blank" title="YAML OpenAPI" style="font-size: 16px; font-weight: normal;">YAML</a>)
 		                          (<a href="{{ site.url }}data/openapi.json" target="_blank" title="View OpenAPI Spec" style="font-size: 16px; font-weight: normal;">JSON</a>)
@@ -467,20 +467,20 @@ title: Drone Prototype
 		                                            <!-- End Parameters -->
 		                                            </form>
 
-		                                            <tr>
+		                                            <tr style="border: 1px solid #FFF;">
 		                                              <td style="font-size: 12px; padding: 5px; text-align: center;"><strong>Response</strong></td>
 		                                            </tr>
-		                                            <tr>
+		                                            <tr style="border: 1px solid #FFF;">
 		                                              <td style="font-size: 12px; padding: 10px;">
 		                                                <textarea id="{{ slug }}-response" style="overflow: auto; height: 5px; width: 100%; border: 0px solid #FFF;"></textarea>
 		                                              </td>
 		                                            </tr>
-		                                            <tr id="{{ slug }}-loading" style="display: none;">
+		                                            <tr id="{{ slug }}-loading" style="display: none; border: 1px solid #FFF;">
 		                                              <td align="center">
 		                                                <img src="/images/loading.gif" />
 		                                              </td>
 		                                            </tr>
-		                                            <tr>
+		                                            <tr style="border: 1px solid #FFF;">
 		                                              <td align="center"s tyle="font-size: 12px; padding: 25px;">
 		                                                <button type="button" class="btn btn-success" onclick="getRequest('{{ slug }}','{{ basePath }}','{{ path[0] }}','{{ api_url }}');">Make API Request</button>
 		                                              </td>
