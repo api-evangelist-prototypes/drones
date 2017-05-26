@@ -1,12 +1,12 @@
 - title: Github
   description: Contact us using Github issues.
-  image: 'https://s3.amazonaws.com/kinlane-productions/bw-icons/bw-github.png'
+  image: 'http://drone.prototype.apievangelist.com/images/bw-github.png'
   url: 'https://github.com/api-evangelist-prototypes/drones/issues'
 - title: Twitter
   description: Find us on Twitter and we can help you.
-  image: 'https://s3.amazonaws.com/kinlane-productions/bw-icons/bw-twitter-icon.png'
+  image: 'http://drone.prototype.apievangelist.com/images/bw-twitter-icon.png'
   url: 'https://twitter.com/apievangelist/'
 - title: Email
   description: Feel free to email us.
-  image: 'https://s3.amazonaws.com/kinlane-productions/bw-icons/bw-email-at.png'
+  image: 'http://drone.prototype.apievangelist.com/images/bw-email-at.png'
   url: 'mailto:info@apievangelist.com'
