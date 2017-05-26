@@ -691,11 +691,16 @@ title: Drone Prototype
 			<h2>{{ support.title }}</h2>
 		</header>
 		<p>{{ support.header }}</p>
-		{% for resource in support_resources %}
-				<a href="{{ resource.url }}"><img src="{{ resource.image }}" width="75" align="center"></a><br />
-				<a href="{{ resource.url }}">{{ resource.title }}</a>
-			</td>
-		{% endfor %}
+		<table cellpadding="10" cellspacing="10" width="100%">
+			<tr>
+			{% for resource in support_resources %}
+				<td align="center" valign="top">
+					<a href="{{ resource.url }}"><img src="{{ resource.image }}" width="75" align="center"></a>
+					<a href="{{ resource.url }}">{{ resource.title }}</a>
+				</td>
+			{% endfor %}
+			</tr>
+		</table>
 		<p>{{ support.footer }}</p>
 	</div>
 	<span class="image object">
@@ -703,6 +708,20 @@ title: Drone Prototype
 	</span>
 </section>
 
+<!-- Banner -->
+<section id="banner">
+	<div class="content">
+		<header>
+			<h2>About My Work</h2>
+		</header>
+		<p>API Evangelist prototypes are how I explore the API lifecycle as it is applied to different industries, and types of digital resources. I'm able to not just able to easily mock an API, I'm able to mock the API operations, while telling the story of it as I flesh out the details of an operation.</p>
+		<p>These prototypes are part of a new type of storytelling I'm exploring when it comes to helping folks understand the best practices emerging in the API space. If you'd like to invest in storytelling like this, feel free to drop me an email, and I'll see what I can do. I am always looking for new ways to investigate how APIs can be applied when it comes to government, healthcare, financial, and any other industry--I find the process fascinating, and need the work!</p>
+		<p>Thanks for tuning in. Make sure and come back regularly as this project is living and will continually change as I have new ideas I would like to explore as part of my drone API research, or as I get more investment from a provider, or other company interested in exploring what is possible. Everything here is on Github, so feel free to fork, and run with, or submit an issue of something you want to see.</p>
+	</div>
+	<span class="image object">
+		<img src="http://drone.prototype.apievangelist.com/images/kin-lane-drone-catch.png" alt="" width="10%" />
+	</span>
+</section>
 
 <script type="text/javascript">
 
