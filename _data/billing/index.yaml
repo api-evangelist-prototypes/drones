@@ -1,70 +1,40 @@
-- aircraft-id: aircraft-one
-  manufacturer-id: manufacturer-one
-  name: Aircraft One
-  make: Drone Make
-  model: Drone Model
-  description: This is the description of this drone.
-  image: 'https://s3.amazonaws.com/kinlane-productions/bw-icons/bw-drone-landing.png'
-- aircraft-id: aircraft-two
-  manufacturer-id: manufacturer-one
-  name: Aircraft Two
-  make: Drone Make
-  model: Drone Model
-  description: This is the description of this drone.
-  image: 'https://s3.amazonaws.com/kinlane-productions/bw-icons/bw-drone-landing.png'
-- aircraft-id: aircraft-three
-  manufacturer-id: manufacturer-one
-  name: Aircraft Three
-  make: Drone Make
-  model: Drone Model
-  description: This is the description of this drone.
-  image: 'https://s3.amazonaws.com/kinlane-productions/bw-icons/bw-drone-landing.png'
-- aircraft-id: aircraft-four
-  manufacturer-id: manufacturer-one
-  name: Aircraft Four
-  make: Drone Make
-  model: Drone Model
-  description: This is the description of this drone.
-  image: 'https://s3.amazonaws.com/kinlane-productions/bw-icons/bw-drone-landing.png'
-- aircraft-id: aircraft-five
-  manufacturer-id: manufacturer-one
-  name: Aircraft Five
-  make: Drone Make
-  model: Drone Model
-  description: This is the description of this drone.
-  image: 'https://s3.amazonaws.com/kinlane-productions/bw-icons/bw-drone-landing.png'
-- aircraft-id: aircraft-six
-  manufacturer-id: manufacturer-two
-  name: Aircraft Six
-  make: Drone Make
-  model: Drone Model
-  description: This is the description of this drone.
-  image: 'https://s3.amazonaws.com/kinlane-productions/bw-icons/bw-drone-landing.png'
-- aircraft-id: aircraft-seven
-  manufacturer-id: manufacturer-two
-  name: Aircraft Seven
-  make: Drone Make
-  model: Drone Model
-  description: This is the description of this drone.
-  image: 'https://s3.amazonaws.com/kinlane-productions/bw-icons/bw-drone-landing.png'
-- aircraft-id: aircraft-eight
-  manufacturer-id: manufacturer-two
-  name: Aircraft Eight
-  make: Drone Make
-  model: Drone Model
-  description: This is the description of this drone.
-  image: 'https://s3.amazonaws.com/kinlane-productions/bw-icons/bw-drone-landing.png'
-- aircraft-id: aircraft-nine
-  manufacturer-id: manufacturer-two
-  name: Aircraft Nine
-  make: Drone Make
-  model: Drone Model
-  description: This is the description of this drone.
-  image: 'https://s3.amazonaws.com/kinlane-productions/bw-icons/bw-drone-landing.png'
-- aircraft-id: aircraft-ten
-  manufacturer-id: manufacturer-two
-  name: Aircraft Ten
-  make: Drone Make
-  model: Drone Model
-  description: This is the description of this drone.
-  image: 'https://s3.amazonaws.com/kinlane-productions/bw-icons/bw-drone-landing.png'
+- billing_id: '1'
+  account_id: account-one
+  month: January
+  amount: $50.00
+- billing_id: '2'
+  account_id: account-one
+  month: February
+  amount: $50.00
+- billing_id: '3'
+  account_id: account-two
+  month: March
+  amount: $125.00
+- billing_id: '4'
+  account_id: account-two
+  month: April
+  amount: $125.00
+- billing_id: '5'
+  account_id: account-three
+  month: May
+  amount: $125.00
+- billing_id: '6'
+  account_id: account-three
+  month: June
+  amount: $75.00
+- billing_id: '7'
+  account_id: account-four
+  month: July
+  amount: $75.00
+- billing_id: '8'
+  account_id: account-four
+  month: August
+  amount: $75.00
+- billing_id: '9'
+  account_id: account-five
+  month: September
+  amount: $75.00
+- billing_id: '10'
+  account_id: account-five
+  month: October
+  amount: $75.00
