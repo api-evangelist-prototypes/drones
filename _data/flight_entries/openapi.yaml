@@ -33,19 +33,19 @@ definitions:
   flight_entry:
     properties:
       flight-entry-id:
-        description:
+        description: The unique id for the flight entry.
         type: string
       timestamp:
-        description:
+        description: The timestamp for the flight entry.
         type: string
       latitude:
-        description:
+        description: The latitude for the flight entry.
         type: string
       longitude:
-        description:
+        description: The longitude for the flight entry.
         type: string
       altitude:
-        description:
+        description: The altitude for the flight entry.
         type: string
     required:
       - id
