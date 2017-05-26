@@ -41,8 +41,8 @@ definitions:
       aircraft-id:
         description:  The aircraft unique id for this flight.
         type: string
-      start-time: The start timestamp for the flight.
-        description:
+      start-time:
+        description: The start timestamp for the flight.
         type: string
       end-time:
         description: The end timestamp for the flight.
