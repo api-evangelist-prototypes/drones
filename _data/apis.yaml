@@ -108,6 +108,17 @@ apis:
     properties:
       - type: x-openapi
         url: http://drone.prototype.apievangelist.com/apis/developers/openapi.json
+  - name: Logging API
+    description: This is an API for managing logging across systems.
+    image: http://drone.prototype.apievangelist.com/images/logging.png
+    humanURL: https://drone.prototype.apievangelist.com
+    baseURL: https://drone.prototype.apievangelist.com
+    tags:
+      - Management
+      - Logging
+    properties:
+      - type: x-openapi
+        url: http://drone.prototype.apievangelist.com/apis/logging/openapi.json
 x-common:
   - type: x-support
     url: https://drone.prototype.apievangelist.com#Support
