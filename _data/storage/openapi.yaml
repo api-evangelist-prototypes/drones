@@ -1,7 +1,7 @@
 swagger: '2.0'
 info:
-  title: Aircraft API
-  description: This is an API for managing aircraft.
+  title: Storage API
+  description: This is an API for managing storage across the platform.
   termsOfService: https://drone.prototype.apievangelist.com/terms-of-service/
   contact:
     name: API Evangelist
@@ -15,40 +15,37 @@ schemes:
 produces:
 - application/json
 paths:
-  /aircraft/:
+  /storage/:
     get:
-      summary: Get Aircraft
-      description: Get Aircraft
-      operationId: getAircraft
+      summary: Get Storage
+      description: Get Storage
+      operationId: getStorage
       responses:
         '200':
-          description: Aircraft Response
+          description: Storage Response
           schema:
             type: array
             items:
-              $ref: "#/definitions/aircraft"
+              $ref: "#/definitions/storage"
       tags:
-      - Aircraft
+      - Storage
 definitions:
-  aircraft:
+  storage:
     properties:
-      aircraft-id:
-        description: The id of the aircraft.
+      storage_id:
+        description: The unique id of the storage item.
         type: string
       name:
-        description: The name of the aircraft.
+        description: The name of the storage item.
         type: string
-      make:
-        description: The make of the aircraft.
+      path:
+        description: The path for the storage item.
         type: string
-      model:
-        description: The model of the aircraft.
+      size:
+        description: The size of the storage item.
         type: string
-      description:
-        description: The description for the aircraft.
-        type: string
-      image:
-        description: The image for the aircraft.
+      modified:
+        description: The last time the item was modified.
         type: string
     required:
-      - id
+      - storage_id

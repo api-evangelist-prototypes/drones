@@ -141,6 +141,17 @@ apis:
     properties:
       - type: x-openapi
         url: http://drone.prototype.apievangelist.com/apis/plans/openapi.json
+  - name: Storage API
+    description: This is an API for managing storage across the platform.
+    image: http://drone.prototype.apievangelist.com/images/storage.png
+    humanURL: https://drone.prototype.apievangelist.com
+    baseURL: https://drone.prototype.apievangelist.com
+    tags:
+      - Management
+      - Storage
+    properties:
+      - type: x-openapi
+        url: http://drone.prototype.apievangelist.com/apis/storage/openapi.json
 x-common:
   - type: x-support
     url: https://drone.prototype.apievangelist.com#Support
