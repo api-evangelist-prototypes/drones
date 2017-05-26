@@ -202,7 +202,11 @@ title: Drone Prototype
 		                      {% if property.type == 'x-openapi' %}
 		                        {% assign openapi_spec_url = property.url %}
 														{% assign this_object = openapi_spec_url | replace: 'http://drone.prototype.apievangelist.com/apis/','' | replace: '/openapi.json','' %}
+														this_object: {{ this_object }}<br />
 														{% assign openapi_spec = site.data[this_object].openapi %}
+
+														HERE: {{ openapi_spec }}<br />
+
 		                      {% endif %}
 
 		                      {% if property.type == 'x-api-filters' %}
