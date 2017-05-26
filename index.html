@@ -183,7 +183,7 @@ title: Drone Prototype
 		                {% assign api_action_url = '' %}
 		                {% for api in apijson.apis %}
 
-		                <table width="100%" border="1" style="border: 0px solid #FFF; background-color:#FFF;">
+		                <table width="100%" border="1" style="border: 1px solid #000; background-color:#FFF;">
 
 		                    {% assign api_action_spec = '' %}
 		                    {% assign api_action_url = '' %}
@@ -248,7 +248,7 @@ title: Drone Prototype
 		                      <td align="center" colspan="2" style="padding: 20px 10px 10px 10px;"><strong>base url:</strong> {{ api.baseURL }}</td>
 		                    </tr>
 		                    <tr id="methods-for-{{ pathname }}" style="border: 1px solid #FFF;">
-		                      <td colspan="2" style="border: 1px solid #FFF; background-color:#FFF;" valign="top">
+		                      <td colspan="2" style="border: 1px solid #FFF; background-color: #FFF;" valign="top">
 
 		                        <table width="95%" border="0" style="margin-left: 15px; border-color: #FFF; background-color:#FFF;">
 		                          {% assign taglist = '' %}
