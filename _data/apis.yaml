@@ -130,6 +130,17 @@ apis:
     properties:
       - type: x-openapi
         url: http://drone.prototype.apievangelist.com/apis/messaging/openapi.json
+  - name: Plans API
+    description: This is an API for managing API access plans.
+    image: http://drone.prototype.apievangelist.com/images/plans.png
+    humanURL: https://drone.prototype.apievangelist.com
+    baseURL: https://drone.prototype.apievangelist.com
+    tags:
+      - Management
+      - Plans
+    properties:
+      - type: x-openapi
+        url: http://drone.prototype.apievangelist.com/apis/plans/openapi.json
 x-common:
   - type: x-support
     url: https://drone.prototype.apievangelist.com#Support
