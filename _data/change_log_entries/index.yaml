@@ -186,55 +186,92 @@
   date: 01/20/2017
 - type: Design
   title: Readablity
-  description: ''
+  description: >-
+    Always review the API design and check for readabililty. Can you scan the
+    design and understand what is going on. Naming, summary, and description are
+    always plain english and meant more for humans than for computers.
   url: ''
   issue: ''
   date: 01/21/2017
 - type: Design
   title: Relationships
-  description: ''
+  description: >-
+    Have we evaluated and considered the releationships between our APIs and the
+    resources we are making available. Are the relationships represented in the
+    design of our API?
   url: ''
   issue: ''
   date: 01/22/2017
 - type: Design
   title: Status
-  description: ''
+  description: >-
+    Take the time to evaluate the HTTP status codes returned across ALL API
+    requests. Are there more than just 200, 404, and 500 status codes available,
+    helping other systems truly understand what is going on with API responses.
   url: ''
   issue: ''
   date: 01/23/2017
 - type: Design
   title: Errors
-  description: ''
+  description: >-
+    Along with proper HTTP status codes is there a common definition model
+    defined to represent all errors that will be returned as part of API
+    responses. Is this definition represented in the OpenAPI with associates
+    with each individual API response definition.
   url: ''
   issue: ''
   date: 01/24/2017
 - type: Design
   title: Media Types
-  description: ''
+  description: >-
+    Is there a clear media type strategy in place outline what media types the
+    API will accept and respond with? Is content negotiation built into the
+    original design of the API, even if single media types are available in
+    early versions? Ideally all APIs respond with HTML, XML, JSON, and even CSV
+    to support a wide range of applications.
   url: ''
   issue: ''
   date: 01/25/2017
 - type: Design
   title: Hypermedia
-  description: ''
+  description: >-
+    What research has gone into leading hypermedia formats, contributing to the
+    overall design discussion for this API? Each API should evaluate the
+    benefits hypermedia would bring to the design and functionality as part of
+    the design process.
   url: ''
   issue: ''
   date: 01/26/2017
 - type: Design
   title: Standards
-  description: ''
+  description: >-
+    What other standards are missing from the design of our APIs and underlying
+    schema? Have we considered existing schema like Schema.org, and are we using
+    common standards for dates, currencies, and other elements of the design?
+    Take time to understand what standards already exist and avoid reinventing
+    the wheel whenever possible.
   url: ''
   issue: ''
   date: 01/27/2017
 - type: Definitions
   title: Update OpenAPI
-  description: ''
+  description: >-
+    Take everything we've learned and applied to the API's design and make sure
+    the OpenAPI reflects the API design change log, providing a machine readable
+    definition of the API surface area that has been hammered out as part of
+    this process.
   url: ''
   issue: ''
   date: 01/28/2017
 - type: Design
   title: Guide
-  description: ''
+  description: >-
+    Take a moment and gather up all the decisions made throughout the API design
+    process, and cumulatively with each API this process is applied, and
+    document them in a guide for standardization across all teams. The guide
+    should be evolved as the design process changes, and be published where all
+    team members can access and contribute, and even shared publicly when it
+    makes sense.
   url: ''
   issue: ''
   date: 01/29/2017
