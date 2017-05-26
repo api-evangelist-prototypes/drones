@@ -15,7 +15,7 @@ schemes:
 produces:
 - application/json
 paths:
-  /contacts/:
+  /aircraft/:
     get:
       summary: Get Aircraft
       description: Get Aircraft

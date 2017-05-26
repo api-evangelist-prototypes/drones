@@ -15,7 +15,7 @@ schemes:
 produces:
 - application/json
 paths:
-  /contacts/:
+  /flight-status/:
     get:
       summary: Get Flight Status
       description: Get Flight Status
