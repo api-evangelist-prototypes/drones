@@ -1,40 +1,40 @@
-- manufacturer-id: manufacturer-one
+- manufacturer_id: manufacturer-one
   name: Manufacturer One
   description: This is a description for this manufacturer.
   country: United States
-- manufacturer-id: manufacturer-two
+- manufacturer_id: manufacturer-two
   name: Manufacturer Two
   description: This is a description for this manufacturer.
   country: United States
-- manufacturer-id: manufacturer-three
+- manufacturer_id: manufacturer-three
   name: Manufacturer Three
   description: This is a description for this manufacturer.
   country: United States
-- manufacturer-id: manufacturer-four
+- manufacturer_id: manufacturer-four
   name: Manufacturer Four
   description: This is a description for this manufacturer.
   country: United States
-- manufacturer-id: manufacturer-five
+- manufacturer_id: manufacturer-five
   name: Manufacturer Five
   description: This is a description for this manufacturer.
   country: United States
-- manufacturer-id: manufacturer-six
+- manufacturer_id: manufacturer-six
   name: Manufacturer Six
   description: This is a description for this manufacturer.
   country: Canada
-- manufacturer-id: manufacturer-seven
+- manufacturer_id: manufacturer-seven
   name: Manufacturer Seven
   description: This is a description for this manufacturer.
   country: United Kingdom
-- manufacturer-id: manufacturer-eight
+- manufacturer_id: manufacturer-eight
   name: Manufacturer Eight
   description: This is a description for this manufacturer.
   country: United Kingdom
-- manufacturer-id: manufacturer-nine
+- manufacturer_id: manufacturer-nine
   name: Manufacturer Nine
   description: This is a description for this manufacturer.
   country: China
-- manufacturer-id: manufacturer-ten
+- manufacturer_id: manufacturer-ten
   name: Manufacturer Ten
   description: This is a description for this manufacturer.
   country: China
