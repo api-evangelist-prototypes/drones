@@ -38,8 +38,8 @@ definitions:
       pilot-id:
         description: The pilots unique id for this flight.
         type: string
-      aircraft-id: The aircraft unique id for this flight.
-        description:
+      aircraft-id:
+        description:  The aircraft unique id for this flight.
         type: string
       start-time: The start timestamp for the flight.
         description:
