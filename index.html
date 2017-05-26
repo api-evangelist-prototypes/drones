@@ -467,8 +467,8 @@ title: Drone Prototype
                                             <td style="font-size: 12px; padding: 5px; text-align: center;"><strong>Response</strong></td>
                                           </tr>
                                           <tr style="border: 1px solid #FFF;">
-                                            <td style="font-size: 12px; padding: 10px; height: 250px;">
-                                              <textarea id="{{ slug }}-response" style="overflow: auto; height: 100; width: 100%; border: 0px solid #FFF;"></textarea>
+                                            <td style="font-size: 12px; padding: 10px; height: 25px;">
+                                              <textarea id="{{ slug }}-response" style="overflow: auto; height: 100%; width: 100%; border: 0px solid #FFF;"></textarea>
                                             </td>
                                           </tr>
                                           <tr id="{{ slug }}-loading" style="display: none; border: 1px solid #FFF;">
@@ -785,7 +785,7 @@ title: Drone Prototype
           //console.log($viewer);
           document.getElementById($slug+'-response').value = $viewer;
           document.getElementById($slug+'-response').style.width = "100%";
-          document.getElementById($slug+'-response').style.height = "450px";
+          document.getElementById($slug+'-response').style.height = "250px";
 
         },
         error: function(XMLHttpRequest, textStatus, errorThrown) {
@@ -793,7 +793,7 @@ title: Drone Prototype
             $message = "Status: " + textStatus + "\nError: " + errorThrown;
             document.getElementById($slug+'-response').value = $$message;
             document.getElementById($slug+'-response').style.width = "100%";
-            document.getElementById($slug+'-response').style.height = "50px";
+            document.getElementById($slug+'-response').style.height = "10px";
         }
       });
 
