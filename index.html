@@ -346,13 +346,13 @@ title: Drone Prototype
 		                                      <tr style="border: 1px solid #FFF;">
 		                                        <td style="padding-left: 20px; font-size: 12px;">{{ summary }}</td>
 		                                        <td style="font-size: 12px;">{{ path[0] }}</td>
-		                                        <td align="center" style="width: 75px; background-color:#{{ back_color }}; font-weight: bold; font-size: 11px; color: #FFF;">
+		                                        <td align="center" style="padding: 0px; width: 75px; background-color:#{{ back_color }}; font-weight: bold; font-size: 11px; color: #FFF;">
 		                                          {{ verb }}
 		                                        </td>
 		                                        <td></td>
 		                                        <td style="width: 50px;"><button type="button" class="btn btn-default" onclick="showme('{{ slug }}-row'); return false;">Try</button></td>
 		                                      </tr>
-		                                      <tr id="{{ slug }}-row" style="display: none; border: 1px solid #FFF;
+		                                      <tr id="{{ slug }}-row" style="display: none; border: 1px solid #FFF;">
 		                                        <td colspan="5" style="padding: 15px;">
 
 		                                          <table width="90%" border="0" align="center" style="border-color:#FFF; background-color:#FFF;">
