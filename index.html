@@ -103,7 +103,7 @@ title: Drone Prototype
 			<h2>Drone APIs</h2>
 		</header>
 
-		<table cellpadding="3" cellspacing="2" width="100%" border="0" style="border: 0px solid #FFF; background-color:#FFF;">
+		<table width="100%" border="0">
 
 		{% assign apijson = site.data.apis %}
 		{% assign apicommons = site.data.api-commons %}
@@ -175,7 +175,7 @@ title: Drone Prototype
 		    <td style="border: 0px solid #FFF; background-color:#FFF;">
 		      <table width="100%" border="0" style="padding-top: 10px; border: 0px solid #FFF; background-color:#FFF;">
 		        <tr style="border: 1px solid #FFF;">
-		        <td align="center" style="margin-left: 90px; margin-right: 90px; border: 0px solid #FFF; background-color:#FFF;">
+		        <td align="center" style="margin-left: 60px; margin-right: 60px; border: 0px solid #FFF; background-color:#FFF;">
 
 		            {% assign api_action_url = '' %}
 		            {% assign numberofapis = apijson.apis | size %}
@@ -183,7 +183,7 @@ title: Drone Prototype
 		                {% assign api_action_url = '' %}
 		                {% for api in apijson.apis %}
 
-		                <table cellpadding="3" cellspacing="2" width="100%" border="0" style="border: 0px solid #FFF; background-color:#FFF;">
+		                <table width="100%" border="1" style="border: 0px solid #FFF; background-color:#FFF;">
 
 		                    {% assign api_action_spec = '' %}
 		                    {% assign api_action_url = '' %}
