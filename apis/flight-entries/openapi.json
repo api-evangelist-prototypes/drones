@@ -1,4 +1,4 @@
 ---
 layout: none
 ---
-{% assign show_json = site.data.products.openapi | json | replace: '=>', ':' %}{{ show_json }}
+{% assign show_json = site.data.flight-entries.openapi | json | replace: '=>', ':' %}{{ show_json }}

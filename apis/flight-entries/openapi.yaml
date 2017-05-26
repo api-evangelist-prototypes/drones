@@ -1,4 +1,4 @@
 ---
 layout: none
 ---
-{{ site.data.products.openapi }}
+{{ site.data.flight-entries.openapi }}

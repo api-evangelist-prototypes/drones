@@ -1,4 +1,4 @@
 ---
 layout: none
 ---
-{{ site.data.contactinfo.openapi }}
+{{ site.data.aircraft.openapi }}
