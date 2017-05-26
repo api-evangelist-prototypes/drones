@@ -1,50 +1,50 @@
-- flight-status-id: '1'
+- flight_status_id: '1'
   timestamp: '2017-05-18 09:00:00 Z'
-  pilot-id: pilot-one
-  aircraft-id: '1'
+  pilot_id: pilot-one
+  aircraft_id: '1'
   status: In-Flight
-- flight-status-id: '2'
+- flight_status_id: '2'
   timestamp: '2017-05-18 09:00:00 Z'
-  pilot-id: pilot-two
-  aircraft-id: '1'
+  pilot_id: pilot-two
+  aircraft_id: '1'
   status: In-Flight
-- flight-status-id: '3'
+- flight_status_id: '3'
   timestamp: '2017-05-18 09:00:00 Z'
-  pilot-id: pilot-three
-  aircraft-id: '1'
+  pilot_id: pilot-three
+  aircraft_id: '1'
   status: In-Flight
-- flight-status-id: '4'
+- flight_status_id: '4'
   timestamp: '2017-05-18 09:00:00 Z'
-  pilot-id: pilot-four
-  aircraft-id: '1'
+  pilot_id: pilot-four
+  aircraft_id: '1'
   status: In-Flight
-- flight-status-id: '5'
+- flight_status_id: '5'
   timestamp: '2017-05-18 09:00:00 Z'
-  pilot-id: pilot-five
-  aircraft-id: '1'
+  pilot_id: pilot-five
+  aircraft_id: '1'
   status: In-Flight
-- flight-status-id: '6'
+- flight_status_id: '6'
   timestamp: '2017-05-18 09:00:00 Z'
-  pilot-id: pilot-one
-  aircraft-id: '1'
+  pilot_id: pilot-one
+  aircraft_id: '1'
   status: In-Flight
-- flight-status-id: '7'
+- flight_status_id: '7'
   timestamp: '2017-05-18 09:00:00 Z'
-  pilot-id: pilot-two
-  aircraft-id: '1'
+  pilot_id: pilot-two
+  aircraft_id: '1'
   status: In-Flight
-- flight-status-id: '8'
+- flight_status_id: '8'
   timestamp: '2017-05-18 09:00:00 Z'
-  pilot-id: pilot-three
-  aircraft-id: '1'
+  pilot_id: pilot-three
+  aircraft_id: '1'
   status: In-Flight
-- flight-status-id: '9'
+- flight_status_id: '9'
   timestamp: '2017-05-18 09:00:00 Z'
-  pilot-id: pilot-four
-  aircraft-id: '1'
+  pilot_id: pilot-four
+  aircraft_id: '1'
   status: In-Flight
-- flight-status-id: '10'
+- flight_status_id: '10'
   timestamp: '2017-05-18 09:00:00 Z'
-  pilot-id: pilot-five
-  aircraft-id: '1'
+  pilot_id: pilot-five
+  aircraft_id: '1'
   status: In-Flight
