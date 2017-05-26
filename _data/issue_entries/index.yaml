@@ -2,12 +2,12 @@
   title: Developers
   description: We need more developers! How can we attract more users to our platforms?
   url: 'https://github.com/[org_name/[repo_name]/issue'
-  date: '2017-05-01'
+  date: 05/21/2017
 - type: Evangelism
   title: Applications
   description: We need more applicaitons to be developed on the platform.
   url: 'https://github.com/[org_name/[repo_name]/issue'
-  date: '2017-05-03'
+  date: 05/21/2017
 - type: Communications
   title: Stories
   description: >-
@@ -15,9 +15,9 @@
     on. Some should be created internally, but we should also be working to
     external things written about us.
   url: 'https://github.com/[org_name/[repo_name]/issue'
-  date: '2017-05-04'
-- type: ''
-  title: Issue Four
-  description: This is a test description.
+  date: 05/21/2017
+- type: Support
+  title: Feedback
+  description: We need more feedback on the schema and design of the API.
   url: 'https://github.com/[org_name/[repo_name]/issue'
-  date: '2017-05-12'
+  date: 05/21/2017
