@@ -1,70 +1,50 @@
-- aircraft-id: aircraft-one
-  manufacturer-id: manufacturer-one
-  name: Aircraft One
-  make: Drone Make
-  model: Drone Model
-  description: This is the description of this drone.
-  image: 'https://s3.amazonaws.com/kinlane-productions/bw-icons/bw-drone-landing.png'
-- aircraft-id: aircraft-two
-  manufacturer-id: manufacturer-one
-  name: Aircraft Two
-  make: Drone Make
-  model: Drone Model
-  description: This is the description of this drone.
-  image: 'https://s3.amazonaws.com/kinlane-productions/bw-icons/bw-drone-landing.png'
-- aircraft-id: aircraft-three
-  manufacturer-id: manufacturer-one
-  name: Aircraft Three
-  make: Drone Make
-  model: Drone Model
-  description: This is the description of this drone.
-  image: 'https://s3.amazonaws.com/kinlane-productions/bw-icons/bw-drone-landing.png'
-- aircraft-id: aircraft-four
-  manufacturer-id: manufacturer-one
-  name: Aircraft Four
-  make: Drone Make
-  model: Drone Model
-  description: This is the description of this drone.
-  image: 'https://s3.amazonaws.com/kinlane-productions/bw-icons/bw-drone-landing.png'
-- aircraft-id: aircraft-five
-  manufacturer-id: manufacturer-one
-  name: Aircraft Five
-  make: Drone Make
-  model: Drone Model
-  description: This is the description of this drone.
-  image: 'https://s3.amazonaws.com/kinlane-productions/bw-icons/bw-drone-landing.png'
-- aircraft-id: aircraft-six
-  manufacturer-id: manufacturer-two
-  name: Aircraft Six
-  make: Drone Make
-  model: Drone Model
-  description: This is the description of this drone.
-  image: 'https://s3.amazonaws.com/kinlane-productions/bw-icons/bw-drone-landing.png'
-- aircraft-id: aircraft-seven
-  manufacturer-id: manufacturer-two
-  name: Aircraft Seven
-  make: Drone Make
-  model: Drone Model
-  description: This is the description of this drone.
-  image: 'https://s3.amazonaws.com/kinlane-productions/bw-icons/bw-drone-landing.png'
-- aircraft-id: aircraft-eight
-  manufacturer-id: manufacturer-two
-  name: Aircraft Eight
-  make: Drone Make
-  model: Drone Model
-  description: This is the description of this drone.
-  image: 'https://s3.amazonaws.com/kinlane-productions/bw-icons/bw-drone-landing.png'
-- aircraft-id: aircraft-nine
-  manufacturer-id: manufacturer-two
-  name: Aircraft Nine
-  make: Drone Make
-  model: Drone Model
-  description: This is the description of this drone.
-  image: 'https://s3.amazonaws.com/kinlane-productions/bw-icons/bw-drone-landing.png'
-- aircraft-id: aircraft-ten
-  manufacturer-id: manufacturer-two
-  name: Aircraft Ten
-  make: Drone Make
-  model: Drone Model
-  description: This is the description of this drone.
-  image: 'https://s3.amazonaws.com/kinlane-productions/bw-icons/bw-drone-landing.png'
+- storage_id: item-one
+  name: Item One
+  path: /path/to/the/image.jpg
+  size: 1MB
+  modified: '2017-05-18 09:00:00 Z'
+- storage_id: item-two
+  name: Item Two
+  path: /path/to/the/image.jpg
+  size: 1MB
+  modified: '2017-05-18 09:00:00 Z'
+- storage_id: item-three
+  name: Item Three
+  path: /path/to/the/image.jpg
+  size: 1MB
+  modified: '2017-05-18 09:00:00 Z'
+- storage_id: item-four
+  name: Item Four
+  path: /path/to/the/image.jpg
+  size: 1MB
+  modified: '2017-05-18 09:00:00 Z'
+- storage_id: item-five
+  name: Item Five
+  path: /path/to/the/image.jpg
+  size: 1MB
+  modified: '2017-05-18 09:00:00 Z'
+- storage_id: item-six
+  name: Item Six
+  path: /path/to/the/image.jpg
+  size: 1MB
+  modified: '2017-05-18 09:00:00 Z'
+- storage_id: item-seven
+  name: Item Seven
+  path: /path/to/the/image.jpg
+  size: 1MB
+  modified: '2017-05-18 09:00:00 Z'
+- storage_id: item-eight
+  name: Item Eight
+  path: /path/to/the/image.jpg
+  size: 1MB
+  modified: '2017-05-18 09:00:00 Z'
+- storage_id: item-nine
+  name: Item Nine
+  path: /path/to/the/image.jpg
+  size: 1MB
+  modified: '2017-05-18 09:00:00 Z'
+- storage_id: item-ten
+  name: Item Ten
+  path: /path/to/the/image.jpg
+  size: 1MB
+  modified: '2017-05-18 09:00:00 Z'
