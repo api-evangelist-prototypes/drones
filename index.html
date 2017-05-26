@@ -707,9 +707,9 @@ title: Drone Prototype
 		</header>
 		<p>{{ support.header }}</p>
 		<table cellpadding="10" cellspacing="10" width="100%">
-			<tr>
+			<tr style="border: 1px solid #FFF;">
 			{% for resource in support_resources %}
-				<td align="center" valign="top">
+				<td align="center" valign="top" style="background-color:#FFF;">
 					<a href="{{ resource.url }}"><img src="{{ resource.image }}" width="75" align="center"></a>
 					<a href="{{ resource.url }}">{{ resource.title }}</a>
 				</td>
