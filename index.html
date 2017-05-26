@@ -201,7 +201,7 @@ title: Drone Prototype
 
 		                      {% if property.type == 'x-openapi' %}
 		                        {% assign openapi_spec_url = property.url %}
-														{% assign this_object = openapi_spec_url | replace: 'http://drone.prototype.apievangelist.com/apis/','' | replace: '/openapi.json','' %}
+														{% assign this_object = openapi_spec_url | replace: 'http://drone.prototype.apievangelist.com/apis/','' | replace: '/openapi.json','' | replace: '-','_' %}
 														this_object: {{ this_object }}<br />
 														{% assign openapi_spec = site.data[this_object].openapi %}
 
@@ -253,7 +253,7 @@ title: Drone Prototype
 		                    </tr>
 		                    <tr id="methods-for-{{ pathname }}" style="border: 1px solid #FFF;">
 		                      <td colspan="2" style="border: 1px solid #FFF; background-color:#FFF;">
-
+IN!
 		                        <table width="95%" border="0" style="margin-left: 15px; border-color: #FFF; background-color:#FFF;">
 		                          {% assign taglist = '' %}
 	                            {% for path in openapi_spec.paths %}
