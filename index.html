@@ -239,6 +239,7 @@ title: Drone Prototype
                     </td>
                     <td align="right" style="padding: 10px; background-color:#FFF;">
                         <strong>OpenAPI:</strong>
+                        (<a href="{{ site.url }}/apis/{{ this_object }}/openapi.yaml" target="_blank" title="YAML OpenAPI" style="font-size: 16px; font-weight: normal;">YAML</a>)
                         (<a href="{{ site.url }}/apis/{{ this_object }}/openapi.json" target="_blank" title="View OpenAPI Spec" style="font-size: 16px; font-weight: normal;">JSON</a>)
                     </td>
                   </tr>
@@ -342,7 +343,7 @@ title: Drone Prototype
                                     <tr style="border: 1px solid #FFF;">
                                       <td style="padding-left: 20px; font-size: 12px;">{{ summary }}</td>
                                       <td style="font-size: 12px;">{{ path[0] }}</td>
-                                      <td align="center">
+                                      <td align="center" style="padding: 0px; width: 75px; background-color:#{{ back_color }}; font-weight: bold; font-size: 11px; color: #FFF;">
                                         {{ verb }}
                                       </td>
                                       <td></td>
@@ -495,9 +496,9 @@ title: Drone Prototype
                       </table>
                     </td>
                   </tr>
-									<tr>
+									<tr style="border: 1px solid #FFF;">
 										<td align="left" style="font-size: 16px; font-weight: bold; padding: 10px;">{{ api.name }} Schema</td>
-										<td colspan="5" align="right" style="padding: 10px;border: 1px solid #FFF;">
+										<td colspan="5" align="right" style="padding: 10px;">
 											{% if json_schema_url != null and json_schema_url != empty %}
 												<a href="{{ site.url }}{{ json_schema_url }}" target="_blank" title="View JSON Schema" style="font-size: 16px; font-weight: normal;">JSON Schema</a>
 											{% endif %}
@@ -508,7 +509,7 @@ title: Drone Prototype
 											{% assign definition_name = definition[0] %}
 											{% assign fields = definition[1] %}
 											<tr style="border: 1px solid #FFF;">
-												<td style="padding: 10px 25px 0px 25px;" colspan="5">
+												<td style="padding: 10px 25px 0px 25px;" colspan='5'>
 													<strong>{{ definition_name }}</strong>
 													<ul style='padding-left: 50px;'>
 														{% for property in fields.properties %}
