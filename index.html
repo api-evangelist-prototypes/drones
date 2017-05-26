@@ -290,22 +290,13 @@ IN!
 	                              {% endif %}
 
 	                            {% endfor %}
-
+															taglist: {{ taglist }}<br />
 		                          {% assign tagArray = taglist | split: "," %}
 		                          {% for grouptag in tagArray %}
 
 		                            <tr style="border: 1px solid #FFF;">
-		                              <td colspan="5" style="padding-top: 10px;"><strong>{{ grouptag }}</strong></td>
+		                              <td colspan="5" style="padding-top: 10px;"><strong>Tag? {{ grouptag }}</strong></td>
 		                            </tr>
-
-		                              {% assign api_title = openapi_spec_json.info.title %}
-		                              {% assign api_description = openapi_spec_json.info.description %}
-
-		                              {% assign api_host = openapi_spec_json.host %}
-		                              {% assign api_base = openapi_spec_json.basePath %}
-
-		                              {% assign api_url = api_host | prepend:'https://' %}
-		                              {% assign api_url = api_url | append:api_base %}
 
 																	paths: {{ openapi_spec_json }}
 		                              {% for path in openapi_spec_json.paths %}
