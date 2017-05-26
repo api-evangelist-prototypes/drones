@@ -1,0 +1,54 @@
+swagger: '2.0'
+info:
+  title: Aircraft API
+  description: This is an API for managing aircraft.
+  termsOfService: https://drone.prototype.apievangelist.com/terms-of-service/
+  contact:
+    name: API Evangelist
+    url: https://apievangelist.com
+    email: info@apievangelist.com
+  version: v1.1
+host: drone.prototype.apievangelist.com
+basePath: /apis
+schemes:
+- http
+produces:
+- application/json
+paths:
+  /aircraft/:
+    get:
+      summary: Get Aircraft
+      description: Get Aircraft
+      operationId: getAircraft
+      responses:
+        '200':
+          description: Aircraft Response
+          schema:
+            type: array
+            items:
+              $ref: "#/definitions/aircraft"
+      tags:
+      - Aircraft
+definitions:
+  aircraft:
+    properties:
+      aircraft-id:
+        description: The id of the aircraft.
+        type: string
+      name:
+        description: The name of the aircraft.
+        type: string
+      make:
+        description: The make of the aircraft.
+        type: string
+      model:
+        description: The model of the aircraft.
+        type: string
+      description:
+        description: The description for the aircraft.
+        type: string
+      image:
+        description: The image for the aircraft.
+        type: string
+    required:
+      - id
