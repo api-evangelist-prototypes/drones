@@ -275,75 +275,122 @@
   url: ''
   issue: ''
   date: 01/29/2017
+- type: Deployment
+  title: Platform
+  description: >-
+    Identify which platform(s) APIs will operate in. Either AWS, Google, Azure,
+    Heroku, or other, have a standard approach to account management, billing,
+    and the deployment and operation of resources. Establish standard, and put
+    in practice for deploying the database, DNS, compute, and other essential
+    resources used throughout the API lifecycle.
+  url: ''
+  issue: ''
+  date: 02/01/2017
 - type: Database
   title: Database
-  description: ''
+  description: >-
+    Setup and configure the database or databases for the backend of our API
+    using the schema designs we've accumulated so far. 
   url: ''
   issue: ''
   date: 01/30/2017
 - type: Deployment
-  title: Framework
-  description: ''
-  url: ''
-  issue: ''
-  date: 01/31/2017
-- type: Deployment
-  title: Platform
-  description: ''
-  url: ''
-  issue: ''
-  date: 02/01/2017
-- type: Deployment
   title: Server
-  description: ''
+  description: >-
+    Identify the server platform to be used and setup then configure an instance
+    in support of API operations. This could also be  leading examples of
+    serverless environments, and leading edge approaches to deploying code these
+    days.
   url: ''
   issue: ''
   date: 02/02/2017
 - type: DNS
+  title: DNS
+  description: >-
+    Establish which DNS platform will be sed to support APIs, and establish a
+    plan for setting up, configuring, and managing DNS in support of API
+    operations.
+  url: ''
+  issue: ''
+  date: ''
+- type: Deployment
+  title: Framework
+  description: >-
+    Reseach the available API deployment frameworks for the programming
+    languages we have resources available in, and choose the right framework(s)
+    for use in deploying any API--establish common practices for deploying APIs
+    from start to finish.
+  url: ''
+  issue: ''
+  date: 01/31/2017
+- type: DNS
   title: Identify a host
-  description: ''
+  description: >-
+    Establish a host for use across API operations, for base URL, developer
+    portal, and other supporting resources.
   url: ''
   issue: ''
   date: 02/03/2017
 - type: DNS
   title: Identify a base URL
-  description: ''
+  description: >-
+    Establish a base URL for the API, serving as the root of all API
+    calls--keeping it clean and simple.
   url: ''
   issue: ''
   date: 02/04/2017
 - type: DNS
   title: Guide
-  description: ''
+  description: >-
+    Stop and establish a guide to DNS for the platform. Even if the same domain
+    or sudbomain is used, provide guidance on how new subdomains are setup, and
+    how supporting projects work. Include the details of logging, monitoring,
+    and other aspects of DNS as it overlaps with API operations.
   url: ''
   issue: ''
   date: 02/05/2017
 - type: Encryption
   title: Thinking about encryption
-  description: ''
+  description: >-
+    Consider encrkyption for EVERYTHING across API operations, making it default
+    for anything in transport in suppor of the API.
   url: ''
   issue: ''
   date: 02/06/2017
 - type: Deployment
   title: Thinking about CORS
-  description: ''
+  description: >-
+    Make sure we have CORS enabled. We aren't running a website, we need things
+    to be available across domains. Consider locking down to approved
+    application list if security is a concern.
   url: ''
   issue: ''
   date: 02/07/2017
 - type: Deployment
   title: Server Skeleton
-  description: ''
+  description: >-
+    Take the OpenAPI and generate server skeletons in the programming and
+    platform of choice. Doing the heavy lifting of developing each API, while
+    keeping things in check with the latest edition of the OpenAPI.
   url: ''
   issue: ''
   date: 02/08/2017
 - type: Deployment
   title: Artisan Finish
-  description: ''
+  description: >-
+    Take even more time to polish each endpoint for the API, wiring things up to
+    the database, algorithms, and other resources that will be being served up
+    as part of API operations.
   url: ''
   issue: ''
   date: 02/09/2017
 - type: Deployment
   title: Guide
-  description: ''
+  description: >-
+    Take the time to pause and document everthing accomplished as part of the
+    development process, coming up with a standard approach deploying APis
+    across all operations. Publish the guide where everyone involved with
+    development can get at it.
   url: ''
   issue: ''
   date: 02/10/2017
