@@ -1,4 +1,4 @@
-- language: csharp
+- language: CSharp
   icon: >-
     <svg viewBox="0 0 128 128"><path fill="#9B4F96" d="M115.4
     30.7l-48.3-27.8c-.8-.5-1.9-.7-3.1-.7-1.2 0-2.3.3-3.1.7l-48 27.9c-1.7 1-2.9
@@ -15,7 +15,7 @@
     6h-4.8l1.2-6h-2.4v-4.7h3.3zm4.8 0h3.8l.9-4.3h-3.8l-.9 4.3z"></path></svg>
   url: 'https://github.com/[org_name/[repo_name]/tree/master/[language]'
   download_url: 'https://github.com/[org_name/[repo_name]/tree/master/[language]?raw=true'
-- language: go
+- language: Go
   icon: >-
     <svg viewBox="0 0 128 128"><path id="a" d="M18.8
     1h90.5v126h-90.5z"></path><path fill-rule="evenodd" clip-rule="evenodd"
@@ -149,7 +149,7 @@
     1.4" clip-path="url(#b)"></path></svg>
   url: 'https://github.com/[org_name/[repo_name]/tree/master/[language]'
   download_url: 'https://github.com/[org_name/[repo_name]/tree/master/[language]?raw=true'
-- language: java
+- language: Java
   icon: >-
     <svg viewBox="0 0 128 128"><path fill="#0074BD" d="M47.617 98.12s-4.767
     2.774 3.397 3.71c9.892 1.13 14.947.968 25.845-1.092 0 0 2.871 1.795 6.873
@@ -176,7 +176,7 @@
     3.331z"></path></svg>
   url: 'https://github.com/[org_name/[repo_name]/tree/master/[language]'
   download_url: 'https://github.com/[org_name/[repo_name]/tree/master/[language]?raw=true'
-- language: javascript
+- language: JavaScript
   icon: >-
     <svg viewBox="0 0 128 128"><path fill="#F0DB4F" d="M1.408
     1.408h125.184v125.185h-125.184z"></path><path fill="#323330" d="M116.347
@@ -196,7 +196,7 @@
     2.07-17.444.06-10.735.001-21.468.001-32.237z"></path></svg>
   url: 'https://github.com/[org_name/[repo_name]/tree/master/[language]'
   download_url: 'https://github.com/[org_name/[repo_name]/tree/master/[language]?raw=true'
-- language: php
+- language: PHP
   icon: >-
     <svg viewBox="0 0 128 128"><path id="a" d="M64.026 96.076c33.676 0
     60.976-14.361 60.976-32.076s-27.3-32.075-60.976-32.075-60.975 14.36-60.975
@@ -250,7 +250,7 @@
     32.144z"></path></svg>
   url: 'https://github.com/[org_name/[repo_name]/tree/master/[language]'
   download_url: 'https://github.com/[org_name/[repo_name]/tree/master/[language]?raw=true'
-- language: python
+- language: Python
   icon: >-
     <svg viewBox="0 0 128 128"><path fill="#FFD845" d="M40 68v-10.079c0-6.973
     6.218-12.921 13.383-12.921h21.102c5.874 0 9.515-5.04
@@ -304,7 +304,7 @@
     1.164.631.629.946 1.384.946 2.267v10.54z"></path></svg>
   url: 'https://github.com/[org_name/[repo_name]/tree/master/[language]'
   download_url: 'https://github.com/[org_name/[repo_name]/tree/master/[language]?raw=true'
-- language: rby
+- language: Ruby
   icon: >-
     <svg viewBox="0 0 128 128"><path fill="#D91404" d="M82.518 54.655c-12.92
     8.326-25.722 16.577-38.862 25.043 19.678 2.687 39.005 5.325 58.715
@@ -365,7 +365,3 @@
     1.439-2.277l.274-.839-6.763-16.912z"></path></svg>
   url: 'https://github.com/[org_name/[repo_name]/tree/master/[language]'
   download_url: 'https://github.com/[org_name/[repo_name]/tree/master/[language]?raw=true'
-- language: d
-  icon: ''
-  url: ''
-  download_url: ''
