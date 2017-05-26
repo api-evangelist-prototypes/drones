@@ -119,6 +119,17 @@ apis:
     properties:
       - type: x-openapi
         url: http://drone.prototype.apievangelist.com/apis/logging/openapi.json
+  - name: Messaging API
+    description: This is an API for managing AP consumer messages.
+    image: http://drone.prototype.apievangelist.com/images/messaging.png
+    humanURL: https://drone.prototype.apievangelist.com
+    baseURL: https://drone.prototype.apievangelist.com
+    tags:
+      - Management
+      - Messages
+    properties:
+      - type: x-openapi
+        url: http://drone.prototype.apievangelist.com/apis/messaging/openapi.json
 x-common:
   - type: x-support
     url: https://drone.prototype.apievangelist.com#Support
