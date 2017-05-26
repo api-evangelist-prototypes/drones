@@ -28,7 +28,7 @@ paths:
             items:
               $ref: "#/definitions/pilot"
       tags:
-      - Pilot
+      - Pilots
 definitions:
   pilot:
     properties:

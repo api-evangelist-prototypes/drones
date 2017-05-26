@@ -28,7 +28,7 @@ paths:
             items:
               $ref: "#/definitions/flight_entry"
       tags:
-      - Contacts
+      - Flight Entries
 definitions:
   flight_entry:
     properties:

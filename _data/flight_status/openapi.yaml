@@ -28,7 +28,7 @@ paths:
             items:
               $ref: "#/definitions/flight_status"
       tags:
-      - Contacts
+      - Flight Status
 definitions:
   flight_status:
     properties:
