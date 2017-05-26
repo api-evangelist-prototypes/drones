@@ -1289,3 +1289,27 @@
   url: ''
   issue: ''
   date: 05/26/2017
+- type: Deployment
+  title: Storage API
+  description: ''
+  url: ''
+  issue: ''
+  date: ''
+- type: Integrations
+  title: Dropbox
+  description: ''
+  url: ''
+  issue: ''
+  date: ''
+- type: Integrations
+  title: Amazon S3
+  description: ''
+  url: ''
+  issue: ''
+  date: ''
+- type: Integrations
+  title: Google drive
+  description: ''
+  url: ''
+  issue: ''
+  date: ''
