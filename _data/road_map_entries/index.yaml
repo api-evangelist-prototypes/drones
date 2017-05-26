@@ -78,3 +78,25 @@
     stories about the opportunity to generate revenue through links.
   url: ''
   date: ''
+- type: Evangelism
+  title: Developer Certification
+  description: >-
+    Consider a certification program as part of the developer showcase allowing
+    developers to get certified, and other consumers to be able to engage with
+    certified developers.
+  url: ''
+  date: ''
+- type: Deployment
+  title: Image API
+  description: >-
+    We need an image API to manage still photos taken as part of drone
+    operation, as well as part of post production.
+  url: ''
+  date: ''
+- type: Deployment
+  title: Video API
+  description: >-
+    We also need a video API to manage the video portion of drone operation as
+    well as the post production video stuff.
+  url: ''
+  date: ''
