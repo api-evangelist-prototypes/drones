@@ -1,25 +1,25 @@
-- flight-id: '1'
-  pilot-id: pilot-one
-  aircraft-id: aircraft-one
-  start-time: '2017-05-18 09:00:00 Z'
-  end-time: '2017-05-18 11:00:00 Z'
-- flight-id: '2'
-  pilot-id: pilot-one
-  aircraft-id: aircraft-one
-  start-time: '2017-05-18 09:00:00 Z'
-  end-time: '2017-05-18 11:00:00 Z'
-- flight-id: '3'
-  pilot-id: pilot-two
-  aircraft-id: aircraft-two
-  start-time: '2017-05-18 09:00:00 Z'
-  end-time: '2017-05-18 11:00:00 Z'
-- flight-id: '4'
-  pilot-id: pilot-two
-  aircraft-id: aircraft-two
-  start-time: '2017-05-18 09:00:00 Z'
-  end-time: '2017-05-18 11:00:00 Z'
-- flight-id: '5'
-  pilot-id: pilot-two
-  aircraft-id: aircraft-three
-  start-time: '2017-05-18 09:00:00 Z'
-  end-time: '2017-05-18 11:00:00 Z'
+- flight_id: '1'
+  pilot_id: pilot-one
+  aircraft_id: aircraft-one
+  start_time: '2017-05-18 09:00:00 Z'
+  end_time: '2017-05-18 11:00:00 Z'
+- flight_id: '2'
+  pilot_id: pilot-one
+  aircraft_id: aircraft-one
+  start_time: '2017-05-18 09:00:00 Z'
+  end_time: '2017-05-18 11:00:00 Z'
+- flight_id: '3'
+  pilot_id: pilot-two
+  aircraft_id: aircraft-two
+  start_time: '2017-05-18 09:00:00 Z'
+  end_time: '2017-05-18 11:00:00 Z'
+- flight_id: '4'
+  pilot_id: pilot-two
+  aircraft_id: aircraft-two
+  start_time: '2017-05-18 09:00:00 Z'
+  end_time: '2017-05-18 11:00:00 Z'
+- flight_id: '5'
+  pilot_id: pilot-two
+  aircraft_id: aircraft-three
+  start_time: '2017-05-18 09:00:00 Z'
+  end_time: '2017-05-18 11:00:00 Z'
