@@ -33,16 +33,16 @@ definitions:
   manufacturer:
     properties:
       manufacturer-id:
-        description:
+        description: The uniqud id for the manufacturer.
         type: string
       name:
-        description:
+        description: The name of the manufacturer.
         type: string
       description:
-        description:
+        description: The description for the manufacturer.
         type: string
       country:
-        description:
+        description: The country of the manufacturer.
         type: string
     required:
       - id
