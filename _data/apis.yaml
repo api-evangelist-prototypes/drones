@@ -86,6 +86,17 @@ apis:
     properties:
       - type: x-openapi
         url: http://drone.prototype.apievangelist.com/apis/applications/openapi.json
+  - name: Billing API
+    description: This is an API for managing API consumer billing.
+    image: http://drone.prototype.apievangelist.com/images/billing.png
+    humanURL: https://drone.prototype.apievangelist.com
+    baseURL: https://drone.prototype.apievangelist.com
+    tags:
+      - Management
+      - Billing
+    properties:
+      - type: x-openapi
+        url: http://drone.prototype.apievangelist.com/apis/billing/openapi.json        
 x-common:
   - type: x-support
     url: https://drone.prototype.apievangelist.com#Support

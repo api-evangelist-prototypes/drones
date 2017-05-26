@@ -1,7 +1,7 @@
 swagger: '2.0'
 info:
-  title: Aircraft API
-  description: This is an API for managing aircraft.
+  title: Billing API
+  description: This is an API for managing API consumer billing.
   termsOfService: https://drone.prototype.apievangelist.com/terms-of-service/
   contact:
     name: API Evangelist
@@ -15,40 +15,34 @@ schemes:
 produces:
 - application/json
 paths:
-  /aircraft/:
+  /billing/:
     get:
-      summary: Get Aircraft
-      description: Get Aircraft
-      operationId: getAircraft
+      summary: Get Billing
+      description: Get Billing
+      operationId: getBilling
       responses:
         '200':
-          description: Aircraft Response
+          description: Billing Response
           schema:
             type: array
             items:
-              $ref: "#/definitions/aircraft"
+              $ref: "#/definitions/billing"
       tags:
-      - Aircraft
+      - Billing
 definitions:
-  aircraft:
+  billing:
     properties:
-      aircraft-id:
-        description: The id of the aircraft.
+      billing_id:
+        description: The unqiue id for the billing.
         type: string
-      name:
-        description: The name of the aircraft.
+      account_id:
+        description: The account id for the billing.
         type: string
-      make:
-        description: The make of the aircraft.
+      month:
+        description: The month of the billing.
         type: string
-      model:
-        description: The model of the aircraft.
-        type: string
-      description:
-        description: The description for the aircraft.
-        type: string
-      image:
-        description: The image for the aircraft.
+      amount:
+        description: The amount of the billing.
         type: string
     required:
-      - id
+      - billing_id
