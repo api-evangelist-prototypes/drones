@@ -26,11 +26,11 @@ paths:
           schema:
             type: array
             items:
-              $ref: "#/definitions/aircraft"
+              $ref: "#/definitions/flight_entry"
       tags:
       - Contacts
 definitions:
-  aircraft:
+  flight_entry:
     properties:
       flight-entry-id:
         description:

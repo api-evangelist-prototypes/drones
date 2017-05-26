@@ -1,7 +1,7 @@
 swagger: '2.0'
 info:
-  title: Aircraft API
-  description: This is an API for managing aircraft.
+  title: Manufacturers API
+  description: This is an API for managing manufacturers.
   termsOfService: https://drone.prototype.apievangelist.com/terms-of-service/
   contact:
     name: API Evangelist
@@ -15,24 +15,33 @@ schemes:
 produces:
 - application/json
 paths:
-  /contacts/:
+  /manufacturers/:
     get:
-      summary: Get Aircraft
-      description: Get Aircraft
-      operationId: getAircraft
+      summary: Get Manufacturers
+      description: Get Manufacturers
+      operationId: getManufacturers
       responses:
         '200':
-          description: Aircraft Response
+          description: Manufacturers Response
           schema:
             type: array
             items:
-              $ref: "#/definitions/aircraft"
+              $ref: "#/definitions/manufacturer"
       tags:
-      - Contacts
+      - Manufacturers
 definitions:
-  aircraft:
+  manufacturer:
     properties:
-      id:
+      manufacturer-id:
+        description:
+        type: string
+      name:
+        description:
+        type: string
+      description:
+        description:
+        type: string
+      country:
         description:
         type: string
     required:

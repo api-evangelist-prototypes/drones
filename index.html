@@ -62,7 +62,7 @@ title: Drone Prototype
 			<h2>{{ authentication.title }}</h2>
 		</header>
 		<p>{{ authentication.header }}</p>
-		<p>{{ apigettingstarted.footer }}</p>
+		<p>{{ authentication.footer }}</p>
 	</div>
 	<span class="image object">
 		<img src="{{ authentication.image }}" alt="" width="5%" />
@@ -303,6 +303,7 @@ title: Drone Prototype
 		                              {% assign api_url = api_host | prepend:'https://' %}
 		                              {% assign api_url = api_url | append:api_base %}
 
+																	paths: {{ openapi_spec_json }}
 		                              {% for path in openapi_spec_json.paths %}
 
 		                                {% assign this_path = path[0] %}

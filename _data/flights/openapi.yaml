@@ -1,7 +1,7 @@
 swagger: '2.0'
 info:
-  title: Aircraft API
-  description: This is an API for managing aircraft.
+  title: Flights API
+  description: This is an API for managing flights.
   termsOfService: https://drone.prototype.apievangelist.com/terms-of-service/
   contact:
     name: API Evangelist
@@ -17,22 +17,34 @@ produces:
 paths:
   /contacts/:
     get:
-      summary: Get Aircraft
-      description: Get Aircraft
-      operationId: getAircraft
+      summary: Get Flights
+      description: Get Flights
+      operationId: getFlights
       responses:
         '200':
-          description: Aircraft Response
+          description: Flights Response
           schema:
             type: array
             items:
-              $ref: "#/definitions/aircraft"
+              $ref: "#/definitions/flights"
       tags:
       - Contacts
 definitions:
-  aircraft:
+  flights:
     properties:
-      id:
+      flight-id:
+        description: The unique id for this flight.
+        type: string
+      pilot-id:
+        description: The pilots unique id for this flight.
+        type: string
+      aircraft-id: The aircraft unique id for this flight.
+        description:
+        type: string
+      start-time: The start timestamp for the flight.
+        description:
+        type: string
+      end-time: The end timestamp for the flight.
         description:
         type: string
     required:
