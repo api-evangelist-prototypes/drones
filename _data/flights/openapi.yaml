@@ -9,7 +9,7 @@ info:
     email: info@apievangelist.com
   version: v1.1
 host: drone.prototype.apievangelist.com
-basePath: /
+basePath: /apis
 schemes:
 - http
 produces:
