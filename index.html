@@ -785,7 +785,8 @@ title: Drone Prototype
 
           document.getElementById($slug+'-loading').style.display = 'none';
 
-          response = JSON.stringify(response, null, 1);
+          //response = JSON.stringify(response, null, 1);
+					response = JSON.stringify(JSON.parse(response),null,2);
 					response = response.replace(new RegExp("\\\\", "g"), "");
 					$viewer = response;
           //console.log($viewer);
