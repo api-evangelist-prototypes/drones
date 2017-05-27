@@ -2,15 +2,15 @@
 layout: page
 ---
 
-{% assign index = site.data.api-commons.api-issues %}
-{% assign apiissues = index[0] %}
+{% assign issues = site.data.issues.index[0] %}
+{% assign issue_entries = site.data.issue_entries.index %}
 
-<h1>{{ apiissues.title }}</h1>
+<h1>{{ issues.title }}</h1>
 <p><img src="{{ apiissues.image }}" align="right" width="75" style="padding: 5px;" /></p>
-<p>{{ apiissues.header }}</p>
-<center>
-<table cellpadding="10" cellspacing="10" width="90%" style="margin-bottom: 10px;">
-	{% for current in apiissues.entries %}
+<p>{{ issues.header }}</p>
+<div class="table-wrapper">
+<table width="90%">
+	{% for current in issue_entries %}
     <tr>
   		<td align="left" valign="top">
   			({{ current.date | date: "%D" }}) <strong>{{ current.title }}</strong> - {{ current.description }}
@@ -18,5 +18,5 @@ layout: page
     </tr>
 	{% endfor %}
 </table>
-</center>
-<p>{{ apiissues.footer }}</p>
+</div>
+<p>{{ issues.footer }}</p>

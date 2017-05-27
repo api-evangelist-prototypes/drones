@@ -2,15 +2,15 @@
 layout: page
 ---
 
-{% assign index = site.data.api-commons.api-change-log %}
-{% assign apichangelog = index[0] %}
+{% assign change_log = site.data.change_log.index[0] %}
+{% assign change_log_entries = site.data.change_log_entries.index %}
 
-<h1>{{ apichangelog.title }}</h1>
+<h1>{{ change_log.title }}</h1>
 <p><img src="{{ apichangelog.image }}" align="right" width="75" style="padding: 5px;" /></p>
-<p>{{ apichangelog.header }}</p>
-<center>
-<table cellpadding="10" cellspacing="10" width="90%" style="margin-bottom: 10px;">
-	{% for history in apichangelog.entries %}
+<p>{{ change_log.header }}</p>
+<div class="table-wrapper">
+<table width="90%">
+	{% for history in change_log_entries %}
     <tr>
   		<td align="left" valign="top">
   			({{ history.date | date: "%D" }}) <strong>{{ history.title }}</strong> - {{ history.description }}
@@ -18,5 +18,5 @@ layout: page
     </tr>
 	{% endfor %}
 </table>
-</center>
-<p>{{ apichangelog.footer }}</p>
+</div>
+<p>{{ change_log.footer }}</p>
