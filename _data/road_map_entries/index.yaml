@@ -100,3 +100,18 @@
     well as the post production video stuff.
   url: ''
   date: 05/14/2017
+- type: Integrations
+  title: Dropbox
+  description: Would like to add an endpoint to the storage API for dropbox storage.
+  url: ''
+  date: ''
+- type: Integrations
+  title: Amazon S3
+  description: Would like to add an endpoint to the storage API for Amazon S3 storage.
+  url: ''
+  date: ''
+- type: Integrations
+  title: Google Drive
+  description: Would like to add an endpoint to the storage API for Google Drive storage.
+  url: ''
+  date: ''
