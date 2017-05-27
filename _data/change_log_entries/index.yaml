@@ -1279,37 +1279,26 @@
   date: 05/24/2017
 - type: Evangelism
   title: Applications Page
-  description: ''
+  description: >-
+    Publish a page for showcasing the applications that have opted in to be
+    shared publicly.
   url: ''
   issue: ''
   date: 05/25/2017
 - type: Evangelism
   title: Communicate Applications
-  description: ''
+  description: >-
+    Pull together a straegy for how we will be communicating out the application
+    showcase.
   url: ''
   issue: ''
   date: 05/26/2017
 - type: Deployment
   title: Storage API
-  description: ''
-  url: ''
-  issue: ''
-  date: ''
-- type: Integrations
-  title: Dropbox
-  description: ''
-  url: ''
-  issue: ''
-  date: ''
-- type: Integrations
-  title: Amazon S3
-  description: ''
-  url: ''
-  issue: ''
-  date: ''
-- type: Integrations
-  title: Google drive
-  description: ''
+  description: >-
+    Deploy an API that provides access to all the storage for the system, which
+    will be used across other APIs, and eventually contain other 3rd party
+    services--added to the road map.
   url: ''
   issue: ''
   date: ''
