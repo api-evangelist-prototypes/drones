@@ -1,0 +1,10 @@
+- name: Public
+  description: Public access to the resources.
+- name: Free
+  description: Free access to the resource.
+- name: Trial
+  description: Trial only access to a resource.
+- name: Branding
+  description: Branding is required to access a resource.
+- name: Features
+  description: A feature included as part of plan.
