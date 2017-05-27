@@ -1,7 +1,7 @@
 swagger: '2.0'
 info:
   title: Webhook API
-  description: This is an API for managing webhook.
+  description: This is an API for managing webhooks.
   termsOfService: https://drone.prototype.apievangelist.com/terms-of-service/
   contact:
     name: API Evangelist
