@@ -1,17 +1,24 @@
 ---
 layout: page
-title: Privacy Policy
+title: Deprecation Policy
 ---
 
-<p><img src="https://s3.amazonaws.com/kinlane-productions/bw-icons/bw-deprecation-2.png" align="right" width="150" style="padding: 15px;" /></p>
-<p><strong>Deprecation Policy</strong><br />
-The REST API deprecation policy should be consumed in additional to any other relevant deprecation policies. When there is a conflict of policy, the most restrictive policy should be followed.</p>
+<section>
+  <header class="main">
+    <h2>Deprecation Policy</h2>
+  </header>
 
-<p><strong>Announcements</strong><br />
-All effort should be taken to notify consumers, through all relevant communication channels of new deprecations.
+  <p><img src="https://s3.amazonaws.com/kinlane-productions/bw-icons/bw-deprecation-2.png" align="right" width="150" style="padding: 15px;" /></p>
+  <p><strong>Deprecation Policy</strong><br />
+  The REST API deprecation policy should be consumed in additional to any other relevant deprecation policies. When there is a conflict of policy, the most restrictive policy should be followed.</p>
 
-<p><strong>Time Frames</strong><br />
-Publicly accessibly REST APIs must be given reasonable notice of deprecations. Any deprecated REST API in the cloud environment MUST be available in it's original form for at least 6 months, UNLESS there are critical security vulnerabilities or these APIs are provided by plugin extensions as noted above.
+  <p><strong>Announcements</strong><br />
+  All effort should be taken to notify consumers, through all relevant communication channels of new deprecations.
 
-<p><strong>Detectability</strong><br />
-Requests which are made to deprecated APIs SHOULD return a header on the response to notify the consumer that the endpoint is deprecated
+  <p><strong>Time Frames</strong><br />
+  Publicly accessibly REST APIs must be given reasonable notice of deprecations. Any deprecated REST API in the cloud environment MUST be available in it's original form for at least 6 months, UNLESS there are critical security vulnerabilities or these APIs are provided by plugin extensions as noted above.
+
+  <p><strong>Detectability</strong><br />
+  Requests which are made to deprecated APIs SHOULD return a header on the response to notify the consumer that the endpoint is deprecated
+
+</section>
