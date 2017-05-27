@@ -5,18 +5,22 @@ layout: page
 {% assign change_log = site.data.change_log.index[0] %}
 {% assign change_log_entries = site.data.change_log_entries.index %}
 
-<h1>{{ change_log.title }}</h1>
-<p><img src="{{ apichangelog.image }}" align="right" width="75" style="padding: 5px;" /></p>
-<p>{{ change_log.header }}</p>
-<div class="table-wrapper">
-<table width="90%">
-	{% for history in change_log_entries %}
-    <tr>
-  		<td align="left" valign="top">
-  			({{ history.type }}) <strong>{{ history.title }}</strong> - {{ history.description }}
-  		</td>
-    </tr>
-	{% endfor %}
-</table>
-</div>
-<p>{{ change_log.footer }}</p>
+<section>
+	<header class="main">
+		<h1>{{ change_log.title }}</h1>
+	</header>
+	<p><img src="{{ apichangelog.image }}" align="right" width="75" style="padding: 5px;" /></p>
+	<p>{{ change_log.header }}</p>
+	<div class="table-wrapper">
+	<table width="90%">
+		{% for history in change_log_entries %}
+	    <tr>
+	  		<td align="left" valign="top">
+	  			({{ history.type }}) <strong>{{ history.title }}</strong> - {{ history.description }}
+	  		</td>
+	    </tr>
+		{% endfor %}
+	</table>
+	</div>
+	<p>{{ change_log.footer }}</p>
+</section>

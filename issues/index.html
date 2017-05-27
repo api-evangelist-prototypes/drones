@@ -5,18 +5,22 @@ layout: page
 {% assign issues = site.data.issues.index[0] %}
 {% assign issue_entries = site.data.issue_entries.index %}
 
-<h1>{{ issues.title }}</h1>
-<p><img src="{{ apiissues.image }}" align="right" width="75" style="padding: 5px;" /></p>
-<p>{{ issues.header }}</p>
-<div class="table-wrapper">
-<table width="90%">
-	{% for current in issue_entries %}
-    <tr>
-  		<td align="left" valign="top">
-  			({{ current.type }}) <strong>{{ current.title }}</strong> - {{ current.description }}
-  		</td>
-    </tr>
-	{% endfor %}
-</table>
-</div>
-<p>{{ issues.footer }}</p>
+<section>
+	<header class="main">
+		<h1>{{ issues.title }}</h1>
+	</header>
+	<p><img src="{{ apiissues.image }}" align="right" width="75" style="padding: 5px;" /></p>
+	<p>{{ issues.header }}</p>
+	<div class="table-wrapper">
+	<table width="90%">
+		{% for current in issue_entries %}
+	    <tr>
+	  		<td align="left" valign="top">
+	  			({{ current.type }}) <strong>{{ current.title }}</strong> - {{ current.description }}
+	  		</td>
+	    </tr>
+		{% endfor %}
+	</table>
+	</div>
+	<p>{{ issues.footer }}</p>
+</section>

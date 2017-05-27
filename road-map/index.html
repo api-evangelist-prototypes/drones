@@ -5,18 +5,22 @@ layout: page
 {% assign road_map = site.data.road_map.index[0] %}
 {% assign road_map_entries = site.data.road_map_entries.index %}
 
-<h1>{{ road_map.title }}</h1>
-<p><img src="{{ apiroadmap.image }}" align="right" width="75" style="padding: 5px;" /></p>
-<p>{{ road_map.header }}</p>
-<div class="table-wrapper">
-<table width="90%">
-	{% for entry in road_map_entries %}
-    <tr>
-  		<td align="left" valign="top">
-  			({{ entry.type }}) <strong>{{ entry.title }}</strong> - {{ entry.description }}
-  		</td>
-    </tr>
-	{% endfor %}
-</table>
-</div>
-<p>{{ road_map.footer }}</p>
+<section>
+	<header class="main">
+		<h1>{{ road_map.title }}</h1>
+	</header>
+	<p><img src="{{ apiroadmap.image }}" align="right" width="75" style="padding: 5px;" /></p>
+	<p>{{ road_map.header }}</p>
+	<div class="table-wrapper">
+	<table width="90%">
+		{% for entry in road_map_entries %}
+	    <tr>
+	  		<td align="left" valign="top">
+	  			({{ entry.type }}) <strong>{{ entry.title }}</strong> - {{ entry.description }}
+	  		</td>
+	    </tr>
+		{% endfor %}
+	</table>
+	</div>
+	<p>{{ road_map.footer }}</p>
+</section>
