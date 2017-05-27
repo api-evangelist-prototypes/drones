@@ -7,9 +7,3 @@
 - plan_id: plan-three
   name: Plan Three
   description: This is the description for this test plan.
-- plan_id: plan-four
-  name: Plan Four
-  description: This is the description for this test plan.
-- plan_id: plan-five
-  name: Plan Five
-  description: This is the description for this test plan.
