@@ -173,7 +173,18 @@ apis:
       - Users
     properties:
       - type: x-openapi
-        url: http://drone.prototype.apievangelist.com/apis/users/openapi.json        
+        url: http://drone.prototype.apievangelist.com/apis/users/openapi.json
+  - name: Webhooks API
+    description: This is an API for managing webhooks.
+    image: http://drone.prototype.apievangelist.com/images/webhooks.png
+    humanURL: https://drone.prototype.apievangelist.com
+    baseURL: https://drone.prototype.apievangelist.com
+    tags:
+      - Management
+      - Webhooks
+    properties:
+      - type: x-openapi
+        url: http://drone.prototype.apievangelist.com/apis/webhooks/openapi.json
 x-common:
   - type: x-support
     url: https://drone.prototype.apievangelist.com#Support

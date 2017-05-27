@@ -1,7 +1,7 @@
 swagger: '2.0'
 info:
-  title: Aircraft API
-  description: This is an API for managing aircraft.
+  title: Webhook API
+  description: This is an API for managing webhook.
   termsOfService: https://drone.prototype.apievangelist.com/terms-of-service/
   contact:
     name: API Evangelist
@@ -15,40 +15,34 @@ schemes:
 produces:
 - application/json
 paths:
-  /aircraft/:
+  /webhook/:
     get:
-      summary: Get Aircraft
-      description: Get Aircraft
-      operationId: getAircraft
+      summary: Get Webhook
+      description: Get Webhook
+      operationId: getWebhook
       responses:
         '200':
-          description: Aircraft Response
+          description: Webhook Response
           schema:
             type: array
             items:
-              $ref: "#/definitions/aircraft"
+              $ref: "#/definitions/webhook"
       tags:
-      - Aircraft
+      - Webhook
 definitions:
-  aircraft:
+  webhook:
     properties:
-      aircraft-id:
-        description: The id of the aircraft.
+      webhook_id:
+        description: The id for the webhook.
         type: string
-      name:
-        description: The name of the aircraft.
+      account_id:
+        description: The account id for the webhook.
         type: string
-      make:
-        description: The make of the aircraft.
+      url:
+        description: The url for the webhook.
         type: string
-      model:
-        description: The model of the aircraft.
-        type: string
-      description:
-        description: The description for the aircraft.
-        type: string
-      image:
-        description: The image for the aircraft.
+      status:
+        description: The status of the webhook.
         type: string
     required:
-      - id
+      - webhook_id
