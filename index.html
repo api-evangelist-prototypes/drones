@@ -133,6 +133,37 @@ title: Drone Prototype
 	</div>
 </section>
 
+<!-- Change Log -->
+<a name="Plans"></a>
+{% assign plans = site.data.change_log.index[0] %}
+{% assign plan_entries = site.data.change_log_entries.index %}
+<section id="banner">
+	<div class="content">
+		<header>
+			<h2>{{ change_log.title }}</h2>
+		</header>
+		<p>{{ change_log.header }}</p>
+		<center>
+		<div class="table-wrapper" style="height: 300px; overflow:auto; margin-bottom: 5px;">
+		<table cellpadding="10" cellspacing="10" width="90%">
+			{% for entry in change_log_entries %}
+				<tr>
+					<td align="left" valign="top">
+						<strong>{{ entry.title }}</strong> ({{ entry.type }}) - {{ entry.description }}
+					</td>
+				</tr>
+			{% endfor %}
+		</table>
+		</div>
+		</center>
+		<p>{{ change_log.footer }}</p>
+		<p align="center"><a href="/change-log/">Visit Full Page Change Log</a></p>
+	</div>
+	<span class="image object">
+		<img src="{{ change_log.image }}" alt="" width="5%" />
+	</span>
+</section>
+
 <!-- Code -->
 {% assign code = site.data.code.index[0] %}
 {% assign code_entries = site.data.code_entries.index %}
