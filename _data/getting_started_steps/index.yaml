@@ -5,12 +5,12 @@
 - sort: B
   title: API Documentation
   description: Visit the documentation for the API.
-  url: /documentation/
+  url: 'http://drone.prototype.apievangelist.com/#DroneAPIs'
 - sort: C
   title: Code Libraries
   description: Visit the available code libraries.
-  url: /code/
+  url: 'http://drone.prototype.apievangelist.com/#Code'
 - sort: D
   title: Submit Issues
   description: Submit any issues you have using Github.
-  url: 'https://github.com/[github_org]/[github_repo]/issues'
+  url: 'https://github.com/api-evangelist-prototypes/drones/issues'
