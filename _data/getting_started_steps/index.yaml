@@ -1,12 +1,16 @@
 - sort: A
+  title: Register
+  description: 'Register for a developer key, which will be needed when making API calls.'
+  url: ''
+- sort: B
   title: API Documentation
   description: Visit the documentation for the API.
   url: /documentation/
-- sort: B
+- sort: C
   title: Code Libraries
   description: Visit the available code libraries.
   url: /code/
-- sort: C
+- sort: D
   title: Submit Issues
   description: Submit any issues you have using Github.
   url: 'https://github.com/[github_org]/[github_repo]/issues'
