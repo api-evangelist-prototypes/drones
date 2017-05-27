@@ -1,7 +1,7 @@
 - sort: A
   title: Register
   description: 'Register for a developer key, which will be needed when making API calls.'
-  url: ''
+  url: 'http://drone.prototype.apievangelist.com/login/'
 - sort: B
   title: API Documentation
   description: Visit the documentation for the API.
