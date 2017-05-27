@@ -1,18 +1,31 @@
 - category: General
-  question: What is this?
-  answer: It is an API.
+  question: What are you doing this?
+  answer: >-
+    Because I enjoy exploring what is possible with an API, and understanding
+    the technology, business, and politics of what is going on.
 - category: General
-  question: What is this?
-  answer: It is an API.
+  question: Is this a real API?
+  answer: 'No it is not. It is a mock API, with a mock operations around it.'
 - category: General
-  question: What is this?
-  answer: It is an API.
+  question: How can this help my business?
+  answer: >-
+    It can provide you with an example of an evolving API to learn from, where
+    you can follow the change log, road map, and other stories that will help
+    you think diffferntly about your own API operations.
 - category: Support
-  question: What is this?
-  answer: It is an API.
+  question: Who is behind this project?
+  answer: 'Kin Lane, the API Evangelist'
 - category: Support
-  question: What is this?
-  answer: It is an API.
-- category: Support
-  question: What is this?
-  answer: It is an API.
+  question: How do I contact someone?
+  answer: 'Use on of the support channels below, and I''ll get in touch.'
+- category: Road Map
+  question: What is next for this project?
+  answer: >-
+    I do not know. I wanted to initially explore some ideas for an idea I had,
+    then it coincided with a conversation I was having with a client, and now I
+    enjoy just adding to it as I have time, and playing with what is possible.
+- category: Road Map
+  question: How do I cget involved?
+  answer: >-
+    Just contact me, and I'm happy to explore how you can help evolve this
+    prototype, or possibly evolve other prototypes in other business sectors.
