@@ -1,10 +1,88 @@
-- account_id: account-one
-  name: Account One
-- account_id: account-two
-  name: Account Two
-- account_id: account-three
-  name: Account Three
-- account_id: account-four
-  name: Account Four
-- account_id: account-five
-  name: Account Five
+- plan_entry_id: plan-one
+  label: API Calls
+  description: How many API calls you get on the system
+  metric: Call
+  limit: Range
+  timeframe: Daily
+  geo: ''
+  element: ''
+  one: '1'
+  two: '1000'
+  unit: $1.00
+- plan_entry_id: plan-two
+  label: API Calls
+  description: How many API calls you get on the system
+  metric: Call
+  limit: Range
+  timeframe: Daily
+  geo: ''
+  element: ''
+  one: '1'
+  two: '1000'
+  unit: $1.00
+- plan_entry_id: plan-three
+  label: API Calls
+  description: How many API calls you get on the system
+  metric: Call
+  limit: Range
+  timeframe: Daily
+  geo: ''
+  element: ''
+  one: '1'
+  two: '1000'
+  unit: $1.00
+- plan_entry_id: plan-two
+  label: Region
+  description: You get to choose which region you want to be in
+  metric: ''
+  limit: ''
+  timeframe: ''
+  geo: Region
+  element: ''
+  one: ''
+  two: ''
+  unit: ''
+- plan_entry_id: plan-three
+  label: Region
+  description: You get to choose which region you want to be in
+  metric: ''
+  limit: ''
+  timeframe: ''
+  geo: Region
+  element: ''
+  one: ''
+  two: ''
+  unit: ''
+- plan_entry_id: plan-one
+  label: Free
+  description: This is public access layer to the platform.
+  metric: ''
+  limit: ''
+  timeframe: ''
+  geo: ''
+  element: Free
+  one: ''
+  two: ''
+  unit: ''
+- plan_entry_id: plan-two
+  label: Support
+  description: Up to 1 hour of support - $50.00 / year after that.
+  metric: ''
+  limit: ''
+  timeframe: ''
+  geo: ''
+  element: ''
+  one: ''
+  two: ''
+  unit: ''
+- plan_entry_id: plan-three
+  label: Support
+  description: Up to 1 hour of support - $50.00 / year after that.
+  metric: Support
+  limit: ''
+  timeframe: Hourly
+  geo: ''
+  element: ''
+  one: ''
+  two: ''
+  unit: '1'
