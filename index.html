@@ -196,11 +196,12 @@ title: Drone Prototype
 
 							{% assign is_tag = 'false' %}
 							{% for tag in api.tags %}
+								{{ tag }} == {{ filter_tag }}
 								{% if tag == filter_tag %}
                   {% assign is_tag = 'true' %}
                 {% endif %}
 							{% endfor %}
-
+							is_tag: {{ is_tag }}<br />
 							{% if is_tag == 'true' %}
                 {% for property in api.properties %}
 
