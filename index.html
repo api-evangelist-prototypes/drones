@@ -203,7 +203,7 @@ title: Drone Prototype
 		</header>
 		<p>{{ change_log.header }}</p>
 		<center>
-		<div class="table-wrapper" style="height: 300px; overflow:auto;">
+		<div class="table-wrapper" style="height: 300px; overflow:auto; margin-bottom: 5px;">
 		<table cellpadding="10" cellspacing="10" width="90%">
 			{% for entry in change_log_entries %}
 				<tr>
@@ -216,10 +216,10 @@ title: Drone Prototype
 		</div>
 		</center>
 		<p>{{ change_log.footer }}</p>
+		<p align="center"><a href="/change-log/">Visit Full Page Change Log</a></p>
 	</div>
 	<span class="image object">
 		<img src="{{ change_log.image }}" alt="" width="5%" />
-		<p align="center"><a href="/change-log/">Visit Full Page Change Log</a></p>
 	</span>
 </section>
 
@@ -233,7 +233,7 @@ title: Drone Prototype
 			<h2>{{ issues.title }}</h2>
 		</header>
 		<p>{{ issues.header }}</p>
-		<div class="table-wrapper" style="height: 300px; overflow:auto;">
+		<div class="table-wrapper" style="height: 300px; overflow:auto; margin-bottom: 5px;">
 		<table class="table-wrapper">
 			{% for entry in issue_entries %}
 				<tr>
@@ -245,10 +245,10 @@ title: Drone Prototype
 		</table>
 		</div>
 		<p>{{ issues.footer }}</p>
+		<p align="center"><a href="/issues/">Visit Full Page Issues</a></p>
 	</div>
 	<span class="image object">
 		<img src="{{ issues.image }}" alt="" width="5%" />
-		<p align="center"><a href="/issues/">Visit Full Page Issues</a></p>
 	</span>
 </section>
 
@@ -263,7 +263,7 @@ title: Drone Prototype
 		</header>
 		<p>{{ road_map.header }}</p>
 		<center>
-		<div class="table-wrapper" style="height: 300px; overflow:auto;">
+		<div class="table-wrapper" style="height: 300px; overflow:auto; margin-bottom: 5px;">
 			<table cellpadding="10" cellspacing="10" width="90%" class="table-wrapper">
 				{% for entry in road_map_entries %}
 					<tr>
@@ -276,10 +276,10 @@ title: Drone Prototype
 		</div>
 		</center>
 		<p>{{ road_map.footer }}</p>
+		<p align="center"><a href="/road-map/">Visit Full Page Road Map</a></p>
 	</div>
 	<span class="image object">
 		<img src="{{ road_map.image }}" alt="" width="5%" />
-		<p align="center"><a href="/road-map/">Visit Full Page Road Map</a></p>
 	</span>
 </section>
 
