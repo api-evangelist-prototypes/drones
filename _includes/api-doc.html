@@ -134,9 +134,11 @@
           </tr>
         {% endif %}
 
+        {% assign api_slug = api.name | downcase | replace: ' ','' %}
+
         <tr>
           <td align="left" style="font-size: 18px; font-weight: bold; padding: 10px;">
-            {{ api.name }}
+            <a name="{{ api_slug }}"></a>{{ api.name }}
           </td>
           <td align="right" style="padding: 10px; background-color:#FFF;">
               <strong>OpenAPI:</strong>
