@@ -1,0 +1,40 @@
+- pilot_id: pilot-one
+  name: Pilot One
+  description: This is a description for the pilot.
+  username: pilotone
+- pilot_id: pilot-two
+  name: Pilot Two
+  description: This is a description for the pilot.
+  username: pilottwo
+- pilot_id: pilot-three
+  name: Pilot Three
+  description: This is a description for the pilot.
+  username: pilotthree
+- pilot_id: pilot-four
+  name: Pilot Four
+  description: This is a description for the pilot.
+  username: pilotfour
+- pilot_id: pilot-five
+  name: Pilot Five
+  description: This is a description for the pilot.
+  username: pilotfive
+- pilot_id: pilot-six
+  name: Pilot Six
+  description: This is a description for the pilot.
+  username: pilotsix
+- pilot_id: pilot-seven
+  name: Pilot Seven
+  description: This is a description for the pilot.
+  username: pilotseven
+- pilot_id: pilot-eight
+  name: Pilot Eight
+  description: This is a description for the pilot.
+  username: piloteight
+- pilot_id: pilot-nine
+  name: Pilot Nine
+  description: This is a description for the pilot.
+  username: pilotnine
+- pilot_id: pilot-ten
+  name: Pilot Ten
+  description: This is a description for the pilot.
+  username: pilotten

@@ -1,0 +1,48 @@
+swagger: '2.0'
+info:
+  title: Pilots API
+  description: This is an API for managing pilots.
+  termsOfService: https://drone.prototype.apievangelist.com/terms-of-service/
+  contact:
+    name: API Evangelist
+    url: https://apievangelist.com
+    email: info@apievangelist.com
+  version: v1.1
+host: drone.prototype.apievangelist.com
+basePath: /apis
+schemes:
+- http
+produces:
+- application/json
+paths:
+  /pilots/:
+    get:
+      summary: Get Pilots
+      description: Get Pilots
+      operationId: getPilots
+      responses:
+        '200':
+          description: Pilot Response
+          schema:
+            type: array
+            items:
+              $ref: "#/definitions/pilot"
+      tags:
+      - Pilots
+definitions:
+  pilot:
+    properties:
+      pilot-id:
+        description: The unique id for the pilot.
+        type: string
+      name:
+        description: The name of the pilot.
+        type: string
+      description:
+        description: The description of the pilot.
+        type: string
+      username:
+        description: The username for the description.
+        type: string
+    required:
+      - id
