@@ -2,10 +2,10 @@
   image: >-
     http://drone.prototype.apievangelist.com/images/getting-started-rectangular.png
   header: >-
-    All you need to get started with the Open Referral API is to learn about the
-    paths, parameters, and data model for the API, and begin making calls.
-    Started with the documentation, visit the code section, and let us know if
-    you need any help.
+    The documentation for this API is publicly available, but you have to signup
+    for a developer account before you will get access to the API. Here are the
+    steps to take to get up and running using the API, and the resources
+    available here.
   footer: >-
     We encourage you to get involved with the project beyond just consuming
     data. You can connect with the API platform team, as well as the rest of the
