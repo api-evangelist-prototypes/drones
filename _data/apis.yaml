@@ -163,6 +163,17 @@ apis:
     properties:
       - type: x-openapi
         url: http://drone.prototype.apievangelist.com/apis/usage/openapi.json
+  - name: Users API
+    description: This is an API for managing users.
+    image: http://drone.prototype.apievangelist.com/images/users.png
+    humanURL: https://drone.prototype.apievangelist.com
+    baseURL: https://drone.prototype.apievangelist.com
+    tags:
+      - Management
+      - Users
+    properties:
+      - type: x-openapi
+        url: http://drone.prototype.apievangelist.com/apis/users/openapi.json        
 x-common:
   - type: x-support
     url: https://drone.prototype.apievangelist.com#Support

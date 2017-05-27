@@ -1,7 +1,7 @@
 swagger: '2.0'
 info:
-  title: Aircraft API
-  description: This is an API for managing aircraft.
+  title: User API
+  description: This is an API for managing users.
   termsOfService: https://drone.prototype.apievangelist.com/terms-of-service/
   contact:
     name: API Evangelist
@@ -15,40 +15,43 @@ schemes:
 produces:
 - application/json
 paths:
-  /aircraft/:
+  /user/:
     get:
-      summary: Get Aircraft
-      description: Get Aircraft
-      operationId: getAircraft
+      summary: Get User
+      description: Get User
+      operationId: getUser
       responses:
         '200':
-          description: Aircraft Response
+          description: User Response
           schema:
             type: array
             items:
-              $ref: "#/definitions/aircraft"
+              $ref: "#/definitions/user"
       tags:
-      - Aircraft
+      - User
 definitions:
-  aircraft:
+  user:
     properties:
-      aircraft-id:
-        description: The id of the aircraft.
+      user_id:
+        description: The unique id of the user.
         type: string
       name:
-        description: The name of the aircraft.
+        description: The name of the user.
         type: string
-      make:
-        description: The make of the aircraft.
-        type: string
-      model:
-        description: The model of the aircraft.
+      email:
+        description: The email address for the user.
         type: string
       description:
-        description: The description for the aircraft.
+        description: The description of the user.
         type: string
-      image:
-        description: The image for the aircraft.
+      twitter:
+        description: The twitter account for the user.
+        type: string
+      github:
+        description: The github account for the user.
+        type: string
+      google:
+        description: The google account for the user.
         type: string
     required:
-      - id
+      - user_id
