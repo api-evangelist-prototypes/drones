@@ -1,70 +1,70 @@
-- aircraft-id: aircraft-one
-  manufacturer-id: manufacturer-one
-  name: Aircraft One
-  make: Drone Make
-  model: Drone Model
-  description: This is the description of this drone.
-  image: 'https://s3.amazonaws.com/kinlane-productions/bw-icons/bw-drone-landing.png'
-- aircraft-id: aircraft-two
-  manufacturer-id: manufacturer-one
-  name: Aircraft Two
-  make: Drone Make
-  model: Drone Model
-  description: This is the description of this drone.
-  image: 'https://s3.amazonaws.com/kinlane-productions/bw-icons/bw-drone-landing.png'
-- aircraft-id: aircraft-three
-  manufacturer-id: manufacturer-one
-  name: Aircraft Three
-  make: Drone Make
-  model: Drone Model
-  description: This is the description of this drone.
-  image: 'https://s3.amazonaws.com/kinlane-productions/bw-icons/bw-drone-landing.png'
-- aircraft-id: aircraft-four
-  manufacturer-id: manufacturer-one
-  name: Aircraft Four
-  make: Drone Make
-  model: Drone Model
-  description: This is the description of this drone.
-  image: 'https://s3.amazonaws.com/kinlane-productions/bw-icons/bw-drone-landing.png'
-- aircraft-id: aircraft-five
-  manufacturer-id: manufacturer-one
-  name: Aircraft Five
-  make: Drone Make
-  model: Drone Model
-  description: This is the description of this drone.
-  image: 'https://s3.amazonaws.com/kinlane-productions/bw-icons/bw-drone-landing.png'
-- aircraft-id: aircraft-six
-  manufacturer-id: manufacturer-two
-  name: Aircraft Six
-  make: Drone Make
-  model: Drone Model
-  description: This is the description of this drone.
-  image: 'https://s3.amazonaws.com/kinlane-productions/bw-icons/bw-drone-landing.png'
-- aircraft-id: aircraft-seven
-  manufacturer-id: manufacturer-two
-  name: Aircraft Seven
-  make: Drone Make
-  model: Drone Model
-  description: This is the description of this drone.
-  image: 'https://s3.amazonaws.com/kinlane-productions/bw-icons/bw-drone-landing.png'
-- aircraft-id: aircraft-eight
-  manufacturer-id: manufacturer-two
-  name: Aircraft Eight
-  make: Drone Make
-  model: Drone Model
-  description: This is the description of this drone.
-  image: 'https://s3.amazonaws.com/kinlane-productions/bw-icons/bw-drone-landing.png'
-- aircraft-id: aircraft-nine
-  manufacturer-id: manufacturer-two
-  name: Aircraft Nine
-  make: Drone Make
-  model: Drone Model
-  description: This is the description of this drone.
-  image: 'https://s3.amazonaws.com/kinlane-productions/bw-icons/bw-drone-landing.png'
-- aircraft-id: aircraft-ten
-  manufacturer-id: manufacturer-two
-  name: Aircraft Ten
-  make: Drone Make
-  model: Drone Model
-  description: This is the description of this drone.
-  image: 'https://s3.amazonaws.com/kinlane-productions/bw-icons/bw-drone-landing.png'
+- user_id: user-one
+  name: User One
+  email: info@example.com
+  description: This is a test description of a user.
+  twitter: '@twitter'
+  github: '@github'
+  google: user@gmail.com
+- user_id: user-two
+  name: User Two
+  email: info@example.com
+  description: This is a test description of a user.
+  twitter: '@twitter'
+  github: '@github'
+  google: user@gmail.com
+- user_id: user-three
+  name: User Three
+  email: info@example.com
+  description: This is a test description of a user.
+  twitter: '@twitter'
+  github: '@github'
+  google: user@gmail.com
+- user_id: user-four
+  name: User Four
+  email: info@example.com
+  description: This is a test description of a user.
+  twitter: '@twitter'
+  github: '@github'
+  google: user@gmail.com
+- user_id: user-five
+  name: User Five
+  email: info@example.com
+  description: This is a test description of a user.
+  twitter: '@twitter'
+  github: '@github'
+  google: user@gmail.com
+- user_id: user-six
+  name: User Six
+  email: info@example.com
+  description: This is a test description of a user.
+  twitter: '@twitter'
+  github: '@github'
+  google: user@gmail.com
+- user_id: user-seven
+  name: User Seven
+  email: info@example.com
+  description: This is a test description of a user.
+  twitter: '@twitter'
+  github: '@github'
+  google: user@gmail.com
+- user_id: user-eight
+  name: User Eight
+  email: info@example.com
+  description: This is a test description of a user.
+  twitter: '@twitter'
+  github: '@github'
+  google: user@gmail.com
+- user_id: user-nine
+  name: User Nine
+  email: info@example.com
+  description: This is a test description of a user.
+  twitter: '@twitter'
+  github: '@github'
+  google: user@gmail.com
+- user_id: user-ten
+  name: User Ten
+  email: info@example.com
+  description: This is a test description of a user.
+  twitter: '@twitter'
+  github: '@github'
+  google: user@gmail.com
