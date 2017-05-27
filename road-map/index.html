@@ -13,7 +13,7 @@ layout: page
 	{% for entry in road_map_entries %}
     <tr>
   		<td align="left" valign="top">
-  			({{ entry.date | date: "%D" }}) <strong>{{ entry.title }}</strong> - {{ entry.description }}
+  			({{ entry.type }}) <strong>{{ entry.title }}</strong> - {{ entry.description }}
   		</td>
     </tr>
 	{% endfor %}

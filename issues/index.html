@@ -13,7 +13,7 @@ layout: page
 	{% for current in issue_entries %}
     <tr>
   		<td align="left" valign="top">
-  			({{ current.date | date: "%D" }}) <strong>{{ current.title }}</strong> - {{ current.description }}
+  			({{ current.type }}) <strong>{{ current.title }}</strong> - {{ current.description }}
   		</td>
     </tr>
 	{% endfor %}
