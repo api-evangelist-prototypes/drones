@@ -10,12 +10,20 @@
     <li>
       <span class="opener"><a href="#DroneAPIs">Drone APIs</a></span>
       <ul>
+        {% assign filter_tag = 'Drones' %}
+    		{% assign apijson = site.data.apis %}
+    		{% assign apicommons = site.data.api-commons %}
+    		{% include api-doc.html %}
         {% include api-list.html %}
       </ul>
     </li>
     <li>
       <span class="opener"><a href="#ManagementAPIs">Management APIs</a></span>
       <ul>
+        {% assign filter_tag = 'Management' %}
+  			{% assign apijson = site.data.apis %}
+  			{% assign apicommons = site.data.api-commons %}
+  			{% include api-doc.html %}        
         {% include api-list.html %}
       </ul>
     </li>
