@@ -57,6 +57,7 @@ title: Drone Prototype
 </section>
 
 <!-- Authentication -->
+<a name="Authentication"></a>
 {% assign authentication = site.data.authentication.index[0] %}
 <section id="banner">
 	<div class="content">
@@ -72,6 +73,7 @@ title: Drone Prototype
 </section>
 
 <!-- FAQ -->
+<a name="FAQ"></a>
 {% assign faq = site.data.faq.index[0] %}
 {% assign faq_categories = site.data.faq_categories.index %}
 {% assign faq_questions = site.data.faq_questions.index %}
@@ -79,7 +81,6 @@ title: Drone Prototype
 	<div class="content">
 		<header>
 			<h2>{{ faq.title }}</h2>
-			<a name="FAQ"></a>
 		</header>
 		<p>{{ faq.header }}</p>
 			{% for categories in faq_categories %}
@@ -100,11 +101,11 @@ title: Drone Prototype
 </section>
 
 <!-- Banner -->
+<a name="DroneAPIs"></a>
 <section id="banner">
 	<div class="content">
 		<header>
 			<h2>Drone APIs</h2>
-			<a name="DroneAPIs"></a>
 		</header>
 		<p>These are the drone API prototypes I am designing. I'm managing the schema and OpenAPI for them, and I'm using Jekyll and Github to mock the API, and provide the documentation. It allows me to easily play around with different potential designs for my Drone API platform.</p>
 		{% assign filter_tag = 'Drones' %}
@@ -115,12 +116,12 @@ title: Drone Prototype
 	</div>
 </section>
 
-<!-- Banner -->
+<!-- Management APIs -->
+<a name="ManagementAPIs"></a>
 <section id="banner">
 	<div class="content">
 		<header>
 			<h2>Management APIs</h2>
-			<a name="ManagementAPIs"></a>
 			<p>These are the APIs I am evolving to help manage the drone API platform, providing programmatic access to the platform operators, and in some cases partners, and API consumers. Everything in this project is ultimately an API, allowing everything to be accessed and orchestrated.</p>
 			{% assign filter_tag = 'Management' %}
 			{% assign apijson = site.data.apis %}
@@ -132,6 +133,8 @@ title: Drone Prototype
 	</div>
 </section>
 
+<!-- Code -->
+<p>{{ code.header }}</p>
 {% assign code = site.data.code.index[0] %}
 {% assign code_entries = site.data.code_entries.index %}
 <section id="banner">
@@ -140,7 +143,6 @@ title: Drone Prototype
 			<h2>{{ code.title }}</h2>
 			<a name="Code"></a>
 		</header>
-		<p>{{ code.header }}</p>
 		<center>
 		<table style="width: 80%; padding-left: 25px; border: 1px; background-color: #FFF; border: 0px solid #FFF;">
 		  <tr style="border: 1px solid #FFF;">
@@ -157,13 +159,13 @@ title: Drone Prototype
 </section>
 
 <!-- Integrations -->
+<a name="Integrations"></a>
 {% assign integration = site.data.integrations.index[0] %}
 {% assign integration_entries = site.data.integration_entries.index %}
 <section id="banner">
 	<div class="content">
 		<header>
 			<h2>{{ integration.title }}</h2>
-			<a name="Integrations"></a>
 		</header>
 		<p>{{ integration.header }}</p>
 		<center>
