@@ -2,6 +2,7 @@ title:        Drone Prototype
 description:  This is a working site to think about drones.
 url:          https://drone.prototype.apievangelist.com
 raw_url: http://drone.prototype.apievangelist.com/apis/
+sandbox_url: https://sandbox.drone.prototype.apievangelist.com
 
 version:      1.1.1
 
