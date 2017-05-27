@@ -1,14 +1,13 @@
-- title: Authentication For The Open Referral API
+- title: Authentication
   image: >-
     http://drone.prototype.apievangelist.com/images/authentication-rectangular.png
   header: >-
-    The Open Referral API is a publicly available API. There is no
-    authentication required to just GET, or read information. It is publicly
-    available, all you need to know is the URL, path, and the relevant
-    parameters.
+    There are no public APIs on this platform, all APIs require a user to
+    register and be approved. We do filter and qualify applicants, but almost
+    everyone is immediately approved. There are few things you should be doing
+    to get going using the API:
   footer: >-
-    During the next phase of the project we will introduce paths for adding,
-    updating, and deleting data for partners. Authentication will be required
-    for the Open Referral API to help maintain the integrity of the data in the
-    system, balancing public access to the data, while remaining a high level of
-    quality regarding who can update and delete information.
+    Remember this a prototype API, it isn't real. You can play with the calls
+    below for any GET request, and I'll often mock POST, PUT, and DELETE when
+    possible. It is meant to show what is possible when it comes to
+    authentication, and securing a drone API platform.
