@@ -208,7 +208,7 @@ title: Drone Prototype
 			{% for entry in change_log_entries %}
 				<tr>
 					<td align="left" valign="top">
-						({{ entry.type }}) <strong>{{ entry.title }}</strong> - {{ entry.description }}
+						<strong>{{ entry.title }}</strong> ({{ entry.type }}) - {{ entry.description }}
 					</td>
 				</tr>
 			{% endfor %}
@@ -238,7 +238,7 @@ title: Drone Prototype
 			{% for entry in issue_entries %}
 				<tr>
 					<td align="left" valign="top">
-						({{ entry.type }}) <strong>{{ entry.title }}</strong> - {{ entry.description }}
+						<strong>{{ entry.title }}</strong> ({{ entry.type }}) - {{ entry.description }}
 					</td>
 				</tr>
 			{% endfor %}
@@ -268,7 +268,7 @@ title: Drone Prototype
 				{% for entry in road_map_entries %}
 					<tr>
 						<td align="left" valign="top">
-							({{ entry.type }}) <strong>{{ entry.title }}</strong> - {{ entry.description }}
+							<strong>{{ entry.title }}</strong> ({{ entry.type }}) - {{ entry.description }}
 						</td>
 					</tr>
 				{% endfor %}

@@ -16,7 +16,7 @@ layout: page
 		{% for history in change_log_entries %}
 	    <tr>
 	  		<td align="left" valign="top">
-	  			({{ history.type }}) <strong>{{ history.title }}</strong> - {{ history.description }}
+	  			<strong>{{ history.title }}</strong> ({{ history.type }}) - {{ history.description }}
 	  		</td>
 	    </tr>
 		{% endfor %}
