@@ -1,10 +1,14 @@
 - title: Change Log
   image: 'http://drone.prototype.apievangelist.com/images/change-log-rectangular.png'
   header: >-
-    This is a detailed log of the changes that have been made to the Open
-    Referral API over time. We try to keep a log of all changes here to keep a
-    history of everything that has happened.
+    This is a detailed log of the changes that have been made to the Drone over
+    time. We try to keep a log of all changes here to keep a history of
+    everything that has happened. This also acts as the story of the platform,
+    helping share the thought that goes into the platform, so that other
+    providers can help follow.
   footer: >-
-    This change log is just pulling from the Github issues that are tagged as
-    change log. We will list everything here until it becomes too long, then
-    we'll begn to truncate.
+    When something on the road map has been satisfied, or an issue has been
+    resolved we try to move it here. Since this is just a prototype API project,
+    once something on the road map gets reflected on the main page for the site,
+    or shared as a story on the blog, we'll mark it done, considering it part of
+    the operations.
