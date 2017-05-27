@@ -1,10 +1,4 @@
-- account_id: account-one
-  name: Account One
-- account_id: account-two
-  name: Account Two
-- account_id: account-three
-  name: Account Three
-- account_id: account-four
-  name: Account Four
-- account_id: account-five
-  name: Account Five
+- name: Range
+  description: Specifiying a range using the one and two parameters for plan entry.
+- name: Unlimited
+  description: Allowing for unlimited calls against an API.
