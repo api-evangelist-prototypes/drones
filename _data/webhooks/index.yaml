@@ -1,70 +1,40 @@
-- aircraft-id: aircraft-one
-  manufacturer-id: manufacturer-one
-  name: Aircraft One
-  make: Drone Make
-  model: Drone Model
-  description: This is the description of this drone.
-  image: 'https://s3.amazonaws.com/kinlane-productions/bw-icons/bw-drone-landing.png'
-- aircraft-id: aircraft-two
-  manufacturer-id: manufacturer-one
-  name: Aircraft Two
-  make: Drone Make
-  model: Drone Model
-  description: This is the description of this drone.
-  image: 'https://s3.amazonaws.com/kinlane-productions/bw-icons/bw-drone-landing.png'
-- aircraft-id: aircraft-three
-  manufacturer-id: manufacturer-one
-  name: Aircraft Three
-  make: Drone Make
-  model: Drone Model
-  description: This is the description of this drone.
-  image: 'https://s3.amazonaws.com/kinlane-productions/bw-icons/bw-drone-landing.png'
-- aircraft-id: aircraft-four
-  manufacturer-id: manufacturer-one
-  name: Aircraft Four
-  make: Drone Make
-  model: Drone Model
-  description: This is the description of this drone.
-  image: 'https://s3.amazonaws.com/kinlane-productions/bw-icons/bw-drone-landing.png'
-- aircraft-id: aircraft-five
-  manufacturer-id: manufacturer-one
-  name: Aircraft Five
-  make: Drone Make
-  model: Drone Model
-  description: This is the description of this drone.
-  image: 'https://s3.amazonaws.com/kinlane-productions/bw-icons/bw-drone-landing.png'
-- aircraft-id: aircraft-six
-  manufacturer-id: manufacturer-two
-  name: Aircraft Six
-  make: Drone Make
-  model: Drone Model
-  description: This is the description of this drone.
-  image: 'https://s3.amazonaws.com/kinlane-productions/bw-icons/bw-drone-landing.png'
-- aircraft-id: aircraft-seven
-  manufacturer-id: manufacturer-two
-  name: Aircraft Seven
-  make: Drone Make
-  model: Drone Model
-  description: This is the description of this drone.
-  image: 'https://s3.amazonaws.com/kinlane-productions/bw-icons/bw-drone-landing.png'
-- aircraft-id: aircraft-eight
-  manufacturer-id: manufacturer-two
-  name: Aircraft Eight
-  make: Drone Make
-  model: Drone Model
-  description: This is the description of this drone.
-  image: 'https://s3.amazonaws.com/kinlane-productions/bw-icons/bw-drone-landing.png'
-- aircraft-id: aircraft-nine
-  manufacturer-id: manufacturer-two
-  name: Aircraft Nine
-  make: Drone Make
-  model: Drone Model
-  description: This is the description of this drone.
-  image: 'https://s3.amazonaws.com/kinlane-productions/bw-icons/bw-drone-landing.png'
-- aircraft-id: aircraft-ten
-  manufacturer-id: manufacturer-two
-  name: Aircraft Ten
-  make: Drone Make
-  model: Drone Model
-  description: This is the description of this drone.
-  image: 'https://s3.amazonaws.com/kinlane-productions/bw-icons/bw-drone-landing.png'
+- webhook_id: webhook-one
+  account_id: Webhook One
+  url: 'http://example.com/webhook/'
+  status: active
+- webhook_id: webhook-two
+  account_id: Webhook Two
+  url: 'http://example.com/webhook/'
+  status: active
+- webhook_id: webhook-three
+  account_id: Webhook Three
+  url: 'http://example.com/webhook/'
+  status: active
+- webhook_id: webhook-four
+  account_id: Webhook Four
+  url: 'http://example.com/webhook/'
+  status: active
+- webhook_id: webhook-five
+  account_id: Webhook Five
+  url: 'http://example.com/webhook/'
+  status: active
+- webhook_id: webhook-six
+  account_id: Webhook Six
+  url: 'http://example.com/webhook/'
+  status: inactive
+- webhook_id: webhook-seven
+  account_id: Webhook Seven
+  url: 'http://example.com/webhook/'
+  status: inactive
+- webhook_id: webhook-eight
+  account_id: Webhook Eight
+  url: 'http://example.com/webhook/'
+  status: active
+- webhook_id: webhook-nine
+  account_id: Webhook Nine
+  url: 'http://example.com/webhook/'
+  status: active
+- webhook_id: webhook-ten
+  account_id: Webhook Ten
+  url: 'http://example.com/webhook/'
+  status: active
