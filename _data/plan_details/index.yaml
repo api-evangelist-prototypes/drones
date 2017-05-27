@@ -1,6 +1,5 @@
 - title: Plans
-  image: >-
-    https://s3.amazonaws.com/kinlane-productions/bw-icons/bw-integration-automation.png
+  image: 'https://s3.amazonaws.com/kinlane-productions/bw-icons/bw-plan.png'
   header: >-
     These are the plans we currently offer associated with API usage. Things are
     broken down into three tiers, who all have access to resources, but at a
