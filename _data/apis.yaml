@@ -152,6 +152,17 @@ apis:
     properties:
       - type: x-openapi
         url: http://drone.prototype.apievangelist.com/apis/storage/openapi.json
+  - name: Usage API
+    description: This is an API for acessing usage logs.
+    image: http://drone.prototype.apievangelist.com/images/usage.png
+    humanURL: https://drone.prototype.apievangelist.com
+    baseURL: https://drone.prototype.apievangelist.com
+    tags:
+      - Management
+      - Usage
+    properties:
+      - type: x-openapi
+        url: http://drone.prototype.apievangelist.com/apis/usage/openapi.json
 x-common:
   - type: x-support
     url: https://drone.prototype.apievangelist.com#Support

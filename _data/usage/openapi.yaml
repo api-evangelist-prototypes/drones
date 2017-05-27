@@ -1,7 +1,7 @@
 swagger: '2.0'
 info:
-  title: Aircraft API
-  description: This is an API for managing aircraft.
+  title: Usage API
+  description: This is an API for acessing usage logs.
   termsOfService: https://drone.prototype.apievangelist.com/terms-of-service/
   contact:
     name: API Evangelist
@@ -15,40 +15,31 @@ schemes:
 produces:
 - application/json
 paths:
-  /aircraft/:
+  /usage/:
     get:
-      summary: Get Aircraft
-      description: Get Aircraft
-      operationId: getAircraft
+      summary: Get Usage
+      description: Get Usage
+      operationId: getUsage
       responses:
         '200':
-          description: Aircraft Response
+          description: Usage Response
           schema:
             type: array
             items:
-              $ref: "#/definitions/aircraft"
+              $ref: "#/definitions/usage"
       tags:
-      - Aircraft
+      - Usage
 definitions:
-  aircraft:
+  usage:
     properties:
-      aircraft-id:
-        description: The id of the aircraft.
+      usage_id:
+        description: The unique id for the usage entry.
         type: string
-      name:
-        description: The name of the aircraft.
+      path:
+        description: The path of what was used.
         type: string
-      make:
-        description: The make of the aircraft.
-        type: string
-      model:
-        description: The model of the aircraft.
-        type: string
-      description:
-        description: The description for the aircraft.
-        type: string
-      image:
-        description: The image for the aircraft.
+      timestamp:
+        description: The timestamp fro the usage.
         type: string
     required:
-      - id
+      - usage_id
