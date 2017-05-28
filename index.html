@@ -136,7 +136,7 @@ title: Drone Prototype
 <!-- Change Log -->
 <a name="Plans"></a>
 {% assign plan_details = site.data.plan_details.index[0] %}
-{% assign plans = site.data.plan_entries.index %}
+{% assign plans = site.data.plans.index %}
 {% assign plan_entries = site.data.plan_entries.index %}
 <section id="banner">
 	<div class="content">
@@ -149,11 +149,13 @@ title: Drone Prototype
 			<article>
 				<p><img src="{{ plan.image }}" width="75%" style="padding: 15px;" align="center" /></p>
 				<div class="content">
-					<h3>{{ plan.title }}</h3>
+					<h3>{{ plan.name }}</h3>
 					<p>{{ plan.description }}</p>
 					<ul>
 						{% for entry in plan_entries %}
-							<li>{{ entry.label }} - {{ entry.description }}</li>
+							{% if toggle == 0 %}
+								<li>{{ entry.label }} - {{ entry.description }}</li>
+							{% endif %}
 						{% endfor %}
 					</ul>
 				</div>
