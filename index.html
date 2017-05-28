@@ -138,32 +138,30 @@ title: Drone Prototype
 {% assign plan_details = site.data.plan_details.index[0] %}
 {% assign plans = site.data.plans.index %}
 {% assign plan_entries = site.data.plan_entries.index %}
-<section id="banner">
-	<div class="content">
-		<header>
-			<h2>{{ plan_details.title }}</h2>
-		</header>
+<section>
+	<header>
+		<h2>{{ plan_details.title }}</h2>
 		<p>{{ plan_details.header }}</p>
-		<div class="features">
-			{% for plan in plans %}
-			<article>
-				<p><img src="{{ plan.image }}" width="25%" style="padding: 15px;" align="center" /></p>
-				<div class="content">
-					<h3>{{ plan.name }}</h3>
-					<p>{{ plan.description }}</p>
-					<ul>
-						{% for entry in plan_entries %}
-							{% if entry.plan_id == plan.plan_id %}
-								<li>{{ entry.label }} - {{ entry.description }}</li>
-							{% endif %}
-						{% endfor %}
-					</ul>
-				</div>
-			</article>
-			{% endfor %}
-		</div>
-		<p>{{ plan_details.footer }}</p>
+	</header>
+	<div class="features">
+		{% for plan in plans %}
+		<article>
+			<p><img src="{{ plan.image }}" width="75%" style="padding: 15px;" align="center" /></p>
+			<div class="content">
+				<h3>{{ plan.name }}</h3>
+				<p>{{ plan.description }}</p>
+				<ul>
+					{% for entry in plan_entries %}
+						{% if entry.plan_id == plan.plan_id %}
+							<li>{{ entry.label }} - {{ entry.description }}</li>
+						{% endif %}
+					{% endfor %}
+				</ul>
+			</div>
+		</article>
+		{% endfor %}
 	</div>
+	<p>{{ plan_details.footer }}</p>
 </section>
 
 <!-- Code -->
