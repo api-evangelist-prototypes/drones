@@ -140,7 +140,7 @@
 - type: Design
   title: Schema Filtering
   description: >-
-    What is the standard for allowing the actual schema returend in API
+    What is the standard for allowing the actual schema returned in API
     responses to be filtered, minimized, or expanded? Allowing for API consumers
     to specify how little, or how much data they received. Are we considering a
     more holistic approach using GraphQL. Do we want our consumers to have this
@@ -153,7 +153,7 @@
   description: >-
     Beyond the schema, what approaches to allowing API consumers to filter data
     that is returned. Searching, filtering, and other approaches to allowing
-    consumers to get exactlyt he data they need.
+    consumers to get exactly the data they need.
   url: ''
   issue: ''
   date: 01/17/2017
@@ -169,7 +169,7 @@
 - type: Design
   title: Granularity
   description: >-
-    Have we stepped back and look at the granularitiy of API paths and
+    Have we stepped back and look at the granularity of API paths and
     definitions? Are things small, modular, well thought out, and provide
     valuable units of compute?
   url: ''
@@ -185,9 +185,9 @@
   issue: ''
   date: 01/20/2017
 - type: Design
-  title: Readablity
+  title: Readability
   description: >-
-    Always review the API design and check for readabililty. Can you scan the
+    Always review the API design and check for readability. Can you scan the
     design and understand what is going on. Naming, summary, and description are
     always plain english and meant more for humans than for computers.
   url: ''
@@ -196,7 +196,7 @@
 - type: Design
   title: Relationships
   description: >-
-    Have we evaluated and considered the releationships between our APIs and the
+    Have we evaluated and considered the relationships between our APIs and the
     resources we are making available. Are the relationships represented in the
     design of our API?
   url: ''
@@ -307,7 +307,7 @@
 - type: DNS
   title: DNS
   description: >-
-    Establish which DNS platform will be sed to support APIs, and establish a
+    Establish which DNS platform will be used to support APIs, and establish a
     plan for setting up, configuring, and managing DNS in support of API
     operations.
   url: ''
@@ -316,7 +316,7 @@
 - type: Deployment
   title: Framework
   description: >-
-    Reseach the available API deployment frameworks for the programming
+    Research the available API deployment frameworks for the programming
     languages we have resources available in, and choose the right framework(s)
     for use in deploying any API--establish common practices for deploying APIs
     from start to finish.
@@ -326,7 +326,7 @@
 - type: DNS
   title: Identify a host
   description: >-
-    Establish a host for use across API operations, for base URL, developer
+    Establish a host for use across API operations, for base_URL, developer
     portal, and other supporting resources.
   url: ''
   issue: ''
@@ -343,7 +343,7 @@
   title: Guide
   description: >-
     Stop and establish a guide to DNS for the platform. Even if the same domain
-    or sudbomain is used, provide guidance on how new subdomains are setup, and
+    or subdomain is used, provide guidance on how new subdomains are setup, and
     how supporting projects work. Include the details of logging, monitoring,
     and other aspects of DNS as it overlaps with API operations.
   url: ''
@@ -352,8 +352,8 @@
 - type: Encryption
   title: Thinking about encryption
   description: >-
-    Consider encrkyption for EVERYTHING across API operations, making it default
-    for anything in transport in suppor of the API.
+    Consider encryption for EVERYTHING across API operations, making it default
+    for anything in transport in support of the API.
   url: ''
   issue: ''
   date: 02/06/2017
@@ -387,7 +387,7 @@
 - type: Deployment
   title: Guide
   description: >-
-    Take the time to pause and document everthing accomplished as part of the
+    Take the time to pause and document everything accomplished as part of the
     development process, coming up with a standard approach deploying APis
     across all operations. Publish the guide where everyone involved with
     development can get at it.
@@ -407,7 +407,7 @@
 - type: Authentication
   title: Authentication Strategy
   description: >-
-    What is the authenticaiton strategy. Let's lightly key up data and content
+    What is the authentication strategy. Let's lightly key up data and content
     that is light security, allowing for easy access by developers. All
     personally identifiable information (PII) should be secured using OAuth 2.0,
     and all applications need to leverage OAuth for identity and access
@@ -455,7 +455,7 @@
   title: Indirect Value
   description: >-
     Think beyond the direct value being generated and think about some of the
-    indirect aspects of API operation like brand awarness, social media and
+    indirect aspects of API operation like brand awareness, social media and
     website exposure. There are many ways that an API will generate value for
     the drone and other resources available here.
   url: ''
@@ -506,7 +506,7 @@
     What regions are available for accessing the API? Depending the platform(s)
     used there should be a range of geographical regions we can make available
     to API consumers? Deploying permanently or temporarily into cloud
-    infrastructure in any given region, and include that as part of plands and
+    infrastructure in any given region, and include that as part of plans and
     pricing.
   url: ''
   issue: ''
@@ -524,7 +524,7 @@
 - type: Plans
   title: Access Tiers
   description: >-
-    While each individual API should have its own value measurement, timerames,
+    While each individual API should have its own value measurement, timeframes,
     metrics, and limits applied, we should be considering tiers of access for
     the public, for partners, and even internally. Each tier can possess one or
     many APIs, and employ a variety of limitations on access to these resources.
@@ -535,7 +535,7 @@
 - type: Plans
   title: Guide
   description: >-
-    Stop and document everything about the value and monetizationstragegy 
+    Stop and document everything about the value and monetization strategy 
     involved with operations, and how that translates into the timeframes,
     metrics, limits, regions, features, and access tiers. Document, share, and
     keep updated, using it to guide platform operations.
@@ -555,10 +555,10 @@
 - type: Logging
   title: Logging
   description: >-
-    Establish a loggng strategy beyond what is offered as part of API management
-    and logging of the API. Combine database, server, DNS, and API management
-    into a single logging strategy for integration and analysis as part of API
-    operations.
+    Establish a logging strategy beyond what is offered as part of API
+    management and logging of the API. Combine database, server, DNS, and API
+    management into a single logging strategy for integration and analysis as
+    part of API operations.
   url: ''
   issue: ''
   date: 02/26/2017
@@ -576,15 +576,15 @@
   description: >-
     Stop and document the logging layer, providing details on how logs are
     collected, aggregated, stored, and accessed via the API layer, providing a
-    single palce to go when trying to understand what is gathered by default
-    acrosss API operations.
+    single place to go when trying to understand what is gathered by default
+    across API operations.
   url: ''
   issue: ''
   date: ''
 - type: Management
   title: Reporting
   description: >-
-    With all the moving parts in place let's setup reporting across the API
+    With all the moving parts in place let's set up reporting across the API
     management, logging, and other aspects of operations, providing information
     about API consumption internally as well as to partners, and consumers.
   url: ''
@@ -607,7 +607,7 @@
   issue: ''
   date: 02/28/2017
 - type: Authentication
-  title: Twitter Auth
+  title: Twitter Oauth
   description: >-
     Provide the option for users sign up with their Twitter account, eliminating
     the need to create yet another password. 
@@ -625,7 +625,7 @@
 - type: Authentication
   title: Google Auth
   description: >-
-    Provide the option for users sign up with their Googel account, eliminating
+    Provide the option for users sign up with their Google account, eliminating
     the need to create yet another password. 
   url: ''
   issue: ''
@@ -633,7 +633,7 @@
 - type: Management
   title: Acceptance
   description: >-
-    Establish what the acceptance policy looks like. Are developers immiediately
+    Establish what the acceptance policy looks like. Are developers immediately
     given access to resources. Which plan are they put into, or maybe they need
     approval before making more than X calls. Identify and document what the
     acceptance policy for registration is.
@@ -652,7 +652,7 @@
 - type: Portal
   title: Github Repo For Portal
   description: >-
-    Using the Github organizaiton for the project, add another repo, but this
+    Using the Github organization for the project, add another repo, but this
     time for the developer portal. 
   url: ''
   issue: ''
@@ -684,7 +684,7 @@
 - type: Documentation
   title: Generate documentation from OpenAPI
   description: >-
-    Gnerate API documentation using the OpenAPI, with one of the ope source
+    Generate API documentation using the OpenAPI, with one of the open source
     solutions like Swagger UI or Redoc.
   url: ''
   issue: ''
@@ -693,7 +693,7 @@
   title: Generate SDKs / Libraries from OpenAPI
   description: >-
     Generate SDKs and other code samples from the OpenAPI for the project, and
-    keep them update to date with cahnges made with each version.
+    keep them update to date with changes made with each version.
   url: ''
   issue: ''
   date: 03/12/2017
@@ -701,14 +701,14 @@
   title: Code Page
   description: >-
     Setup a page within the portal for publishing all SDKs and other code
-    releated resources.
+    related resources.
   url: ''
   issue: ''
   date: 03/13/2017
 - type: Portal
   title: Getting Started Page
   description: >-
-    Setup a getting started page outlining exactly the steps to follow when
+    Set Up a getting started page outlining exactly the steps to follow when
     getting up and running with the platform.
   url: ''
   issue: ''
@@ -724,7 +724,7 @@
 - type: Portal
   title: FAQ Page
   description: >-
-    Setup an FAQ page listing all of the common questions that get asked by
+    Set Up an FAQ page listing all of the common questions that get asked by
     partners, consumers, and other users of the platform.
   url: ''
   issue: ''
@@ -743,7 +743,7 @@
   title: Support Page
   description: >-
     Publish a support page sharing all the support channels, and whatever other
-    information is availble for partners and consumers when they need help.
+    information is available for partners and consumers when they need help.
   url: ''
   issue: ''
   date: 03/18/2017
@@ -848,7 +848,7 @@
 - type: Management
   title: Guide
   description: >-
-    Stop and coument the API management wofkow, documenting all the tools
+    Stop and document the API management wolkow, documenting all the tools
     involved, and what the processes are across the portal, developer dashboard,
     and any other management interfaces.
   url: ''
@@ -863,7 +863,7 @@
 - type: Privacy
   title: Privacy Policy
   description: >-
-    Publish a privacy policy outlining how privacy in considered as part of
+    Publish a privacy policy outlining how privacy is considered as part of
     platform operations.
   url: ''
   issue: ''
@@ -873,16 +873,16 @@
   description: >-
     Establish what the deprecation policy is for all APIs and services, identify
     what the process is for communicating and deprecating services--settings
-    expectatiosn for how things will change.
+    expectations for how things will change.
   url: ''
   issue: ''
   date: 04/02/2017
 - type: Reliability
   title: Service Accord / SLA
   description: >-
-    Consider what service level agreement we can offer. If nothing else at leas
-    tpublish a service accord setting the tone for the engagement, and what
-    level of service we honestly intend to offer.
+    Consider what service level agreement we can offer. If nothing else at least
+    publish a service accord setting the tone for the engagement, and what level
+    of service we honestly intend to offer.
   url: ''
   issue: ''
   date: 04/03/2017
@@ -972,21 +972,21 @@
   description: >-
     Let's also consider providing Amazon AMI, or other virtualized images of
     some, or all of the APIs, allowing the compute to be offloaded to a
-    consumers account, and run APIs in their environment.
+    consumer's account, and run APIs in their environment.
   url: ''
   issue: ''
   date: 04/15/2017
 - type: Communications
   title: Blog
   description: >-
-    Let's setup a new blog for the platform. Let's setup as part of the
+    Let's setup a new blog for the platform. Let's set up as part of the
     developer portal using Jekyll, or even set it up as its own repository.
   url: ''
   issue: ''
   date: 04/16/2017
 - type: Communications
   title: Blog Feed
-  description: 'Setup an Atom feed along with the blog, allowing feeds to be syndicated.'
+  description: 'Set Up an Atom feed along with the blog, allowing feeds to be syndicated.'
   url: ''
   issue: ''
   date: 04/17/2017
@@ -1058,7 +1058,7 @@
 - type: Monitoring
   title: Status dashboard
   description: >-
-    Setup a status dashboard with an external service, sharing real-time, and
+    Set Up a status dashboard with an external service, sharing real-time, and
     historical data about the platform availability and reliability.
   url: ''
   issue: ''
@@ -1103,8 +1103,8 @@
   description: >-
     Let's pull together licensing for the API. Ideally we wouldn't have to do
     this, but in the United States APIs currently can have copyright applied, so
-    its good to choose a creative commons license and apply to all
-    APIs--encouraing reuse and integration.
+    it's good to choose a creative commons license and apply to all
+    APIs--encouraging reuse and integration.
   url: ''
   issue: ''
   date: 05/02/2017
@@ -1128,8 +1128,8 @@
   title: Code licensing
   description: >-
     Publish any of the SDKs, code samples, and other code developed for the
-    platform to Github with an nopen license applied, ensuring that consumers
-    can integregrate into their businesses without concern.
+    platform to Github with an open license applied, ensuring that consumers can
+    integrate into their businesses without concern.
   url: ''
   issue: ''
   date: 05/05/2017
@@ -1238,7 +1238,7 @@
 - type: Integration
   title: Integration API
   description: >-
-    Publish an API for programmaticallya ccessing the integrations that are
+    Publish an API for programmatically accessing the integrations that are
     available via the platform.
   url: ''
   issue: ''
@@ -1255,7 +1255,7 @@
 - type: Evangelism
   title: Developer Page
   description: >-
-    Publish a page on the site showcassing developers. Allow platform users to
+    Publish a page on the site showcasing developers. Allow platform users to
     opt in for publishing their profile to the developer showcase page, and
     maintain their title, description, logo, and links.
   url: ''
@@ -1288,8 +1288,8 @@
 - type: Evangelism
   title: Communicate Applications
   description: >-
-    Pull together a straegy for how we will be communicating out the application
-    showcase.
+    Pull together a strategy for how we will be communicating out the
+    application showcase.
   url: ''
   issue: ''
   date: 05/26/2017
