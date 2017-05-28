@@ -153,7 +153,7 @@ title: Drone Prototype
 					<p>{{ plan.description }}</p>
 					<ul>
 						{% for entry in plan_entries %}
-							{% if toggle == 0 %}
+							{% if entry.plan_id == plan.plan_id %}
 								<li>{{ entry.label }} - {{ entry.description }}</li>
 							{% endif %}
 						{% endfor %}
