@@ -1,16 +1,16 @@
 - plan_id: plan-one
   name: Plan One
   description: This is the description for this test plan.
-  image: 'https://s3.amazonaws.com/kinlane-productions/bw-icons/bw-pricing-icon.jpg'
+  image: 'http://drone.prototype.apievangelist.com/images/bw-pricing-icon.jpg'
 - plan_id: plan-two
   name: Plan Two
   description: This is the description for this test plan.
-  image: 'https://s3.amazonaws.com/kinlane-productions/bw-icons/bw-pricing-icon.jpg'
+  image: 'http://drone.prototype.apievangelist.com/images/bw-pricing-icon.jpg'
 - plan_id: plan-three
   name: Plan Three
   description: This is the description for this test plan.
-  image: 'https://s3.amazonaws.com/kinlane-productions/bw-icons/bw-pricing-icon.jpg'
+  image: 'http://drone.prototype.apievangelist.com/images/bw-pricing-icon.jpg'
 - plan_id: plan-four
   name: Plan Four
   description: This is the description for this test plan.
-  image: 'https://s3.amazonaws.com/kinlane-productions/bw-icons/bw-pricing-icon.jpg'
+  image: 'http://drone.prototype.apievangelist.com/images/bw-pricing-icon.jpg'
