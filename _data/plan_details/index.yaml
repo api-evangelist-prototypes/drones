@@ -9,3 +9,6 @@
     As I dial in the resources, I will evolve the plans, and the elements,
     metrics, timeframes, geograph opportunities, as well as the limitations as I
     have time.
+  coupling: '1'
+  host: drone.prototype.apievangelist.com
+  baseurl: /
