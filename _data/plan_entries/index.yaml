@@ -86,3 +86,36 @@
   one: ''
   two: ''
   unit: '1'
+- plan_id: plan-four
+  label: API Calls
+  description: How many API calls you get on the system
+  metric: Call
+  limit: Range
+  timeframe: Daily
+  geo: ''
+  element: ''
+  one: '1'
+  two: '1000'
+  unit: $1.00
+- plan_id: plan-four
+  label: Region
+  description: You get to choose which region you want to be in
+  metric: ''
+  limit: ''
+  timeframe: ''
+  geo: Region
+  element: ''
+  one: ''
+  two: ''
+  unit: ''
+- plan_id: plan-four
+  label: Support
+  description: Up to 1 hour of support - $50.00 / year after that.
+  metric: Support
+  limit: ''
+  timeframe: Hourly
+  geo: ''
+  element: ''
+  one: ''
+  two: ''
+  unit: '1'
