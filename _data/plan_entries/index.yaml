@@ -1,4 +1,4 @@
-- plan_entry_id: plan-one
+- plan_id: plan-one
   label: API Calls
   description: How many API calls you get on the system
   metric: Call
@@ -9,7 +9,7 @@
   one: '1'
   two: '1000'
   unit: $1.00
-- plan_entry_id: plan-two
+- plan_id: plan-two
   label: API Calls
   description: How many API calls you get on the system
   metric: Call
@@ -20,7 +20,7 @@
   one: '1'
   two: '1000'
   unit: $1.00
-- plan_entry_id: plan-three
+- plan_id: plan-three
   label: API Calls
   description: How many API calls you get on the system
   metric: Call
@@ -31,7 +31,7 @@
   one: '1'
   two: '1000'
   unit: $1.00
-- plan_entry_id: plan-two
+- plan_id: plan-two
   label: Region
   description: You get to choose which region you want to be in
   metric: ''
@@ -42,7 +42,7 @@
   one: ''
   two: ''
   unit: ''
-- plan_entry_id: plan-three
+- plan_id: plan-three
   label: Region
   description: You get to choose which region you want to be in
   metric: ''
@@ -53,7 +53,7 @@
   one: ''
   two: ''
   unit: ''
-- plan_entry_id: plan-one
+- plan_id: plan-one
   label: Free
   description: This is public access layer to the platform.
   metric: ''
@@ -64,7 +64,7 @@
   one: ''
   two: ''
   unit: ''
-- plan_entry_id: plan-two
+- plan_id: plan-two
   label: Support
   description: Up to 1 hour of support - $50.00 / year after that.
   metric: ''
@@ -75,7 +75,7 @@
   one: ''
   two: ''
   unit: ''
-- plan_entry_id: plan-three
+- plan_id: plan-three
   label: Support
   description: Up to 1 hour of support - $50.00 / year after that.
   metric: Support
