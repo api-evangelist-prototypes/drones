@@ -135,33 +135,27 @@ title: Drone Prototype
 
 <!-- Change Log -->
 <a name="Plans"></a>
-{% assign plans = site.data.change_log.index[0] %}
-{% assign plan_entries = site.data.change_log_entries.index %}
+{% assign plans = site.data.plan_details.index[0] %}
+{% assign plan_entries = site.data.plan_entries.index %}
 <section id="banner">
 	<div class="content">
 		<header>
-			<h2>{{ change_log.title }}</h2>
+			<h2>{{ plan_details.title }}</h2>
 		</header>
-		<p>{{ change_log.header }}</p>
-		<center>
-		<div class="table-wrapper" style="height: 300px; overflow:auto; margin-bottom: 5px;">
-		<table cellpadding="10" cellspacing="10" width="90%">
-			{% for entry in change_log_entries %}
-				<tr>
-					<td align="left" valign="top">
-						<strong>{{ entry.title }}</strong> ({{ entry.type }}) - {{ entry.description }}
-					</td>
-				</tr>
+		<p>{{ plan_details.header }}</p>
+		<div class="features">
+			{% for plan in plan_entries %}
+			<article>
+				<p><img src="{{ plan.image }}" width="75%" style="padding: 15px;" align="center" /></p>
+				<div class="content">
+					<h3>{{ plan.title }}</h3>
+					<p>{{ plan.description }}</p>
+				</div>
+			</article>
 			{% endfor %}
-		</table>
 		</div>
-		</center>
-		<p>{{ change_log.footer }}</p>
-		<p align="center"><a href="/change-log/">Visit Full Page Change Log</a></p>
+		<p>{{ plan_details.footer }}</p>
 	</div>
-	<span class="image object">
-		<img src="{{ change_log.image }}" alt="" width="5%" />
-	</span>
 </section>
 
 <!-- Code -->
