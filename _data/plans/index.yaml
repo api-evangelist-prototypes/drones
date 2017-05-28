@@ -10,3 +10,7 @@
   name: Plan Three
   description: This is the description for this test plan.
   image: 'https://s3.amazonaws.com/kinlane-productions/bw-icons/bw-pricing-icon.jpg'
+- plan_id: plan-four
+  name: Plan Four
+  description: This is the description for this test plan.
+  image: 'https://s3.amazonaws.com/kinlane-productions/bw-icons/bw-pricing-icon.jpg'
